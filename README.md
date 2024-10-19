@@ -16,14 +16,27 @@ I manually tracked my soccer stats in a Google Sheets file, which I later export
 | Opponent | string | The name of the opposing team in the match |
 | Goals      | string| Number of goals I scored during the match  |
 | Assists      | string      | Number of assists I made during the match | 
-| Goals Forward      | integer      | Number of goals my team scored during the match |
-| Goals Against      | integer      | Number of goals my team conceded during the match |
-| Match Result      | string      | The outcome of the match - indicating a win, loss, or draw| 
+| Goals_Forward      | integer      | Number of goals my team scored during the match |
+| Goals_Against      | integer      | Number of goals my team conceded during the match |
+| Match_Result      | string      | The outcome of the match - indicating a win, loss, or draw| 
 | Season      | string      | The soccer season in which the match was played in|
 | Competition      | string      | The competition in which the match was part of |
 | Date      | date      | The date the match took place |
 
 This dataset provides a solid foundation for analyzing my performance throughout the seasons, uncovering patterns, and identifying key metrics that directly influenced game outcomes. While it primarily includes basic statistics, I will aim to apply various data analysis techniques to gain insights into trends and my performance over the last 3 years.
+
+### Data Exploration, Cleaning, and Transformation
+Before diving into the analysis, it is essential to prepare the dataset by exploring its structure, identifying any inconsistencies, and transforming the data as needed for a better analysis. This process includes checking for missing values, ensuring the consistency of data formats, and converting categorical variables into usable formats.
+
+
+
+
+
+
+
+
+
+
 
 
 
