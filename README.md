@@ -28,7 +28,15 @@ This dataset provides a solid foundation for analyzing my performance throughout
 ### Data Exploration, Cleaning, and Transformation
 Before diving into the analysis, it is essential to prepare the dataset by exploring its structure, identifying any inconsistencies, and transforming the data as needed for a better analysis. This process includes checking for missing values, ensuring the consistency of data formats, and converting categorical variables into usable formats.
 
+After running some queries and exploring the data, here are what I discovered:
 
+1. There are **5** possible outcomes for **Match_Result**: D (draw), L (loss), W (win), PKL (loss via penalty shoot-out), and PKW (win via penalty shoot-out).
+2. I've played in **3 Fall seasons** and **3 Summer seasons**: Fall 21/22, 22/23, 23/24 and Sum 22, 23, 24.
+3. I've participated in **5 competitions**: BMSL D3, BMSL D2, BMSL Cup, KSL D2, and Friendlies. D3 indicates Division 3, and D2 indicates Division 2.
+4. The **Min** and **Max** values for **Goals_Forward** are 0 and 9 respectively. The **Min** and **Max** values for **Goals_Against** are 0 and 7 respectively. No errors here.
+5. The goal and assists columns are of string data types as I games I didnt play in are marked DNP. Null values represent 0.
+6. 
+7. 
 
 
 
