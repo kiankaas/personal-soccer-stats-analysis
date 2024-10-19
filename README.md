@@ -6,7 +6,7 @@ I never used to track my stats, but as my interest in data grew, I became fascin
 This repository serves as a mini project where I will dive into some analysis on my personal soccer stats. While it’s not meant to be a large-scale project, as my dataset only contains 3 years of game data, I’m excited to uncover trends and patterns through the analysis of basic stats such as goals, assists, and match scores. 
 
 ## Background
-My team competes in two leagues each year: the Burnaby Mens Soccer League (BMSL) during the Fall, and the Knight Soccer League (KSL) during the Summer. The Fall season runs from September-March, and the Summer season runs from April-August. In addition to the regular league matches, friendly games are also arranged throughout the year, typically between seasons. The BMSL also hosts a tournament-style cup every season, adding an extra competitive edge to the year. Although I only track basic stats, as I don't have access to my own advanced data/statistics, this project allows me to apply data analysis techniques to explore my performance across different seasons and leagues, even with a smaller dataset.
+My team competes in two leagues each year: the Burnaby Mens Soccer League (BMSL) during the Fall, and the Knight Soccer League (KSL) during the Summer. The Fall season runs from September-March, and the Summer season runs from April-August. Both leagues are divided into skill-based divisions, with Division 1 (D1) being the highest level of competition, followed by Division 2 (D2) and Division 3 (D3) respectively. In addition to the regular league matches, friendly games are also arranged throughout the year, typically between seasons. The BMSL also hosts a tournament-style cup every season, adding an extra competitive edge to the year. Although I only track basic stats, as I don't have access to my own advanced data/statistics, this project allows me to apply data analysis techniques to explore my performance across different seasons and leagues, even with a smaller dataset.
 
 ## The Data
 I manually tracked my soccer stats in a Google Sheets file, which I later exported as a CSV file titled [link]raw_soccer_stats.csv. The dataset contains a comprehensive record of every game my team has played, spanning 105 records across 9 columns. Each record represents a game, capturing key statistics like goals, assists, and match outcomes, among other details as shown below.
@@ -32,7 +32,7 @@ After running some queries and exploring the data, here are what I discovered:
 
 1. There are **5** possible outcomes for **Match_Result**: D (draw), L (loss), W (win), PKL (loss via penalty shoot-out), and PKW (win via penalty shoot-out).
 2. I've played in **3 Fall seasons** and **3 Summer seasons**: Fall 21/22, 22/23, 23/24 and Sum 22, 23, 24.
-3. I've participated in **5 competitions**: BMSL D3, BMSL D2, BMSL Cup, KSL D2, and Friendlies. D3 indicates Division 3, and D2 indicates Division 2.
+3. I've participated in **5 competitions**: BMSL D3, BMSL D2, BMSL Cup, KSL D2, and Friendlies.
 4. The **Min** and **Max** values for **Goals_Forward** are 0 and 9 respectively. The **Min** and **Max** values for **Goals_Against** are 0 and 7 respectively. No errors here.
 5. The goal and assists columns are of string data types as I games I didnt play in are marked DNP. Null values represent 0.
 6. 
