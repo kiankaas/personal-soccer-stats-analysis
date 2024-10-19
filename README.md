@@ -13,15 +13,19 @@ I manually tracked my soccer stats in a Google Sheets file, which I later export
 
 | Variable   | Data Type | Description | 
 |-------------|-------------|--------------|
-|Opponent | string | Unique ID assigned to each ride |
-| Goals      | string| Type of bike used (classic, docked, electric)            | 
-| Assists      | string      | Date and time at the start of the trip            | 
-| Match Result      | string      | Name of the station that the ride started from            | 
-| Season      | string      | ID of the station that the ride started from            | 
-| Competition      | string      | Name of the station that the ride ended from            | 
-| Timestamp      | string      | ID of the station that the ride ended from            | 
-| Goals Forward      | string      | ID of the station that the ride ended from            | 
-| Goals Against      | string      | ID of the station that the ride ended from            | 
+| Opponent | string | The name of the opposing team in the match |
+| Goals      | string| Number of goals I scored during the match  |
+| Assists      | string      | Number of assists I made during the game | 
+| Goals Forward      | integer      | Number of goals my team scored during the game |
+| Goals Against      | integer      | Number of goals my team conceded during the game |
+| Match Result      | string      | The outcome of the match, indicating a win, loss, or draw| 
+| Season      | string      | The soccer season in which the match was played in|
+| Competition      | string      | The competition in which the match took place |
+| Date      | date      | The date the match took place |
+
+
+
+
 
 
 
