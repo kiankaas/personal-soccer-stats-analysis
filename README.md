@@ -23,6 +23,10 @@ I manually tracked my soccer stats in a Google Sheets file, which I later export
 | Competition      | string      | The competition in which the match took place |
 | Date      | date      | The date the match took place |
 
+This dataset provides a solid foundation for analyzing my performance throughout the seasons, uncovering patterns, and identifying key metrics that directly influenced game outcomes. While it primarily includes basic statistics, this mini project aims to apply various data analysis techniques to gain insights into trends and performance over time.
+
+
+
 
 
 
