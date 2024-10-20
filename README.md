@@ -26,17 +26,20 @@ I manually tracked my soccer stats in a Google Sheets file, which I later export
 This dataset provides a solid foundation for analyzing my performance throughout the seasons, uncovering patterns, and identifying key metrics that directly influenced game outcomes. While it primarily includes basic statistics, I will aim to apply various data analysis techniques to gain insights into trends and my performance over the last 3 years.
 
 ### Data Exploration, Cleaning, and Transformation
+**SQL Query**: [link]()
 Before diving into the analysis, it is essential to prepare the dataset by exploring its structure, identifying any inconsistencies, and transforming the data as needed for a better analysis. This process includes checking for missing values, ensuring the consistency of data formats, and converting categorical variables into usable formats.
 
-After running some queries and exploring the data, here are what I discovered:
+After running some queries and exploring the data, here is what I discovered:
 
 1. There are **5** possible outcomes for **Match_Result**: D (draw), L (loss), W (win), PKL (loss via penalty shoot-out), and PKW (win via penalty shoot-out).
 2. I've played in **3 Fall seasons** and **3 Summer seasons**: Fall 21/22, 22/23, 23/24 and Sum 22, 23, 24.
 3. I've participated in **5 competitions**: BMSL D3, BMSL D2, BMSL Cup, KSL D2, and Friendlies.
-4. The **Min** and **Max** values for **Goals_Forward** are 0 and 9 respectively. The **Min** and **Max** values for **Goals_Against** are 0 and 7 respectively. No errors here.
-5. The goal and assists columns are of string data types as I games I didnt play in are marked DNP. Null values represent 0.
-6. 
-7. 
+4. The **Min** and **Max** values for **Goals_Forward** and **Goals_Against** are 0, 9, 0, and 7 respectively. No errors here.
+5. Both the **Goals** and **Assists** columns are stored as string data types because games I didn't play in are marked as 'DNP' (Did Not Play). Null values in these columns indicate 0 goals/assists in the game.
+6. My team has faced a total of 47 different **opponents**. All opponents are named consistently.
+7. The **date** column has 21 NULL values, however upon further inspection, these NULL values align with all the games I did not play. Thus no cleaning is necessary as these games will not be included in my analysis.
+
+
 
 
 
