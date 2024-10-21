@@ -9,7 +9,7 @@ This repository serves as a mini project where I will dive into some analysis on
 My team competes in two leagues each year: the Burnaby Mens Soccer League (BMSL) during the Fall, and the Knight Soccer League (KSL) during the Summer. The Fall season runs from September-March, and the Summer season runs from April-August. Both leagues are divided into skill-based divisions, with Division 1 (D1) being the highest level of competition, followed by Division 2 (D2) and Division 3 (D3) respectively. In addition to the regular league matches, friendly games are also arranged throughout the year, typically between seasons. The BMSL also hosts a tournament-style cup every season, adding an extra competitive edge to the year. Although I only track basic stats, as I don't have access to my own advanced data/statistics, this project allows me to apply data analysis techniques to explore my performance across different seasons and leagues, even with a smaller dataset.
 
 ## The Data 
-**Raw Data**: link here
+**Raw Data**: link here <br/>
 CHANGE TRACKING
 I manually tracked my soccer stats in a Google Sheets file, which I later exported as a CSV file titled [link]raw_soccer_stats.csv. The dataset contains a comprehensive record of every game my team has played, spanning 105 records across 9 columns. Each record represents a game, capturing key statistics like goals, assists, and match outcomes, among other details as shown below.
 
@@ -28,7 +28,7 @@ I manually tracked my soccer stats in a Google Sheets file, which I later export
 This dataset provides a solid foundation for analyzing my performance throughout the seasons, uncovering patterns, and identifying key metrics that directly influenced game outcomes. While it primarily includes basic statistics, I will aim to apply various data analysis techniques to gain insights into trends and my performance over the last 3 years.
 
 ### Data Exploration
-**SQL Query**: [link]()
+**SQL Query**: [link]() <br/>
 Before diving into the analysis, it is essential to prepare the dataset by exploring its structure, identifying any inconsistencies, and transforming the data as needed for a better analysis. This process includes checking for missing values, ensuring the consistency of data formats, and converting categorical variables into usable formats.
 
 After running some queries and exploring the data, here is what I discovered:
@@ -42,8 +42,8 @@ After running some queries and exploring the data, here is what I discovered:
 7. The **date** column has 21 NULL values, however upon further inspection, these NULL values align with all the games I did not play. Thus no cleaning is necessary as these games will not be included in my analysis.
 
 ### Data Cleaning/Transformation
-**SQL Query**: [link]()
-**Cleaned data**: link here
+**SQL Query**: [link]() <br/>
+**Cleaned data**: link here <br/>
 To clean the data, I will make the following changes:
 
 1. Remove all records for games I did not play.
