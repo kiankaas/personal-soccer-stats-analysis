@@ -53,10 +53,11 @@ Before I clean the data, there is one thing I would like to add to the dataset.
 
 To clean the data, I will make the following changes:
 
-1. Remove all records for games I did not play.
-2. Add a "month" column.
-3. Replace all NULL values with 0.
-4. Change the Goals and Assists columns to integer data types.
+1. Remove all records for games I **did not play**.
+2. Add a "**month**" column.
+3. Add a "**Goals**+Assists" column.
+4. Replace all **NULL** values with 0.
+5. Change the **Goals**, **Assists**, and **Goals+Assists** columns to **integer** data types.
 
 Our data is now cleaned and ready to analyze.
 
