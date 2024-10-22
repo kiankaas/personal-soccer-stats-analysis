@@ -24,6 +24,9 @@ I manually tracked my soccer stats in a Google Sheets file, which I later export
 | Season      | string      | The soccer season in which the match was played in|
 | Competition      | string      | The competition in which the match was part of |
 | Date      | date      | The date the match took place |
+| Weather      | string      | The weather during the match |
+| Temperature      | string      | The temperature (celsius) during the match |
+
 
 This dataset provides a solid foundation for analyzing my performance throughout the seasons, uncovering patterns, and identifying key metrics that directly influenced game outcomes. While it primarily includes basic statistics, I will aim to apply various data analysis techniques to gain insights into trends and my performance over the last 3 years.
 
@@ -44,6 +47,10 @@ After running some queries and exploring the data, here is what I discovered:
 ### Data Cleaning/Transformation
 **SQL Query**: [link]() <br/>
 **Cleaned data**: link here <br/>
+
+Before I clean the data, there is one thing I would like to add to the dataset. 
+
+
 To clean the data, I will make the following changes:
 
 1. Remove all records for games I did not play.
