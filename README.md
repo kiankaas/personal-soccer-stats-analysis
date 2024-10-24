@@ -31,12 +31,15 @@ To increase the dimensionality of the dataset and explore more factors influenci
 | Variable   | Data Type | Description | 
 |-------------|-------------|--------------|
 | Weather | string | The weather conditions during the match |
-| Temp_Celsius      | integer| The temperature in degrees celsius during the match  |
+| Temperature      | integer| The temperature in degrees celsius during the match  |
 
+The weather data was retrieved using the [**Visual Crossing API**](https://www.visualcrossing.com/), which allowed me to match historical weather conditions and temperatures to each game based on the **Date** column in the dataset. Since I didn’t have specific timestamps for when each game occurred, I chose to pull the weather data for 6:00 PM each day, as our games typically take place in the evening, making this a reasonable average time to reflect game conditions.
 
+I wrote a [link]() Python script to automate the process of querying the API for weather conditions and temperature at 6:00 PM on the day of each match. It then updated the dataset with the retrieved weather information, ensuring that both the **Weather** and **Temperature** columns were accurately populated for each record.
 
+This enhancement provides valuable context for analyzing the impact of external factors, such as weather conditions, on match outcomes and player performance.
 
-This dataset provides a solid foundation for analyzing my performance throughout the seasons, uncovering patterns, and identifying key metrics that directly influenced game outcomes. While it primarily includes basic statistics, I will aim to apply various data analysis techniques to gain insights into trends and my performance over the last 3 years.
+ASK CHAT TO SAY SOMETHING ABOUT MY FINAL RAW DATASET
 
 ### Data Exploration
 **SQL Query**: [link]() <br/>
