@@ -11,7 +11,7 @@ My team competes in two leagues each year: the Burnaby Mens Soccer League (BMSL)
 ## The Data 
 **Raw Data**: link here <br/>
 CHANGE TRACKING
-I manually tracked my soccer stats in a Google Sheets file, which I later exported as a CSV file titled [link]raw_soccer_stats.csv. The dataset contains a comprehensive record of every game my team has played, spanning 105 records across 9 columns. Each record represents a game, capturing key statistics like goals, assists, and match outcomes, among other details as shown below.
+I've been manually tracking my soccer stats in a Google Sheets file. This file contains a comprehensive record of every game my team has played, spanning 105 records across 9 columns. Each record represents a game, capturing key statistics like goals, assists, and match outcomes, among other details as shown below.
 
 | Variable   | Data Type | Description | 
 |-------------|-------------|--------------|
@@ -24,8 +24,16 @@ I manually tracked my soccer stats in a Google Sheets file, which I later export
 | Season      | string      | The soccer season in which the match was played in|
 | Competition      | string      | The competition in which the match was part of |
 | Date      | date      | The date the match took place |
-| Weather      | string      | The weather during the match |
-| Temperature      | string      | The temperature (celsius) during the match |
+
+### Enhancing the Data - Historical Weather APIs
+To increase the dimensionality of the dataset and explore more factors influencing game outcomes, I added two new columns: **Weather** and **Temperature**. These additions allowed me to analyze how environmental conditions might impact match performances/outcomes. These columns are described as below.
+
+| Variable   | Data Type | Description | 
+|-------------|-------------|--------------|
+| Weather | string | The weather conditions during the match |
+| Temp_Celsius      | integer| The temperature in degrees celsius during the match  |
+
+
 
 
 This dataset provides a solid foundation for analyzing my performance throughout the seasons, uncovering patterns, and identifying key metrics that directly influenced game outcomes. While it primarily includes basic statistics, I will aim to apply various data analysis techniques to gain insights into trends and my performance over the last 3 years.
