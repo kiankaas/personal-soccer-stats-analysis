@@ -11,7 +11,7 @@ My team competes in two leagues each year: the Burnaby Mens Soccer League (BMSL)
 ## The Data 
 **Raw Data**: link here <br/>
 CHANGE TRACKING
-I've been manually tracking my soccer stats in a Google Sheets file. This file contains a comprehensive record of every game my team has played, spanning 105 records across 9 columns. Each record represents a game, capturing key statistics like goals, assists, and match outcomes, among other details as shown below.
+I've been manually tracking my soccer stats in a Google Sheets file. This file contains a comprehensive record of every game my team has played, spanning 105 records across 9 columns. Each record represents a game, capturing key statistics like goals, assists, and match outcomes, among other details as shown below:
 
 | Variable   | Data Type | Description | 
 |-------------|-------------|--------------|
@@ -26,20 +26,18 @@ I've been manually tracking my soccer stats in a Google Sheets file. This file c
 | Date      | date      | The date the match took place |
 
 ### Enhancing the Data - Historical Weather APIs
-To increase the dimensionality of the dataset and explore more factors influencing game outcomes, I added two new columns: **Weather** and **Temperature**. These additions allowed me to analyze how environmental conditions might impact match performances/outcomes. These columns are described as below.
+To increase the dimensionality of the dataset and explore more factors influencing game outcomes, I added two new columns: **Weather** and **Temperature**. These additions allowed me to analyze how environmental conditions might impact match performances and outcomes. These columns are described below:
 
 | Variable   | Data Type | Description | 
 |-------------|-------------|--------------|
 | Weather | string | The weather conditions during the match |
-| Temperature      | integer| The temperature in degrees celsius during the match  |
+| Temperature      | integer| The temperature in degrees Celsius during the match  |
 
 The weather data was retrieved using the [**Visual Crossing API**](https://www.visualcrossing.com/), which allowed me to match historical weather conditions and temperatures to each game based on the **Date** column in the dataset. Since I didn’t have specific timestamps for when each game occurred, I chose to pull the weather data for 6:00 PM each day, as our games typically take place in the evening, making this a reasonable average time to reflect game conditions.
 
-I wrote a [Python script](https://github.com/kiankaas/my-soccer-stats/blob/main/GetWeather.py) to automate the process of querying the API for weather conditions and temperature at 6:00 PM on the day of each match. It then updated the dataset with the retrieved weather information, ensuring that both the **Weather** and **Temperature** columns were accurately populated for each record.
+I wrote a [Python script](https://github.com/kiankaas/my-soccer-stats/blob/main/GetWeather.py) to automate the process of querying the API for weather conditions and temperature at 6:00 PM on the day of each match. The script then updated the dataset with the retrieved weather information, ensuring that both the **Weather** and **Temperature** columns were accurately populated for each record.
 
-This enhancement provides valuable context for analyzing the impact of external factors, such as weather conditions, on match outcomes and player performance.
-
-ASK CHAT TO SAY SOMETHING ABOUT MY FINAL RAW DATASET
+This enhancement provides valuable context for analyzing the impact of external factors, such as weather conditions, on match outcomes and player performance. With these additions, I arrived at my final raw dataset, which is now ready for deeper exploration and analysis.
 
 ### Data Exploration
 **SQL Query**: [link]() <br/>
