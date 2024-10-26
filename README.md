@@ -59,20 +59,23 @@ After running some initial queries, here are my key observations:
 **SQL Query**: [link]() <br/>
 **Cleaned data**: link here <br/>
 
-To clean the data, I will make the following changes:
+To clean and prepare the data for analysis, I made the following transformations:
 
-1. Remove all records for games I **did not play**.
-2. Add a "**month**" column.
-3. Add a "**Goals**+Assists" column.
-4. Replace all **NULL** values with 0.
-5. For simplicity, group the conditions from the **Weather** column into 4 categories: **Rain**, **Cloudy**, **Sunny**, **Brisk**.
-     - The **Rain** category includes any conditions that mention "Rain".
-     - The **Cloudy** category includes "Partially cloudy" conditions on cooler days (10 <= Temperature >= 15) , and all "Overcast" conditions.
-     - The **Sunny** category includes "Clear" and "Partially cloudy" conditions on warmer days (Temperature > 15).
-     - The **Brisk** category is for colder, clear days. It includes "Clear" conditions on colder days (Temperatuer < 15), and "Partially cloudy" conditions on cold days (Temperatuer < 10). 
-6. Change the **Goals**, **Assists**, and **Goals+Assists** columns to **integer** data types.
+1. Removed records for games I **did not play**.
+2. Added a "**Month**" column to facilitate monthly trend analysis.
+3. Added a "**Goals**+Assists" column to capture overall contributions per game.
+4. Replaced all **NULL** values with 0.
+5. Grouped **Weather** conditions into 4 categories for simplicity:
+     - **Rain**: Iincludes any conditions that mention "Rain".
+     - **Cloudy**: Includes "Partially cloudy" conditions on cooler days (10°C <= Temperature <= 15°C) , and all "Overcast" conditions.
+     - **Sunny**: Includes "Clear" and "Partially cloudy" conditions on warmer days (Temperature > 15°C).
+     - **Brisk**: Used for colder, clear days, including "Clear" conditions with Temperatuer < 15°C, and "Partially cloudy" conditions with Temperatuer < 10°C. 
+6. Converted the **Goals**, **Assists**, and **Goals+Assists** columns to **integer** data types.
 
-Our data is now cleaned and ready to analyze.
+With these changes, our dataset is now organized, consistent, and ready for analysis.
+
+## Analysis
+
 
 
 
