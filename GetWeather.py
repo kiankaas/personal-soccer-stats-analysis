@@ -52,7 +52,7 @@ for index, row in data.iterrows():
     weather_data.append(weather)
     temp_celsius_data.append(round(temp_celsius) if temp_celsius is not None else 'N/A')
     
-    # Optional: Add a sleep to avoid API rate limits (1 request per second)
+    # Add a sleep to avoid API rate limits (1 request per second)
     time.sleep(1)
 
 # Add the weather and temperature data as new columns in the dataset
