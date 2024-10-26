@@ -53,14 +53,11 @@ After running some initial queries, here are my key observations:
 6. My team has faced a total of 47 different **opponents**. All opponents are named consistently.
 7. The **date** column is in dd-mm-yyyy format, which was converted to a date type in BigQuery.
 8. The **Weather** column has 7 possible values: "**Partially cloudy**", "**Overcast**", "**Clear**", "**Overcast, Rain**", "**Rain, Partially Cloudy**", "**Rain**", and "**Snow, Rain, Overcast**". 
-9. The **Min** and **Max** values of the **Temperature** column are -1 and 24. No errors here. 
+9. The **Min** and **Max** values of the **Temperature** column are -1 and 26. No errors here. 
 
 ### Data Cleaning/Transformation
 **SQL Query**: [link]() <br/>
 **Cleaned data**: link here <br/>
-
-Before I clean the data, there is one thing I would like to add to the dataset. 
-
 
 To clean the data, I will make the following changes:
 
