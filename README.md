@@ -1,7 +1,7 @@
 # My Soccer Stats: A Breakdown
 
 ## Introduction
-Hello World! I've loved the game of soccer for as long as I can remember. I joined my first team 5 years old, playing competitively until I was 18. After a 3-year break, I returned to the pitch in 2021 where I have since played as a striker for Fraser Mills FC United, a Burnaby-based team, who now go by the name Big Fish Juve FC. 
+Hello World! I've loved the game of soccer for as long as I can remember. I joined my first team 5 years old, playing competitively until I was 18. After a 3-year break, I returned to the pitch in 2021 where I have since played as a striker for Fraser Mills FC United, a Burnaby-based team, who now go by the name Big Fish Juve FC.  <br/>
 I never used to track my stats, but as my interest in data grew, I became fascinated with advanced statistics and the insights they can provide. I began paying close attention to tracking statistics, match scores, and trends from professional teams and players, which motivated me to start manually tracking my own performance. 
 This repository serves as a mini project where I will dive into some analysis on my personal soccer stats. While it’s not meant to be a large-scale project, as my dataset only contains 3 years of game data, I’m excited to uncover trends and patterns through the analysis of basic stats such as goals, assists, and match scores. 
 
@@ -9,7 +9,7 @@ This repository serves as a mini project where I will dive into some analysis on
 My team competes in two leagues each year: the Burnaby Mens Soccer League (BMSL) during the Fall, and the Knight Soccer League (KSL) during the Summer. The Fall season runs from September-March, and the Summer season runs from April-August. Both leagues are divided into skill-based divisions, with Division 1 (D1) being the highest level of competition, followed by Division 2 (D2) and Division 3 (D3) respectively. In addition to the regular league matches, friendly games are also arranged throughout the year, typically between seasons. The BMSL also hosts a tournament-style cup every season, adding an extra competitive edge to the year. Although I only track basic stats, as I don't have access to my own advanced data/statistics, this project allows me to apply data analysis techniques to explore my performance across different seasons and leagues, even with a smaller dataset.
 
 ## The Data 
-**Raw Data**: link here <br/>
+**Raw Data**: [here](https://github.com/kiankaas/my-soccer-stats/blob/main/raw_stats.csv) <br/>
 CHANGE TRACKING
 I've been manually tracking my soccer stats in a Google Sheets file. This file contains a comprehensive record of every game my team has played, spanning 105 records across 9 columns. Each record represents a game, capturing key statistics like goals, assists, and match outcomes, among other details as shown below:
 
@@ -53,7 +53,7 @@ After running some initial queries, here are my key observations:
 6. My team has faced a total of 47 different **opponents**. All opponents are named consistently.
 7. The **date** column is in dd-mm-yyyy format, which was converted to a date type in BigQuery.
 8. The **Weather** column has 7 possible values: "**Partially cloudy**", "**Overcast**", "**Clear**", "**Overcast, Rain**", "**Rain, Partially Cloudy**", "**Rain**", and "**Snow, Rain, Overcast**". 
-9. The **Min** and **Max** values of the **Temperature** column are -1 and 26. No errors here. 
+9. The **Min** and **Max** values of the **Temperature** column are -1 and 26 respectively. No errors here. 
 
 ### Data Cleaning/Transformation
 **SQL Query**: [link]() <br/>
@@ -65,7 +65,12 @@ To clean the data, I will make the following changes:
 2. Add a "**month**" column.
 3. Add a "**Goals**+Assists" column.
 4. Replace all **NULL** values with 0.
-5. Change the **Goals**, **Assists**, and **Goals+Assists** columns to **integer** data types.
+5. For simplicity, group the conditions from the **Weather** column into 4 categories: **Rain**, **Cloudy**, **Sunny**, **Brisk**.
+     - The **Rain** category includes any conditions that mention "Rain".
+     - The **Cloudy** category includes "Partially cloudy" conditions on cooler days (10 <= Temperature >= 15) , and all "Overcast" conditions.
+     - The **Sunny** category includes "Clear" and "Partially cloudy" conditions on warmer days (Temperature > 15).
+     - The **Brisk** category is for colder, clear days. It includes "Clear" conditions on colder days (Temperatuer < 15), and "Partially cloudy" conditions on cold days (Temperatuer < 10). 
+6. Change the **Goals**, **Assists**, and **Goals+Assists** columns to **integer** data types.
 
 Our data is now cleaned and ready to analyze.
 
