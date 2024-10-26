@@ -49,7 +49,7 @@ After running some initial queries, here are my key observations:
 2. I've played in **3 Fall seasons** and **3 Summer seasons**: Fall 21/22, 22/23, 23/24 and Sum 22, 23, 24.
 3. I've participated in **5 competitions**: BMSL D3, BMSL D2, BMSL Cup, KSL D2, and Friendlies.
 4. The **Min** and **Max** values for **Goals_Forward** and **Goals_Against** are 0, 9, 0, and 7 respectively. No errors here.
-5. Both the **Goals** and **Assists** columns are stored as string data types because games I didn't play in are marked as 'DNP' (Did Not Play). Null values in these columns indicate 0 goals/assists in the game.
+5. Both the **Goals** and **Assists** columns are stored as string data types because games I didn't play in are marked as 'DNP' (Did Not Play). NULL values in these columns indicate 0 goals/assists in the game.
 6. My team has faced a total of 47 different **opponents**. All opponents are named consistently.
 7. The **date** column is in dd-mm-yyyy format, which was converted to a date type in BigQuery.
 8. The **Weather** column has 7 possible values: "**Partially cloudy**", "**Overcast**", "**Clear**", "**Overcast, Rain**", "**Rain, Partially Cloudy**", "**Rain**", and "**Snow, Rain, Overcast**". 
@@ -66,7 +66,7 @@ To clean and prepare the data for analysis, I made the following transformations
 3. Added a "**Goals**+Assists" column to capture overall contributions per game.
 4. Replaced all **NULL** values with 0.
 5. Grouped **Weather** conditions into 4 categories for simplicity:
-     - **Rain**: Iincludes any conditions that mention "Rain".
+     - **Rain**: Includes any conditions that mention "Rain".
      - **Cloudy**: Includes "Partially cloudy" conditions on cooler days (10°C <= Temperature <= 15°C) , and all "Overcast" conditions.
      - **Sunny**: Includes "Clear" and "Partially cloudy" conditions on warmer days (Temperature > 15°C).
      - **Brisk**: Used for colder, clear days, including "Clear" conditions with Temperatuer < 15°C, and "Partially cloudy" conditions with Temperatuer < 10°C. 
