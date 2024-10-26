@@ -41,9 +41,9 @@ This enhancement provides valuable context for analyzing the impact of external 
 
 ### Data Exploration
 **SQL Query**: [link]() <br/>
-Before diving into the analysis, it is essential to prepare the dataset by exploring its structure, identifying any inconsistencies, and transforming the data as needed for a better analysis. This process includes checking for missing values, ensuring the consistency of data formats, and converting categorical variables into usable formats.
+Before diving into the analysis, it is essential to prepare the dataset by exploring its structure, identifying any inconsistencies, and transforming the data as needed for a better analysis. I began by uploading the dataset as a table in **BigQuery**, which allows efficient querying and data exploration. In this stage, I explored the data structure, checked for missing values, ensured consistency in data formats, and converted categorical variables into usable formats where necessary.
 
-After running some queries and exploring the data, here is what I discovered:
+After running some initial queries, here are my key observations:
 
 1. There are **5** possible outcomes for **Match_Result**: D (draw), L (loss), W (win), PKL (loss via penalty shoot-out), and PKW (win via penalty shoot-out).
 2. I've played in **3 Fall seasons** and **3 Summer seasons**: Fall 21/22, 22/23, 23/24 and Sum 22, 23, 24.
@@ -51,7 +51,9 @@ After running some queries and exploring the data, here is what I discovered:
 4. The **Min** and **Max** values for **Goals_Forward** and **Goals_Against** are 0, 9, 0, and 7 respectively. No errors here.
 5. Both the **Goals** and **Assists** columns are stored as string data types because games I didn't play in are marked as 'DNP' (Did Not Play). Null values in these columns indicate 0 goals/assists in the game.
 6. My team has faced a total of 47 different **opponents**. All opponents are named consistently.
-7. The **date** column has 21 NULL values, however upon further inspection, these NULL values align with all the games I did not play. Thus no cleaning is necessary as these games will not be included in my analysis.
+7. The **date** column is in dd-mm-yyyy format, which was converted to a date type in BigQuery.
+8. The **Weather** column has 7 possible values: "**Partially cloudy**", "**Overcast**", "**Clear**", "**Overcast, Rain**", "**Rain, Partially Cloudy**", "**Rain**", and "**Snow, Rain, Overcast**". 
+9. The **Min** and **Max** values of the **Temperature** column are -1 and 24. No errors here. 
 
 ### Data Cleaning/Transformation
 **SQL Query**: [link]() <br/>
