@@ -63,14 +63,13 @@ To clean and prepare the data for analysis, I made the following transformations
 
 1. Removed records for games I **did not play**.
 2. Added a "**Month**" column to facilitate monthly trend analysis.
-3. Added a "**Goals**+Assists" column to capture overall contributions per game.
-4. Replaced all **NULL** values with 0.
-5. Grouped **Weather** conditions into 4 categories for simplicity:
+3. Replaced all **NULL** values with 0.
+4. Grouped **Weather** conditions into 4 categories for simplicity:
      - **Rain**: Includes any conditions that mention "Rain".
      - **Cloudy**: Includes "Partially cloudy" conditions on cooler days (10°C <= Temperature <= 15°C) , and all "Overcast" conditions.
      - **Sunny**: Includes "Clear" and "Partially cloudy" conditions on warmer days (Temperature > 15°C).
      - **Brisk**: Used for colder, clear days, including "Clear" conditions with Temperatuer < 15°C, and "Partially cloudy" conditions with Temperatuer < 10°C. 
-6. Converted the **Goals**, **Assists**, and **Goals+Assists** columns to **integer** data types.
+5. Converted the **Goals**, **Assists**, and **Goals+Assists** columns to **integer** data types.
 
 With these changes, our dataset is now organized, consistent, and ready for analysis.
 
