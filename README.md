@@ -9,7 +9,7 @@ This repository serves as a mini project where I will dive into some analysis on
 My team competes in two leagues each year: the Burnaby Mens Soccer League (BMSL) during the Fall, and the Knight Soccer League (KSL) during the Summer. The Fall season runs from September-March, and the Summer season runs from April-August. Both leagues are divided into skill-based divisions, with Division 1 (D1) being the highest level of competition, followed by Division 2 (D2) and Division 3 (D3) respectively. In addition to the regular league matches, friendly games are also arranged throughout the year, typically between seasons. The BMSL also hosts a tournament-style cup every season, adding an extra competitive edge to the year. Although I only track basic stats, as I don't have access to my own advanced data/statistics, this project allows me to apply data analysis techniques to explore my performance across different seasons and leagues, even with a smaller dataset.
 
 ## The Data 
-**Raw Data**: [here](https://github.com/kiankaas/my-soccer-stats/blob/main/raw_stats.csv) <br/>
+**Raw Data**: [raw_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/raw_stats.csv) <br/>
 CHANGE TRACKING
 I've been manually tracking my soccer stats in a Google Sheets file. This file contains a comprehensive record of every game my team has played, spanning 105 records across 9 columns. Each record represents a game, capturing key statistics like goals, assists, and match outcomes, among other details as shown below:
 
@@ -40,7 +40,7 @@ I wrote a [Python script](https://github.com/kiankaas/my-soccer-stats/blob/main/
 This enhancement provides valuable context for analyzing the impact of external factors, such as weather conditions, on match outcomes and player performance. With these additions, I arrived at my final raw dataset, which is now ready for deeper exploration and analysis.
 
 ### Data Exploration
-**SQL Query**: [link]() <br/>
+**SQL Query**: [Data Exploration](https://github.com/kiankaas/my-soccer-stats/blob/main/01-data-exploration.sql) <br/>
 Before diving into the analysis, it is essential to prepare the dataset by exploring its structure, identifying any inconsistencies, and transforming the data as needed for a better analysis. I began by uploading the dataset as a table in **BigQuery**, which allows efficient querying and data exploration. In this stage, I explored the data structure, checked for missing values, ensured consistency in data formats, and converted categorical variables into usable formats where necessary.
 
 After running some initial queries, here are my key observations:
@@ -56,8 +56,8 @@ After running some initial queries, here are my key observations:
 9. The **Min** and **Max** values of the **Temperature** column are -1 and 26 respectively. No errors here. 
 
 ### Data Cleaning/Transformation
-**SQL Query**: [link]() <br/>
-**Cleaned data**: link here <br/>
+**SQL Query**: [Data Cleaning](https://github.com/kiankaas/my-soccer-stats/blob/main/02-data-cleaning.sql) <br/>
+**Cleaned data**: [cleaned_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/cleaned_stats.csv) <br/>
 
 To clean and prepare the data for analysis, I made the following transformations:
 
