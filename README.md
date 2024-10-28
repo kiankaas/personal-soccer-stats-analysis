@@ -53,7 +53,8 @@ After running some initial queries, here are my key observations:
 6. My team has faced a total of 47 different **opponents**. All opponents are named consistently.
 7. The **date** column is in dd-mm-yyyy format, which was converted to a date type in BigQuery.
 8. The **Weather** column has 7 possible values: "**Partially cloudy**", "**Overcast**", "**Clear**", "**Overcast, Rain**", "**Rain, Partially Cloudy**", "**Rain**", and "**Snow, Rain, Overcast**". 
-9. The **Min** and **Max** values of the **Temperature** column are -1 and 26 respectively. No errors here. 
+9. The **Min** and **Max** values of the **Temperature** column are -1 and 26 respectively. No errors here.
+10. There are **no outliers** in the dataset. 
 
 ### Data Cleaning/Transformation
 **SQL Query**: [Data Cleaning](https://github.com/kiankaas/my-soccer-stats/blob/main/02-data-cleaning.sql) <br/>
@@ -74,6 +75,8 @@ To clean and prepare the data for analysis, I made the following transformations
 With these changes, our dataset is now organized, consistent, and ready for analysis.
 
 ## Analysis
+**SQL Query**: [link]() <br/>
+
 
 
 
