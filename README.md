@@ -81,12 +81,26 @@ choices were carefully designed to maintain logical consistency - **higher value
 **Competition Level** 
 | Competition   | Encoded Value | Description | 
 |-------------|-------------|--------------|
-| Friendlies | 1 | Least competitive (exhibition matches) |
+| Friendly | 1 | Least competitive (exhibition matches) |
 | BMSL D3      | 2| Division 3, lowest league division  |
 | BMSL Cup      | 3      | Knockout tournament with mixed opponent strength | 
 | BMSL D2      | 4      | Division 2, higher level of competition |
 | KSL D2      | 5      | Most competitive league (summer league with stronger teams) |
+
 Each competition was assigned a numerical value based on its competitiveness, higher values indicate stronger competition. 
+
+**Season Difficulty** 
+| Season   | Encoded Value | Competitions Played (games played) | 
+|-------------|-------------|--------------|
+| Fall 21/22 | 1.95 | BMSL D3 (14), BMSL Cup (2), Friendly (3) |
+| Sum 22      | 4.56 | KSL D2 (8), Friendly (1)  |
+| Fall 22/23      | 3.80      | BMSL D2 (12), BMSL Cup (3) | 
+| Sum 23      | 3.77      | KSL D2 (9), Friendly (4) |
+| Fall 23/24      | 3.76      | BMSL D2 (18), BMSL Cup (2), Friendly (1) |
+| Sum 24      | 5.00      | KSL D2 (5) |
+
+Since each season involved games in different competitions, a **weighted average competition score** was assigned to reflect overal difficulty, using the formula below.
+![Screen Shot 2025-02-22 at 5 29 57 PM](https://github.com/user-attachments/assets/eba150a1-2224-40a6-b826-99bbc6621f0d)
 
 
 
