@@ -112,7 +112,7 @@ To reflect the overall competition difficulty for each season, a **weighted aver
 | PKW      | 1      | Win via penalty shoot-out |
 | W      | 0      | Win |
 
-Match results were encoded based on the league's point system, where teams typically earn 3 points for a win, 2 for a win via penalty shootout, 1 for a draw or a loss via penalty shootout, and 0 for a loss—but reversed so that higher values indicate more difficult outcomes.
+Match results were encoded based on the league's point system, where teams earn 3 points for a win, 2 for a win via penalty shoot-out, 1 for a draw or a loss via penalty shoot-out, and 0 for a loss — but reversed so that higher values indicate more difficult outcomes.
 This encoding maintains consistency with real-world soccer scoring while ensuring that increasing values across all encoded variables represent greater difficulty.
 
 **Weather Conditions**
@@ -120,7 +120,7 @@ This encoding maintains consistency with real-world soccer scoring while ensurin
 |-------------|-------------|--------------|
 | Sunny      | 1 | Best conditions |
 | Cloudy      | 2 | Mild but playble  |
-| Brisk      | 2.5      | Slightly cold but manageable | 
+| Brisk      | 2.5      | Colder but manageable | 
 | Rain      | 3      | Most difficult (wet field, low visibility) |
 
 Weather conditions were encoded to analyze performance trends in different environments, considering factors like temperature, visibility, and field conditions.
