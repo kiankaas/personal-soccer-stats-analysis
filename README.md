@@ -73,7 +73,7 @@ With these changes, our dataset is now organized, consistent, and ready for anal
 **SQL Query**: [link]() <br/>
 
 To ensure meaningful analysis, categorical variables were **numerically encoded**, allowing for correlation analysis and structured comparisons across different conditions. The endcoding
-choices were carefully designed to maintain logical consistency - **higher values** indicate **more challenging conditions** across all categories.  
+choices were carefully designed to maintain logical consistency - **higher values indicate more challenging conditions** across all categories.  
 
 ### Data Encoding
 **Python Script**: [link]() <br/>
@@ -87,7 +87,7 @@ choices were carefully designed to maintain logical consistency - **higher value
 | BMSL D2      | 4      | Division 2, higher level of competition |
 | KSL D2      | 5      | Most competitive league (summer league with stronger teams) |
 
-Each competition was assigned a numerical value based on its competitiveness, higher values indicate stronger competition. 
+Each competition was assigned a numerical value based on its competitiveness. 
 
 **Season Difficulty** 
 | Season   | Encoded Value | Competitions Played (games played) | 
@@ -100,9 +100,19 @@ Each competition was assigned a numerical value based on its competitiveness, hi
 | Sum 24      | 5.00      | KSL D2 (5) |
 
 Since each season involved games in different competitions, a **weighted average competition score** was assigned to reflect overal difficulty, using the formula below.
+
 ![Screen Shot 2025-02-22 at 5 29 57 PM](https://github.com/user-attachments/assets/eba150a1-2224-40a6-b826-99bbc6621f0d)
 
+**Match Result** 
+| Match Result   | Encoded Value | Description | 
+|-------------|-------------|--------------|
+| L | 0 | Loss |
+| PKL      | 1 | Loss via penalty shoot-out  |
+| D      | 1      | Draw | 
+| PKW      | 2      | Win via penalty shoot-out |
+| W      | 3      | Win |
 
+Match results were encoded following the point based system as to how many points the team is awarded for the respective result.
 
 
 
