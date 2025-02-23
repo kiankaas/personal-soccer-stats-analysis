@@ -103,20 +103,31 @@ To reflect the overall competition difficulty for each season, a **weighted aver
 
 **Season Score** = ( Σ (Games in Competition × Competition Score) ) ÷ ( Σ Total Games in Season )
 
-
-![Screen Shot 2025-02-22 at 5 29 57 PM](https://github.com/user-attachments/assets/eba150a1-2224-40a6-b826-99bbc6621f0d)
-
 **Match Result** 
 | Match Result   | Encoded Value | Description | 
 |-------------|-------------|--------------|
-| L | 0 | Loss |
-| PKL      | 1 | Loss via penalty shoot-out  |
+| L | 3 | Loss |
+| PKL      | 2 | Loss via penalty shoot-out  |
 | D      | 1      | Draw | 
-| PKW      | 2      | Win via penalty shoot-out |
-| W      | 3      | Win |
+| PKW      | 1      | Win via penalty shoot-out |
+| W      | 0      | Win |
 
-Match results were encoded using the league's point system, where teams earn 3 points for a win, 2 for a win via penalty shoot-out, 1 for a draw or loss via penalty shoot-out, and 0 for a loss.
-This encoding ensures consistency with real-world soccer scoring while allowing for performance analysis.
+Match results were encoded based on the league's point system, where teams typically earn 3 points for a win, 2 for a win via penalty shootout, 1 for a draw or a loss via penalty shootout, and 0 for a loss—but reversed so that higher values indicate more difficult outcomes.
+This encoding maintains consistency with real-world soccer scoring while ensuring that increasing values across all encoded variables represent greater difficulty.
+
+**Weather Conditions**
+| Weather COndition   | Encoded Value | Description | 
+|-------------|-------------|--------------|
+| Sunny      | 1 | Best conditions |
+| Cloudy      | 2 | Mild but playble  |
+| Brisk      | 2.5      | Slightly cold but manageable | 
+| Rain      | 3      | Most difficult (wet field, low visibility) |
+
+Weather conditions were encoded to analyze performance trends in different environments, considering factors like temperature, visibility, and field conditions.
+
+## Correlation Matrix and Insights
+
+After encoding, a **correlation matrix** was generated to identify relationships between different performance factors.
 
 
 
