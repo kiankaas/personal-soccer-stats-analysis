@@ -87,7 +87,7 @@ choices were carefully designed to maintain logical consistency - **higher value
 | BMSL D2      | 4      | Division 2, higher level of competition |
 | KSL D2      | 5      | Most competitive league (summer league with stronger teams) |
 
-Each competition was assigned a numerical value based on its competitiveness. 
+Competitions were assigned numerical values to allow for structured comparisons in performance across different leagues.
 
 **Season Difficulty** 
 | Season   | Encoded Value | Competitions Played (games played) | 
@@ -99,7 +99,13 @@ Each competition was assigned a numerical value based on its competitiveness.
 | Fall 23/24      | 3.76      | BMSL D2 (18), BMSL Cup (2), Friendly (1) |
 | Sum 24      | 5.00      | KSL D2 (5) |
 
-Since each season involved games in different competitions, a **weighted average competition score** was assigned to reflect overal difficulty, using the formula below.
+
+A **weighted competition score** was calculated using the formula below for each season to reflect the combined difficulty of all competitions played during that period.
+
+\[
+\text{Season Score} = \frac{\sum (\text{Games in Competition} \times \text{Competition Score})}{\sum \text{Total Games in Season}}
+\]
+
 
 ![Screen Shot 2025-02-22 at 5 29 57 PM](https://github.com/user-attachments/assets/eba150a1-2224-40a6-b826-99bbc6621f0d)
 
@@ -112,8 +118,8 @@ Since each season involved games in different competitions, a **weighted average
 | PKW      | 2      | Win via penalty shoot-out |
 | W      | 3      | Win |
 
-Match results were encoded following the point based system as to how many points the team is awarded for the respective result.
-
+Match results were encoded using the standard soccer point system, where teams earn 3 points for a win, 2 for a win via penalty shoot-out, 1 for a draw or loss via penalty shoot-out, and 0 for a loss.
+This encoding ensures consistency with real-world soccer scoring while allowing for performance analysis.
 
 
 
