@@ -99,12 +99,9 @@ Competitions were assigned numerical values to allow for structured comparisons 
 | Fall 23/24      | 3.76      | BMSL D2 (18), BMSL Cup (2), Friendly (1) |
 | Sum 24      | 5.00      | KSL D2 (5) |
 
+To reflect the overall competition difficulty for each season, a **weighted average competition score** was computed using the formula:
 
-A **weighted competition score** was calculated using the formula below for each season to reflect the combined difficulty of all competitions played during that period.
-
-\[
-\text{Season Score} = \frac{\sum (\text{Games in Competition} \times \text{Competition Score})}{\sum \text{Total Games in Season}}
-\]
+**Season Score** = ( Σ (Games in Competition × Competition Score) ) ÷ ( Σ Total Games in Season )
 
 
 ![Screen Shot 2025-02-22 at 5 29 57 PM](https://github.com/user-attachments/assets/eba150a1-2224-40a6-b826-99bbc6621f0d)
@@ -118,7 +115,7 @@ A **weighted competition score** was calculated using the formula below for each
 | PKW      | 2      | Win via penalty shoot-out |
 | W      | 3      | Win |
 
-Match results were encoded using the standard soccer point system, where teams earn 3 points for a win, 2 for a win via penalty shoot-out, 1 for a draw or loss via penalty shoot-out, and 0 for a loss.
+Match results were encoded using the league's point system, where teams earn 3 points for a win, 2 for a win via penalty shoot-out, 1 for a draw or loss via penalty shoot-out, and 0 for a loss.
 This encoding ensures consistency with real-world soccer scoring while allowing for performance analysis.
 
 
