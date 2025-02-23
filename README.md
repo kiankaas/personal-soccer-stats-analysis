@@ -72,11 +72,10 @@ With these changes, our dataset is now organized, consistent, and ready for anal
 ## Analysis
 **SQL Query**: [link]() <br/>
 
-To ensure meaningful analysis, categorical variables were **numerically encoded**, allowing for correlation analysis and structured comparisons across different conditions. The endcoding
-choices were carefully designed to maintain logical consistency - **higher values indicate more challenging conditions** across all categories.  
-
 ### Data Encoding
 **Python Script**: [link]() <br/>
+To ensure meaningful analysis, categorical variables were **numerically encoded**, allowing for correlation analysis and structured comparisons across different conditions. The endcoding
+choices were carefully designed to maintain logical consistency - **higher values indicate more challenging conditions** across all categories.  
 
 **Competition Level** 
 | Competition   | Encoded Value | Description | 
@@ -125,9 +124,20 @@ This encoding maintains consistency with real-world soccer scoring while ensurin
 
 Weather conditions were encoded to analyze performance trends in different environments, considering factors like temperature, visibility, and field conditions.
 
-## Correlation Matrix and Insights
+### Correlation Matrix Analysis
 
-After encoding, a **correlation matrix** was generated to identify relationships between different performance factors.
+
+After encoding the dataset, we generated a **correlation matrix** to explore relationships between different match factors. This matrix uses the **Pearson correlation coefficient**, which measures the strength and direction of linear relationships between variables on a scale from **-1 to +1**:
+
+     * +1 → Strong positive correlation (as one variable increases, the other also increases).
+     * -1 → Strong negative correlation (as one variable increases, the other decreases).
+     * 0 → No linear relationship between the variables.
+     
+By analyzing these correlations, we can identify key trends, such as how competition level, season difficulty, and weather conditions influence goals, assists, and match results. This helps uncover factors that may impact performance and provides deeper insights into overall match outcomes.
+
+
+![Figure_1](https://github.com/user-attachments/assets/f5e25f7c-6856-4d51-a900-1cc8bae5fda9)
+
 
 
 
