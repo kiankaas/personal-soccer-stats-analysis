@@ -134,9 +134,14 @@ After encoding the dataset, I generated a **correlation matrix** to explore rela
      
 By analyzing these correlations, we can identify key trends, such as how competition level, season difficulty, and weather conditions influence goals, assists, and match results. This helps uncover factors that may impact performance and provides deeper insights into overall match outcomes.
 
-![Figure_1](https://github.com/user-attachments/assets/9154eb0d-ea3f-4d45-84e0-e583c12ff20b)
+The following columns were **not included** in the correlation matrix:
 
+- **Date** – Used for time-based analysis, not relevant for correlation.
+- **Opponent** – Each match is against a unique team, making direct correlations less meaningful.
+- **Month** – Seasonal trends were already captured through the Season encoding.
+- **Temperature** – Removed due to non-linearity, as extreme heat and cold can both negatively impact performance. Weather Condition serves as a better representation of playing conditions.
 
+![Figure_1](https://github.com/user-attachments/assets/157ca97e-0d7f-4026-b922-83e70eed44e0)
 
 
 
