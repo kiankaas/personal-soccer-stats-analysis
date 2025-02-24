@@ -99,7 +99,6 @@ Competitions were assigned numerical values to allow for structured comparisons 
 | Sum 24      | 5.00      | KSL D2 (5) |
 
 To reflect the overall competition difficulty for each season, a **weighted average competition score** was computed using the formula:
-
 **Season Score** = ( Σ (Games in Competition × Competition Score) ) ÷ ( Σ Total Games in Season )
 
 **Match Result** 
@@ -127,7 +126,7 @@ Weather conditions were encoded to analyze performance trends in different envir
 ### Correlation Matrix Analysis
 
 
-After encoding the dataset, we generated a **correlation matrix** to explore relationships between different match factors. This matrix uses the **Pearson correlation coefficient**, which measures the strength and direction of linear relationships between variables on a scale from **-1 to +1**:
+After encoding the dataset, I generated a **correlation matrix** to explore relationships between different match factors. This matrix uses the **Pearson correlation coefficient**, which measures the strength and direction of linear relationships between variables on a scale from **-1 to +1**:
 
 - +1 → Strong positive correlation (as one variable increases, the other also increases).
 - -1 → Strong negative correlation (as one variable increases, the other decreases).
@@ -135,7 +134,7 @@ After encoding the dataset, we generated a **correlation matrix** to explore rel
      
 By analyzing these correlations, we can identify key trends, such as how competition level, season difficulty, and weather conditions influence goals, assists, and match results. This helps uncover factors that may impact performance and provides deeper insights into overall match outcomes.
 
-![Figure_1](https://github.com/user-attachments/assets/7b976202-8cde-4a2c-8630-d530a73898b4)
+![Figure_1](https://github.com/user-attachments/assets/9154eb0d-ea3f-4d45-84e0-e583c12ff20b)
 
 
 
