@@ -69,12 +69,9 @@ To clean and prepare the data for analysis, I made the following transformations
 
 With these changes, our dataset is now organized, consistent, and ready for analysis.
 
-## Analysis
-**SQL Query**: [link]() <br/>
-
 ### Data Encoding
 **Python Script**: [link]() <br/>
-To ensure meaningful analysis, categorical variables were **numerically encoded**, allowing for correlation analysis and structured comparisons across different conditions. The endcoding
+To ensure meaningful analysis, categorical variables were **numerically encoded**, allowing for **correlation analysis** and structured comparisons across different conditions. The endcoding
 choices were carefully designed to maintain logical consistency - **higher values indicate more challenging conditions** across all categories.  
 
 **Competition Level** 
@@ -123,17 +120,18 @@ This encoding maintains consistency with real-world soccer scoring while ensurin
 
 Weather conditions were encoded to analyze performance trends in different environments, considering factors like temperature, visibility, and field conditions.
 
+## Analysis
+**SQL Query**: [link]() <br/>
+
 ### Correlation Matrix Analysis
 
+To gain deeper insights into performance trends and influencing factors, I generated a **correlation matrix** using Pearson correlation coefficients. This statistical method measures the strength and direction of the linear relationship between two variables, with values ranging from:
 
-After encoding the dataset, I generated a **correlation matrix** to explore relationships between different match factors. This matrix uses the **Pearson correlation coefficient**, which measures the strength and direction of linear relationships between variables on a scale from **-1 to +1**:
-
-- +1 → Strong positive correlation (as one variable increases, the other also increases).
-- -1 → Strong negative correlation (as one variable increases, the other decreases).
-- 0 → No linear relationship between the variables.
+- +1: Strong positive correlation (both variables increase together)
+- 0: No correlation (no linear relationship)
+-1: Strong negative correlation (one variable increases while the other decreases)
      
-By analyzing these correlations, we can identify key trends, such as how competition level, season difficulty, and weather conditions influence goals, assists, and match results. This helps uncover factors that may impact performance and provides deeper insights into overall match outcomes.
-
+By examining correlations between match performance factors, I aimed to identify key trends and relationships that impact results.
 The following columns were **not included** in the correlation matrix:
 
 - **Date** – Used for time-based analysis, not relevant for correlation.
@@ -143,7 +141,20 @@ The following columns were **not included** in the correlation matrix:
 
 ![Figure_1](https://github.com/user-attachments/assets/157ca97e-0d7f-4026-b922-83e70eed44e0)
 
+#### Key Findings
 
+1. **Expected Findings**
+- **Goals** and **Assists** strongly correlate with **Goal Contributions**
+     - Goals (0.88) and Assists (0.51) have a strong positive correlation with Goal Contributions, which is exptected since both metrics directly contribute to the total.
+- **Goals Forward** and **Match Result** are negatively correlated (-0.58)
+     - The more goals my team scores, the lower the Match Result value (better performance).
+     - This confirms that offensive success improves match outcomes (greater chance of winning).
+- **Goals Against and Match Result are positively correlated (0.68)**
+     - The more goals my team concedes, the higher the Match Result value (worse performance).
+     - This confirms that defensive stability worsens match outcomes (lower chance of winning).
+
+2. **Surprising Observations**
+- Match Result has a moderate negative correlation with Goal Contributions (-0.38)
 
 
 
