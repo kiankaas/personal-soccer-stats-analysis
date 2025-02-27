@@ -144,17 +144,40 @@ The following columns were **not included** in the correlation matrix:
 #### Key Findings
 
 1. **Expected Findings**
-- **Goals** and **Assists** strongly correlate with **Goal Contributions**
-     - Goals (0.88) and Assists (0.51) have a strong positive correlation with Goal Contributions, which is exptected since both metrics directly contribute to the total.
-- **Goals Forward** and **Match Result** are negatively correlated (-0.58)
-     - The more goals my team scores, the lower the Match Result value (better performance).
-     - This confirms that offensive success improves match outcomes (greater chance of winning).
-- **Goals Against and Match Result are positively correlated (0.68)**
-     - The more goals my team concedes, the higher the Match Result value (worse performance).
-     - This confirms that defensive stability worsens match outcomes (lower chance of winning).
+- **Goals and Goal Contributions are very strongly correlated (0.88)**
+     - My offensive impact is more weighted towards scoring goals rather than assisting goals.
+     - Strikers, such as myself, rely on finishing over creating chances.
+- **Goals Forward and Goal Contributions are strongly correlated (0.72)**
+     - When my team scores, I am usually involved, either by scoring or assisting.
+     - 
+- **Goals Forward and Match Result are negatively correlated (-0.58)**
+     - More goals scored by the team leads to better results.
+     - This confirms that attacking success directly translates into match outcomes.
+- **Goals Against and Match Result are strongly correlated (0.68)**
+     - The more goals the team concedes, the worse the match result is likely to be. 
+     - This confirms that poor defensive structure worsens match outcomes, where as conceding fewer goals improves chances of winning.
+- **Season and Competition are strongly correlated (0.70)**
+     - Over time, my team has played in more difficult leagues.
+     - Our team was promoted to Division 2 after our first season, where we have since played. 
+
 
 2. **Surprising Observations**
-- Match Result has a moderate negative correlation with Goal Contributions (-0.38)
+
+
+
+- **Match Result has a moderate negative correlation with Goal Contributions (-0.38)**
+     - While expected, the correlation is not as strong as anticipated, suggesting that my individual goal contributions alone do not fully determine match success.
+     - Other factors like defensive performance and team play also play a significant role in determining match success.
+- **Weather has minimal impact on Match Result (-0.20)**
+     - While some weather conditions may be more challenging than others, they do not strongly affect match outcomes.
+ 
+3. **Interesting Patterns**
+- **Competition Level has a weak correlation with Match Result (0.25)**
+     - Despite stronger opponents, match results do not decline drastically, implying an ability to perform well in more competitive competitions. 
+
+
+
+
 
 
 
