@@ -128,7 +128,7 @@ Weather conditions were encoded to analyze performance trends in different envir
 To gain deeper insights into performance trends and influencing factors, I generated a **correlation matrix** using Pearson correlation coefficients. This statistical method measures the strength and direction of the linear relationship between two variables, with values ranging from:
 
 - +1: Strong positive correlation (both variables increase together)
-- 0: No correlation (no linear relationship)
+- 0: No correlation (no linear relationship) 
 -1: Strong negative correlation (one variable increases while the other decreases)
      
 By examining correlations between match performance factors, I aimed to identify key trends and relationships that impact results.
@@ -139,38 +139,42 @@ The following columns were **not included** in the correlation matrix:
 - **Month** – Seasonal trends were already captured through the Season encoding.
 - **Temperature** – Removed due to non-linearity, as extreme heat and cold can both negatively impact performance. Weather Condition serves as a better representation of playing conditions.
 
-![Figure_1](https://github.com/user-attachments/assets/157ca97e-0d7f-4026-b922-83e70eed44e0)
+![correlation-matrix](https://github.com/user-attachments/assets/4cdde0b0-e00b-445e-83fc-881e3e4a53c0)
 
 #### Key Findings
-
 1. **Expected Findings**
-- **Goals and Goal Contributions are very strongly correlated (0.88)**
+- **Goals and Goal Contributions have a strong positive correlation (0.88)**
      - My offensive impact is more weighted towards scoring goals rather than assisting goals.
      - Strikers, such as myself, rely on finishing over creating chances.
-- **Goals Forward and Goal Contributions are strongly correlated (0.72)**
+- **Goals Forward and Goal Contributions have a strong positive correlation (0.72)**
      - When my team scores, I am usually involved, either by scoring or assisting.
-     - 
-- **Goals Forward and Match Result are negatively correlated (-0.58)**
+     - I am the top scorer of the team since I joined.  
+- **Goals Forward and Match Result have a moderate negative correlation (-0.58)**
      - More goals scored by the team leads to better results.
      - This confirms that attacking success directly translates into match outcomes.
-- **Goals Against and Match Result are strongly correlated (0.68)**
+- **Goals Against and Match Result have a strong positive correlation (0.68)**
      - The more goals the team concedes, the worse the match result is likely to be. 
      - This confirms that poor defensive structure worsens match outcomes, where as conceding fewer goals improves chances of winning.
-- **Season and Competition are strongly correlated (0.70)**
+- **Season and Competition have a strong positive correlation (0.70)**
      - Over time, my team has played in more difficult leagues.
      - Our team was promoted to Division 2 after our first season, where we have since played. 
 
-
 2. **Surprising Observations**
-
-
-
-- **Match Result has a moderate negative correlation with Goal Contributions (-0.38)**
+- **Competition has a weak negative correlation with both Goals and Goal_Contributions (-0.19 and -0.18)**
+     - As the opposition gets tougher, I am involved in fewer goals and assists.  
+     - Noteably in KSL D2, my average goal contributions per game is significantly lower than in all other competitions.
+- **Match Result and Goal Contributions have a moderate negative correlation (-0.38)**
      - While expected, the correlation is not as strong as anticipated, suggesting that my individual goal contributions alone do not fully determine match success.
      - Other factors like defensive performance and team play also play a significant role in determining match success.
-- **Weather has minimal impact on Match Result (-0.20)**
-     - While some weather conditions may be more challenging than others, they do not strongly affect match outcomes.
- 
+     - My team can still acheive good match results even if I don't contribute directly to helping the team score, meaning my teammates also play key roles in determining match success.
+- **Weather and Match Result have a weak negative correlation (-0.20)**
+     - While some weather conditions may be more challenging to play in than others, they do not strongly affect match outcomes.
+     - My team performs consistently regardless of the weather.
+- **Weather has almost no correlation with Goals, Assists, and Goal Contributions (0.02, 0.01, and 0.02)**
+     - 
+- **Weather and Goals Against have a weak to moderate negative correlation (-0.28)**
+     - 
+
 3. **Interesting Patterns**
 - **Competition Level has a weak correlation with Match Result (0.25)**
      - Despite stronger opponents, match results do not decline drastically, implying an ability to perform well in more competitive competitions. 
