@@ -171,9 +171,9 @@ The following columns were **not included** in the correlation matrix:
      - While some weather conditions may be more challenging to play in than others, they do not strongly affect match outcomes. 
      - My team performs consistently regardless of the weather. 
 - **Weather has almost no correlation with Goals, Assists, and Goal Contributions (0.02, 0.01, and 0.02)** 
-     - 
+     - What should I write here?
 - **Weather and Goals Against have a weak to moderate negative correlation (-0.28)** 
-     - 
+     - What should I write here?
 
 3. **Interesting Patterns** 
 - **Competition Level has a weak correlation with Match Result (0.25)** 
