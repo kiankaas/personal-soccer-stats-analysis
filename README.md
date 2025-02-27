@@ -163,20 +163,20 @@ The following columns were **not included** in the correlation matrix:
 - **Competition has a weak negative correlation with both Goals and Goal_Contributions (-0.19 and -0.18)**
      - As the opposition gets tougher, I am involved in fewer goals and assists.  
      - Noteably in KSL D2, my average goal contributions per game is significantly lower than in all other competitions.
-- **Match Result and Goal Contributions have a moderate negative correlation (-0.38)**
+- **Match Result and Goal Contributions have a moderate negative correlation (-0.38)** 
      - While expected, the correlation is not as strong as anticipated, suggesting that my individual goal contributions alone do not fully determine match success.
      - Other factors like defensive performance and team play also play a significant role in determining match success.
      - My team can still acheive good match results even if I don't contribute directly to helping the team score, meaning my teammates also play key roles in determining match success.
-- **Weather and Match Result have a weak negative correlation (-0.20)**
-     - While some weather conditions may be more challenging to play in than others, they do not strongly affect match outcomes.
-     - My team performs consistently regardless of the weather.
-- **Weather has almost no correlation with Goals, Assists, and Goal Contributions (0.02, 0.01, and 0.02)**
+- **Weather and Match Result have a weak negative correlation (-0.20)** 
+     - While some weather conditions may be more challenging to play in than others, they do not strongly affect match outcomes. 
+     - My team performs consistently regardless of the weather. 
+- **Weather has almost no correlation with Goals, Assists, and Goal Contributions (0.02, 0.01, and 0.02)** 
      - 
-- **Weather and Goals Against have a weak to moderate negative correlation (-0.28)**
+- **Weather and Goals Against have a weak to moderate negative correlation (-0.28)** 
      - 
 
-3. **Interesting Patterns**
-- **Competition Level has a weak correlation with Match Result (0.25)**
+3. **Interesting Patterns** 
+- **Competition Level has a weak correlation with Match Result (0.25)** 
      - Despite stronger opponents, match results do not decline drastically, implying an ability to perform well in more competitive competitions. 
 
 
