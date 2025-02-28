@@ -138,6 +138,10 @@ The following columns were **not included** in the correlation matrix: **Date**,
   <img src="https://github.com/user-attachments/assets/4cdde0b0-e00b-445e-83fc-881e3e4a53c0" alt="correlation-matrix" width="750">
 </p>
 
+<p align="center">
+  **Figure 1:** Correlation HeatMap, made with seaborn in Python.
+</p>
+
 #### Expected Findings 
 - **Goals and Goal Contributions have a strong positive correlation (0.88)**
      - My offensive impact is more weighted towards scoring goals rather than assisting goals.
@@ -188,19 +192,19 @@ This section expands on key correlations by using visualizations to better under
 ### Competition Level & Performance 
 
 **Win Percentage by Competition Level** 
-- **Key Insight**: My team's win percentage remained stable across most leagues, but dropped significantly in KSL D2.
+- **Key Insight**: My team's win percentage remained stable across most leagues (65-70%), but dropped significantly in KSL D2 (32%).
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="700"> 
+  <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="600"> 
 </p>
 
 <p align="center">
-  The win percentage was around 65-70% in all competitions except KSL D2, where it fell to 32%.
+  **Figure 2**: Win Percentage by Competition, made with Matplotlib in Python. 
 </p>
 
 - **Possible Explanation**:
-     - The competition level in KSL D2 is significantly higher than in any other competition, leading to tougher matches. 
-     - This aligns with the negative correlation that both **Goal Contributions and Goals Forward have with Competition**, confirming that tougher competitions resulted in fewer scoring opportunites for the team as a whole. 
+     - The competition level in KSL D2 is significantly higher than in any other competition, leading to tougher matches and fewer scoring opportunities.  
+     - This aligns with the negative correlation that both **Goal Contributions and Goals Forward have with Competition**, confirming that tougher competitions resulted in fewer scoring opportunites for both the team and me.
 
 **Correlation or Causation?** 
 - The correlation suggests stronger opponents are more difficult to win and score against, but other factors could also contribute, such as:
