@@ -141,41 +141,49 @@ The following columns were **not included** in the correlation matrix:
 
 ![correlation-matrix](https://github.com/user-attachments/assets/4cdde0b0-e00b-445e-83fc-881e3e4a53c0)
 
-#### Key Findings
+#### Summary of Key Correlations
 1. **Expected Findings**
 - **Goals and Goal Contributions have a strong positive correlation (0.88)**
      - My offensive impact is more weighted towards scoring goals rather than assisting goals.
-     - Strikers, such as myself, rely on finishing over creating chances.
+     - As a striker, I rely more on finishing chances than creating them. 
 - **Goals Forward and Goal Contributions have a strong positive correlation (0.72)**
-     - When my team scores, I am usually involved, either by scoring or assisting.
-     - I am the top scorer of the team since I joined.  
+     - When my team scores, I am usually involved - either by scoring or assisting.
+     - Since joining the team, I have consistently been the top scorer, even winning BMSL's D2 Golden Boot award in Fall 23/24.    
 - **Goals Forward and Match Result have a moderate negative correlation (-0.58)**
-     - More goals scored by the team leads to better results.
-     - This confirms that attacking success directly translates into match outcomes.
+     - More goals scored by the team directly lead to better match results. 
+     - This confirms that attacking success is a strong predictor of winning. 
 - **Goals Against and Match Result have a strong positive correlation (0.68)**
      - The more goals the team concedes, the worse the match result is likely to be. 
-     - This confirms that poor defensive structure worsens match outcomes, where as conceding fewer goals improves chances of winning.
+     - This confirms that defensive stability plays a key role in match success. 
 - **Season and Competition have a strong positive correlation (0.70)**
      - Over time, my team has played in more difficult leagues.
-     - Our team was promoted to Division 2 after our first season, where we have since played. 
+     - After being promoted to BMSL D2, we have continued playing at a higher competition level. 
 
 2. **Surprising Observations**
 - **Competition has a weak negative correlation with both Goals and Goal_Contributions (-0.19 and -0.18)**
-     - As the opposition gets tougher, I am involved in fewer goals and assists.  
-     - Noteably in KSL D2, my average goal contributions per game is significantly lower than in all other competitions.
-- **Match Result and Goal Contributions have a moderate negative correlation (-0.38)** 
-     - While expected, the correlation is not as strong as anticipated, suggesting that my individual goal contributions alone do not fully determine match success.
-     - Other factors like defensive performance and team play also play a significant role in determining match success.
-     - My team can still acheive good match results even if I don't contribute directly to helping the team score, meaning my teammates also play key roles in determining match success.
+     - My goals and goal contributions remained steady across all competitions but dropped significantly in KSL D2.
+     - This suggests that the increase in opponent skill level in KSL D2 is a bigger jump compared to other leagues. 
+
+- **Match Result and Goal Contributions have a moderate negative correlation (-0.38)**
+     - While I expected my goal contributions to strongly determine match success, the correlation is weaker than anticipated.
+     - This suggests that other factors — such as overall team attacking play and defensive performance — play a significant role in match outcomes. 
+
 - **Weather and Match Result have a weak negative correlation (-0.20)** 
      - While some weather conditions may be more challenging to play in than others, they do not strongly affect match outcomes. 
-     - My team performs consistently regardless of the weather. 
+     - My team performs consistently regardless of the weather.
+     - Win percentage is actually lowest in sunny conditions and highest in brisk/rainy conditions.
+     - 
+ 
+
+
 - **Weather has almost no correlation with Goals, Assists, and Goal Contributions (0.02, 0.01, and 0.02)** 
      - What should I write here?
 - **Weather and Goals Against have a weak to moderate negative correlation (-0.28)** 
-     - What should I write here?
+     - Worse weather conditions slightly lower the number of goals conceded.
+     - Interestingly, poor weather conditions correlate with fewer goals conceded, possibly due to slower gameplay making defensive positioning more effective. 
 
-3. **Interesting Patterns** 
+
+
 - **Competition Level has a weak correlation with Match Result (0.25)** 
      - Despite stronger opponents, match results do not decline drastically, implying an ability to perform well in more competitive competitions. 
 
