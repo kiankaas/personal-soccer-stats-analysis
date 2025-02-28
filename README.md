@@ -173,13 +173,31 @@ The following columns were **not included** in the correlation matrix: **Date**,
      - Interestingly, my team concedes fewer goals in poor weather conditions. 
      - While rain speeds up the ball on turf, it may also lead to more defensive clearances, scrappy play, and fewer structured attacking opportunities for opponents. 
 - **Competition and Match Result have a weak positive correlation (0.25)** 
-     - Despite facing stronger opponents, my team’s win percentage remained relatively stable—except in KSL D2, where it dropped significantly. 
+     - Despite facing stronger opponents, my team’s win percentage remained relatively stable — except in KSL D2, where it dropped significantly. 
      - This suggests that while the team adapted well to tougher leagues, KSL D2 presented a much larger challenge, both individually and as a team. 
 - **Goals Forward and Goals Against have a weak negative correlation (-0.14)**
      - When my team scores more, we don't necessarily concede fewer goals.
      - This may indicate that my team doesn't rely on defensive stability and shutting down the opponent to win games, but rather by outscoring the opponent.
  
+### Deeper Analysis with Visualizations
 
+This section expands on key correlations by using visualizations to better understand the relationships between competition level, weather, and match outcomes. The graphs will help illustrate how these factors influence performance beyond the correlation values. 
+
+### Competition Level & Performance 
+
+**Win Percentage by Competition Level** 
+- **Key insight**: My team's win percentage remained stable across most leagues, but dropped significantly in KSL D2. 
+![Figure_3](https://github.com/user-attachments/assets/710aed21-2cca-40ae-bbbd-8d538ac36f1a)
+- The win percentage is around 65-70% in all competitions except KSL D2, where it fell to 32%.
+- **Possible Explanation**: The opponent skill level in KSL D2 is significantly larger compared to BMSL D2.
+     - This aligns with the correlation between **Competition and Goal Contributions (-0.19)**, confirming that tougher leagues resulted in fewer scoring opportunites.
+**Correlation vs. Causation**
+- The correlation suggests stronger opponents make it harder to perform, but other factors could also contribute, such as:
+     - During the Summer season, our team does not have weekly practices like we do during the Fall seasons as we are unable to get field times. We are unable to maintain our fitness such. 
+     - Players tend to go on vacation during the summer more often compared to during the Fall season. This results in key players missing from our line ups every week.
+     - KSL allows new players to register on the team throughout the whole season, so we often bring in new players to "try out". The BMSL does not allow this, as players must be registered at the start of the season.
+ 
+  
 
 
 
