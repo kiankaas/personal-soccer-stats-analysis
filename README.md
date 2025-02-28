@@ -192,9 +192,16 @@ This section expands on key correlations by using visualizations to better under
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="700"> 
+
   The win percentage was around 65-70% in all competitions except KSL D2, where it fell to 32%.
 
 </p>
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="700"> 
+</p>
+The win percentage was around 65-70% in all competitions except KSL D2, where it fell to 32%.
 
 - **Possible Explanation**:
      - The opponent skill level in KSL D2 is significantly larger compared to BMSL D2.
