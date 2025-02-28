@@ -132,17 +132,12 @@ To gain deeper insights into performance trends and influencing factors, I gener
 -1: Strong negative correlation (one variable increases while the other decreases)
      
 By examining correlations between match performance factors, I aimed to identify key trends and relationships that impact results.
-The following columns were **not included** in the correlation matrix:
-
-- **Date** – Used for time-based analysis, not relevant for correlation.
-- **Opponent** – Each match is against a unique team, making direct correlations less meaningful.
-- **Month** – Seasonal trends were already captured through the Season encoding.
-- **Temperature** – Removed due to non-linearity, as extreme heat and cold can both negatively impact performance. Weather Condition serves as a better representation of playing conditions.
+The following columns were **not included** in the correlation matrix: **Date**, **Opponent**, **Month**, and **Temperature**. 
 
 ![correlation-matrix](https://github.com/user-attachments/assets/4cdde0b0-e00b-445e-83fc-881e3e4a53c0)
 
 #### Summary of Key Correlations
-1. **Expected Findings**
+**Expected Findings** 
 - **Goals and Goal Contributions have a strong positive correlation (0.88)**
      - My offensive impact is more weighted towards scoring goals rather than assisting goals.
      - As a striker, I rely more on finishing chances than creating them. 
@@ -161,28 +156,27 @@ The following columns were **not included** in the correlation matrix:
 
 2. **Surprising Observations**
 - **Competition has a weak negative correlation with both Goals and Goal_Contributions (-0.19 and -0.18)**
-     - My goals and goal contributions remained steady across all competitions but dropped significantly in KSL D2.
-     - This suggests that the increase in opponent skill level in KSL D2 is a bigger jump compared to other leagues. 
+     - My goals and goal contributions remained steady across all competitions but dropped significantly in KSL D2. 
+     - This suggests that the increase in opponent skill level in KSL D2 is a bigger jump compared to other leagues.
 
 - **Match Result and Goal Contributions have a moderate negative correlation (-0.38)**
      - While I expected my goal contributions to strongly determine match success, the correlation is weaker than anticipated.
      - This suggests that other factors — such as overall team attacking play and defensive performance — play a significant role in match outcomes. 
 
 - **Weather and Match Result have a weak negative correlation (-0.20)** 
-     - While some weather conditions may be more challenging to play in than others, they do not strongly affect match outcomes. 
-     - My team performs consistently regardless of the weather.
-     - Win percentage is actually lowest in sunny conditions and highest in brisk/rainy conditions.
-     - 
- 
-
+     - My team’s performance remained relatively stable across different weather conditions.  
+     - However, further analysis revealed that win percentage is actually lowest in sunny conditions and highest in brisk/rainy conditions. 
+     - A possible explanation is that most KSL D2 matches were played in sunny weather, which overlaps with our team’s weakest performances. 
 
 - **Weather has almost no correlation with Goals, Assists, and Goal Contributions (0.02, 0.01, and 0.02)** 
-     - What should I write here?
+     - My personal performance remains consistent regardless of weather conditions. 
+     - External factors such as rain or cold temperatures do not appear to strongly impact my ability to score or assist. 
+
+**Interesting Patterns**
+
 - **Weather and Goals Against have a weak to moderate negative correlation (-0.28)** 
-     - Worse weather conditions slightly lower the number of goals conceded.
-     - Interestingly, poor weather conditions correlate with fewer goals conceded, possibly due to slower gameplay making defensive positioning more effective. 
-
-
+     - Interestingly, my team concedes fewer goals in poor weather conditions. 
+     - While rain speeds up the ball on turf, it may also lead to more defensive clearances, scrappy play, and fewer structured attacking opportunities for opponents. 
 
 - **Competition Level has a weak correlation with Match Result (0.25)** 
      - Despite stronger opponents, match results do not decline drastically, implying an ability to perform well in more competitive competitions. 
