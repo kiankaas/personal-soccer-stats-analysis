@@ -199,14 +199,24 @@ This section expands on key correlations by using visualizations to better under
 </p>
 
 - **Possible Explanation**:
-     - The opponent skill level in KSL D2 is significantly larger compared to BMSL D2.
-     - This aligns with the correlation between **Competition and Goal Contributions (-0.19)**, confirming that tougher leagues resulted in fewer scoring opportunites.
-**Correlation vs. Causation**
-- The correlation suggests stronger opponents make it harder to perform, but other factors could also contribute, such as:
-     - During the Summer season, our team does not have weekly practices like we do during the Fall seasons as we are unable to get field times. We are unable to maintain our fitness such. 
-     - Players tend to go on vacation during the summer more often compared to during the Fall season. This results in key players missing from our line ups every week.
-     - KSL allows new players to register on the team throughout the whole season, so we often bring in new players to "try out". The BMSL does not allow this, as players must be registered at the start of the season.
- 
+     - The competition level in KSL D2 is significantly higher than in any other competition, leading to tougher matches. 
+     - This aligns with the negative correlation that both **Goal Contributions and Goals Forward have with Competition**, confirming that tougher competitions resulted in fewer scoring opportunites for the team as a whole. 
+
+**Correlation or Causation?** 
+- The correlation suggests stronger opponents are more difficult to win and score against, but other factors could also contribute, such as:
+**1. Lack of Weekly Practices**
+- During the Fall league season, our team practices once a week, helping maintain fitness and tactical awareness.
+- During the Summer league season, there are no weekly practices, which may lead to rusty play and fatigue over time.
+
+**2. Missing Key Players** 
+- The Summer season overlaps with vacation time, resulting in frequent absences of key players throughout the season.
+- This disrupts team chemistry and forces adjustments to the lineup more often than in the Fall season.
+
+**3. Frequent Roster Changes and Player Tryouts**
+- The KSL summer league allows new players to register at any time during the season.
+- As a result, our team frequently brings in new players for tryouts, making it difficult to build chemistry with teammates.
+
+
   
 
 
