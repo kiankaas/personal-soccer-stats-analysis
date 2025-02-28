@@ -135,7 +135,7 @@ By examining correlations between match performance factors, I aimed to identify
 The following columns were **not included** in the correlation matrix: **Date**, **Opponent**, **Month**, and **Temperature**. 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4cdde0b0-e00b-445e-83fc-881e3e4a53c0" alt="correlation-matrix" width="400">
+  <img src="https://github.com/user-attachments/assets/4cdde0b0-e00b-445e-83fc-881e3e4a53c0" alt="correlation-matrix" width="1000">
 </p>
 
 #### Expected Findings 
@@ -188,8 +188,14 @@ This section expands on key correlations by using visualizations to better under
 ### Competition Level & Performance 
 
 **Win Percentage by Competition Level** 
-- **Key Insight**: My team's win percentage remained stable across most leagues, but dropped significantly in KSL D2. 
+- **Key Insight**: My team's win percentage remained stable across most leagues, but dropped significantly in KSL D2.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="1000">
+</p>
+
 ![win%-comp](https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab)
+
 - The win percentage was around 65-70% in all competitions except KSL D2, where it fell to 32%.
 - **Possible Explanation**:
      - The opponent skill level in KSL D2 is significantly larger compared to BMSL D2.
