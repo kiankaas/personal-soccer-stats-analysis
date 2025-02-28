@@ -134,7 +134,9 @@ To gain deeper insights into performance trends and influencing factors, I gener
 By examining correlations between match performance factors, I aimed to identify key trends and relationships that impact results.
 The following columns were **not included** in the correlation matrix: **Date**, **Opponent**, **Month**, and **Temperature**. 
 
-<img src="https://github.com/user-attachments/assets/4cdde0b0-e00b-445e-83fc-881e3e4a53c0" alt="correlation-matrix" width="200">
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4cdde0b0-e00b-445e-83fc-881e3e4a53c0" alt="correlation-matrix" width="400">
+</p>
 
 #### Expected Findings 
 - **Goals and Goal Contributions have a strong positive correlation (0.88)**
