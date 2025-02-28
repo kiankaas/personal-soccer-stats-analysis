@@ -136,7 +136,7 @@ The following columns were **not included** in the correlation matrix: **Date**,
 
 ![correlation-matrix](https://github.com/user-attachments/assets/4cdde0b0-e00b-445e-83fc-881e3e4a53c0)
 
-1. **Expected Findings** 
+#### Expected Findings 
 - **Goals and Goal Contributions have a strong positive correlation (0.88)**
      - My offensive impact is more weighted towards scoring goals rather than assisting goals.
      - As a striker, I rely more on finishing chances than creating them. 
@@ -153,7 +153,7 @@ The following columns were **not included** in the correlation matrix: **Date**,
      - Over time, my team has played in more difficult leagues.
      - After being promoted to BMSL D2, we have continued playing at a higher competition level. 
 
-2. **Surprising Observations**
+#### Surprising Observations
 - **Competition has a weak negative correlation with both Goals and Goal_Contributions (-0.19 and -0.18)**
      - My goals and goal contributions remained steady across all competitions but dropped significantly in KSL D2. 
      - This suggests that the increase in opponent skill level in KSL D2 is a bigger jump compared to other leagues.
@@ -168,7 +168,7 @@ The following columns were **not included** in the correlation matrix: **Date**,
      - My personal performance remains consistent regardless of weather conditions. 
      - External factors such as rain or cold temperatures do not appear to strongly impact my ability to score or assist. 
 
-3. **Interesting Patterns**
+#### Interesting Patterns
 - **Weather and Goals Against have a weak to moderate negative correlation (-0.28)** 
      - Interestingly, my team concedes fewer goals in poor weather conditions. 
      - While rain speeds up the ball on turf, it may also lead to more defensive clearances, scrappy play, and fewer structured attacking opportunities for opponents. 
