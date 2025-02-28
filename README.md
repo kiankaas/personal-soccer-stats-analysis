@@ -186,10 +186,11 @@ This section expands on key correlations by using visualizations to better under
 ### Competition Level & Performance 
 
 **Win Percentage by Competition Level** 
-- **Key insight**: My team's win percentage remained stable across most leagues, but dropped significantly in KSL D2. 
-![Figure_3](https://github.com/user-attachments/assets/710aed21-2cca-40ae-bbbd-8d538ac36f1a)
-- The win percentage is around 65-70% in all competitions except KSL D2, where it fell to 32%.
-- **Possible Explanation**: The opponent skill level in KSL D2 is significantly larger compared to BMSL D2.
+- **Key Insight**: My team's win percentage remained stable across most leagues, but dropped significantly in KSL D2. 
+![win%-comp](https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab)
+- The win percentage was around 65-70% in all competitions except KSL D2, where it fell to 32%.
+- **Possible Explanation**:
+     - The opponent skill level in KSL D2 is significantly larger compared to BMSL D2.
      - This aligns with the correlation between **Competition and Goal Contributions (-0.19)**, confirming that tougher leagues resulted in fewer scoring opportunites.
 **Correlation vs. Causation**
 - The correlation suggests stronger opponents make it harder to perform, but other factors could also contribute, such as:
