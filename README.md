@@ -198,11 +198,6 @@ This section expands on key correlations by using visualizations to better under
   <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="600"> 
 </p>
 
-<p align="center">
-  Created with Matplotlib in Python.  
-</p>
-
-
 **Goal Contributions per Game by Competition**
 - **Key Insight**: My goal contributions per game is significantly lower in KSL D2 compared to other competitions.
 
@@ -211,15 +206,11 @@ This section expands on key correlations by using visualizations to better under
      - This supports the idea that tougher opposition directly reduced scoring opportunities.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0f0c9908-787b-411b-a622-6db57378edb2" alt="win%-comp" width="600"> 
-</p>
-
-<p align="center">
-  Taken from the Tableau dashboard.  
+  <img src="https://github.com/user-attachments/assets/4a4f52be-6a9d-4ef0-8c2f-c079c22d52c3" alt="win%-comp" width="600"> 
 </p>
 
 **Correlation vs. Causation** 
-- The correlation suggests stronger opponents are more difficult to win and score against, but other factors could also contribute, such as: 
+The correlation suggests stronger opponents are more difficult to win and score against, but other factors could also contribute, such as: 
 
 **1. Lack of Weekly Practices**
 - During the Fall league season, our team practices once a week, helping maintain fitness and tactical awareness.
