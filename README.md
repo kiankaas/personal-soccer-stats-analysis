@@ -138,10 +138,6 @@ The following columns were **not included** in the correlation matrix: **Date**,
   <img src="https://github.com/user-attachments/assets/4cdde0b0-e00b-445e-83fc-881e3e4a53c0" alt="correlation-matrix" width="750">
 </p>
 
-<p align="center">
-  **Figure 1:** Correlation HeatMap, made with seaborn in Python.
-</p>
-
 #### Expected Findings 
 - **Goals and Goal Contributions have a strong positive correlation (0.88)**
      - My offensive impact is more weighted towards scoring goals rather than assisting goals.
@@ -196,11 +192,10 @@ This section expands on key correlations by using visualizations to better under
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="600"> 
+  <img src="https://github.com/user-attachments/assets/b3a19e08-d319-4110-904d-55eaa9e1edd5" alt="GC-comp" width="600">      
 </p>
 
-<p align="center">
-  **Figure 2**: Win Percentage by Competition, made with Matplotlib in Python. 
-</p>
+
 
 - **Possible Explanation**:
      - The competition level in KSL D2 is significantly higher than in any other competition, leading to tougher matches and fewer scoring opportunities.  
@@ -220,7 +215,8 @@ This section expands on key correlations by using visualizations to better under
 - The KSL summer league allows new players to register at any time during the season.
 - As a result, our team frequently brings in new players for tryouts, making it difficult to build chemistry with teammates.
 
-
+**Goal Contributions per Game by Competition**
+- **Key Insight**: My goal contributions per game dropped significantly in KSL D2, 
   
 
 
