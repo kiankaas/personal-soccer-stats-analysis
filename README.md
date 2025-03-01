@@ -188,21 +188,39 @@ This section expands on key correlations by using visualizations to better under
 ### Competition Level & Performance 
 
 **Win Percentage by Competition Level** 
-- **Key Insight**: My team's win percentage remained stable across most leagues (65-70%), but dropped significantly in KSL D2 (32%).
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="600"> 
-  <img src="https://github.com/user-attachments/assets/b3a19e08-d319-4110-904d-55eaa9e1edd5" alt="GC-comp" width="600">      
-</p>
-
-
+- **Key Insight**: My team's win percentage remained stable across most leagues (64-72%), but dropped significantly in KSL D2 (32%).
 
 - **Possible Explanation**:
      - The competition level in KSL D2 is significantly higher than in any other competition, leading to tougher matches and fewer scoring opportunities.  
      - This aligns with the negative correlation that both **Goal Contributions and Goals Forward have with Competition**, confirming that tougher competitions resulted in fewer scoring opportunites for both the team and me.
 
-**Correlation or Causation?** 
-- The correlation suggests stronger opponents are more difficult to win and score against, but other factors could also contribute, such as:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="600"> 
+</p>
+
+<p align="center">
+  Created with Matplotlib in Python.  
+</p>
+
+
+**Goal Contributions per Game by Competition**
+- **Key Insight**: My goal contributions per game is significantly lower in KSL D2 compared to other competitions.
+
+- **Possible Explanation**:
+     - The steepest drop in goal contributions occurs in KSL D2, aligning with the drop in win percentage (32%).
+     - This supports the idea that tougher opposition directly reduced scoring opportunities.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0f0c9908-787b-411b-a622-6db57378edb2" alt="win%-comp" width="600"> 
+</p>
+
+<p align="center">
+  Taken from the Tableau dashboard.  
+</p>
+
+**Correlation vs. Causation** 
+- The correlation suggests stronger opponents are more difficult to win and score against, but other factors could also contribute, such as: 
+
 **1. Lack of Weekly Practices**
 - During the Fall league season, our team practices once a week, helping maintain fitness and tactical awareness.
 - During the Summer league season, there are no weekly practices, which may lead to rusty play and fatigue over time.
@@ -215,10 +233,10 @@ This section expands on key correlations by using visualizations to better under
 - The KSL summer league allows new players to register at any time during the season.
 - As a result, our team frequently brings in new players for tryouts, making it difficult to build chemistry with teammates.
 
-**Goal Contributions per Game by Competition**
-- **Key Insight**: My goal contributions per game dropped significantly in KSL D2, 
+**4. Increased Game Intensity in KSL D2**
+- Stronger defenses in KSL D2 may allow fewer attacking chances.
+- The pace and physicality of the league make it harder to maintain possession and create goal-scoring opportunities.
   
-
 
 
 
