@@ -127,9 +127,9 @@ Weather conditions were encoded to analyze performance trends in different envir
 
 To gain deeper insights into performance trends and influencing factors, I generated a **correlation matrix** using Pearson correlation coefficients. This statistical method measures the strength and direction of the linear relationship between two variables, with values ranging from:
 
-- +1: Strong positive correlation (both variables increase together)
-- 0: No correlation (no linear relationship) 
-- -1: Strong negative correlation (one variable increases while the other decreases)
+- **+1**: Strong positive correlation (both variables increase together)
+- **0**: No correlation (no linear relationship) 
+- **-1**: Strong negative correlation (one variable increases while the other decreases)
      
 By examining correlations between match performance factors, I aimed to identify key trends and relationships that impact results.
 The following columns were **not included** in the correlation matrix: **Date**, **Opponent**, **Month**, and **Temperature**. 
@@ -195,7 +195,7 @@ This section expands on key correlations by using visualizations to better under
      - This aligns with the negative correlation that both **Goal Contributions and Goals Forward have with Competition**, confirming that tougher competitions resulted in fewer scoring opportunites for both the team and me.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="600"> 
+  <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="500"> 
 </p>
 
 **Offensive & Defensive Performance by Competition**
@@ -207,7 +207,7 @@ This section expands on key correlations by using visualizations to better under
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cee5f7c0-1b29-4243-9894-1e57a9a19a1b" alt="win%-comp" width="500">   <img src="https://github.com/user-attachments/assets/d5e2dad5-a982-4f94-9a2f-b701bfdb5bf9" alt="win%-comp" width="500"> 
-  <img src="https://github.com/user-attachments/assets/4a4f52be-6a9d-4ef0-8c2f-c079c22d52c3" alt="win%-comp" width="500"> 
+  <img src="https://github.com/user-attachments/assets/979d5bdb-8a00-4481-a06c-6dba28e7fdb9" alt="win%-comp" width="500"> 
 </p>
 
 **Correlation vs. Causation**  
@@ -229,11 +229,19 @@ The correlation suggests stronger opponents are more difficult to outscore, but 
 - Stronger defenses in KSL D2 may allow fewer attacking chances.
 - The pace and physicality of the league make it harder to maintain possession and create goal-scoring opportunities.
   
+### Weather & Match Results
 
+**Win Percentage by Weather Condition** 
+- **Key Insight**: My team’s win percentage was lowest in sunny conditions and highest in brisk/rainy conditions.
 
+- **Possible Explanation**:
+     - The trend suggests that my team performs better in poor weather conditions. 
+     - Most KSL D2 matches were played in sunny weather, meaning the lower win rate may be more related to competition level rather than weather itself. 
+     - Poor weather may disrupt opponent playstyles more than ours, leading to higher success rates. 
 
-
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-comp" width="500"> 
+</p>
 
 
 
