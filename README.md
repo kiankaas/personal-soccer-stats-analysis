@@ -129,7 +129,7 @@ To gain deeper insights into performance trends and influencing factors, I gener
 
 - +1: Strong positive correlation (both variables increase together)
 - 0: No correlation (no linear relationship) 
--1: Strong negative correlation (one variable increases while the other decreases)
+- -1: Strong negative correlation (one variable increases while the other decreases)
      
 By examining correlations between match performance factors, I aimed to identify key trends and relationships that impact results.
 The following columns were **not included** in the correlation matrix: **Date**, **Opponent**, **Month**, and **Temperature**. 
@@ -209,7 +209,7 @@ This section expands on key correlations by using visualizations to better under
   <img src="https://github.com/user-attachments/assets/4a4f52be-6a9d-4ef0-8c2f-c079c22d52c3" alt="win%-comp" width="600"> 
 </p>
 
-**Correlation vs. Causation** 
+**Correlation vs. Causation**  
 The correlation suggests stronger opponents are more difficult to win and score against, but other factors could also contribute, such as: 
 
 **1. Lack of Weekly Practices**
