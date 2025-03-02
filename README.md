@@ -243,7 +243,8 @@ The correlation suggests stronger opponents are more difficult to outscore, but 
   <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-comp" width="500"> 
 </p>
 
-
+**Offensive & Defensive Performance by Weather Condition**
+- **Key Insight**: My team’s win percentage was lowest in sunny conditions and highest in brisk/rainy conditions.
 
 
 
