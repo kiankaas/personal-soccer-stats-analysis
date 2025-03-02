@@ -202,15 +202,12 @@ This section expands on key correlations by using visualizations to better under
 - **Key Insight**: My individual and team's attacking output, as well as my team's defensive stability, all worsened in KSL D2.
 
 - **Possible Explanation**:
-     - The average goals forward and goal contributions in KSL D2 are the lowest by far, suggesting that stronger opponents make it harder to create scoring chances.
-     - The increase in goals conceded in KSL D2 indicates that defensive stability is also challenged at a higher level. 
-     - 
-     - The steepest drop in goal contributions occurs in KSL D2, aligning with the drop in win percentage (32%).
-     - This supports the idea that tougher opposition directly reduced scoring opportunities.
+     - The average goals forward and goal contributions in KSL D2 are by far the lowest out of all competitions, suggesting that stronger opponents make it harder to create scoring chances.
+     - The large increase in goals conceded in KSL D2 indicates that defensive stability is also challenged at a higher level. 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cee5f7c0-1b29-4243-9894-1e57a9a19a1b" alt="win%-comp" width="500">   <img src="https://github.com/user-attachments/assets/d5e2dad5-a982-4f94-9a2f-b701bfdb5bf9" alt="win%-comp" width="500"> 
-  <img src="https://github.com/user-attachments/assets/4a4f52be-6a9d-4ef0-8c2f-c079c22d52c3" alt="win%-comp" width="600"> 
+  <img src="https://github.com/user-attachments/assets/4a4f52be-6a9d-4ef0-8c2f-c079c22d52c3" alt="win%-comp" width="500"> 
 </p>
 
 **Correlation vs. Causation**  
