@@ -272,10 +272,9 @@ The correlation suggests stronger opponents are more difficult to outscore, but 
 - **Possible Explanation**:
      - Even in non-sunny conditions, KSL D2 consistently records some of the highest goals-against rates, accounting for three of the four highest goals conceded per game across and competition and weather combinations.
      - Sunny conditions in KSL D2 correlate with the most goals conceded, but this is likely due to stronger opposition rather than the weather itself.
-     - 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="500"> 
+  <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="600"> 
 </p>
 
 **Correlation vs. Causation** 
