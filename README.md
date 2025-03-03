@@ -281,9 +281,12 @@ The correlation suggests stronger opponents are more difficult to outscore, but 
 
 
 
+Create a project goal section at top (find what impacts my individual performance and team performance.
+
+Individual section? Team section? Or combine both?
 
 
-
+graph: win percentage in games I've scored or assisted in vs games I didn't score or assist in. 
 
 
 
