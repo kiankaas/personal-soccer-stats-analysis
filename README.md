@@ -244,7 +244,45 @@ The correlation suggests stronger opponents are more difficult to outscore, but 
 </p>
 
 **Offensive & Defensive Performance by Weather Condition**
-- **Key Insight**: My team’s win percentage was lowest in sunny conditions and highest in brisk/rainy conditions.
+- **Key Insight**: My team concedes the most goals in sunny conditions (3.00 per game), while attacking output remains stable across all weather conditions.
+
+- **Possible Explanation**:
+     - The higher goals conceded in sunny conditions suggests that defensive struggles, rather than offensive inefficiencies, are driving the drop in win percentage.
+     - The consistency in goals forward across weather conditions reinforces this, as my team still manages to create scoring opportunities in all conditions.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/013fcb5e-9141-44e1-907c-17e028771c4d" alt="win%-comp" width="500">   <img src="https://github.com/user-attachments/assets/a5157b3b-2f32-4d71-b970-a265cbfae102" alt="win%-comp" width="500"> 
+</p>
+
+
+**Win Percentage in KSL D2 by Weather Condition**
+- **Key Insight**: My team never won a match in KSL D2 under sunny conditions (7 games played, 7 loses).
+
+- **Possible Explanation**:
+     - KSL D2 performance was weakest in sunny conditions, suggesting that the competition level, not weather, is the primary factor affecting match results.
+     - The moderate win rates in rain and cloudy conditions indicate that while weather may play a role, it does not fully explain performance trends.
+ 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ba3cfafb-393b-4f2d-8fb2-8ebb74bc6bef" alt="win%-comp" width="500"> 
+</p>
+
+**Goals Conceded by Weather Condition & Competition Level** 
+- **Key Insight**: The number of goals my team concedes in sunny conditions is highest in KSL D2 (4.14 per game), reinforcing that the competition level is the strongest factor in performance.
+
+- **Possible Explanation**:
+     - Even in non-sunny conditions, KSL D2 consistently records some of the highest goals-against rates, accounting for three of the four highest goals conceded per game across and competition and weather combinations.
+     - Sunny conditions in KSL D2 correlate with the most goals conceded, but this is likely due to stronger opposition rather than the weather itself.
+     - 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="500"> 
+</p>
+
+**Correlation vs. Causation** 
+
+
+
+
 
 
 
