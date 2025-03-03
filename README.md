@@ -274,7 +274,7 @@ The correlation suggests stronger opponents are more difficult to outscore, but 
      - Sunny conditions in KSL D2 correlate with the most goals conceded, but this is likely due to stronger opposition rather than the weather itself.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="600"> 
+  <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="750"> 
 </p>
 
 **Correlation vs. Causation** 
