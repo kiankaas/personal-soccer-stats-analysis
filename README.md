@@ -210,9 +210,10 @@ This section expands on key observations by using visualizations to better under
 **Key Insight**: My team's attacking output (1.64 goals forward per game) and defensive stability (2.91 goals against per game) are at their worst in KSL D2. 
 
 **Possible Explanation**:
-     - **More Defensive Opponents**: Stronger defenses in KSL D2 limit scoring chances, contributing to the lowest Goals Forward per game. 
-     - **Tougher Opposition in Attack**: KSL D2 features stronger attacking teams, leading to the highest Goals Against per game.
-     - **Overall Competitive Challenge**: The combined effects of tougher defenses and stronger opposition in attack result in both a lower scoring output and higher goals conceded in KSL D2.
+
+- **More Defensive Opponents**: Stronger defenses in KSL D2 limit scoring chances, contributing to the lowest Goals Forward per game. 
+- **Tougher Opposition in Attack**: KSL D2 features stronger attacking teams, leading to the highest Goals Against per game.
+- **Overall Competitive Challenge**: The combined effects of tougher defenses and stronger opposition in attack result in both a lower scoring output and higher goals conceded in KSL D2.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cee5f7c0-1b29-4243-9894-1e57a9a19a1b" alt="goals-against-comp" width="500">   <img src="https://github.com/user-attachments/assets/d5e2dad5-a982-4f94-9a2f-b701bfdb5bf9" alt="goals-forward-comp" width="500"> 
@@ -225,11 +226,15 @@ This section expands on key observations by using visualizations to better under
 **Possible Explanations**:
 
 - **Competition Overlaps with Weather**: Many KSL D2 matches took place in sunny conditions, which could indicate that competition level played a bigger role in performance than weather itself. 
-- **Opponent Playstyle Disruption**: Poor weather conditions may impact opponent playstyles more than ours, leading to higher success rates.  
+- **Opponent Playstyle Disruption**: Poor weather conditions may impact opponent playstyles more than ours, leading to higher success rates.
+- **Stable Attacking Output**: Despite defensive struggles in poor weather, Goals Forward per game remains relatively consistent, suggesting that my team’s offensive performance is not significantly affected by weather.
+
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/ba3cfafb-393b-4f2d-8fb2-8ebb74bc6bef" alt="KSL-win%weather" width="500"> <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-weather" width="500"> 
+  <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-weather" width="500"> <img src="https://github.com/user-attachments/assets/ba3cfafb-393b-4f2d-8fb2-8ebb74bc6bef" alt="KSL-win%weather" width="500">
+     <img src="https://github.com/user-attachments/assets/b4c6d3d9-1849-4be5-a297-b37393d145f0" alt="goals-forward-weather" width="500">
 </p>
+
 
 ### 2. Weather & Match Results
 
@@ -243,7 +248,7 @@ This section expands on key observations by using visualizations to better under
 - **Consistent Attacking Performance**: The consistency in goals forward across all weather conditions indicates that attacking performance was unaffected by weather, while defense was more vulnerable. 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/013fcb5e-9141-44e1-907c-17e028771c4d" alt="win%-comp" width="500">   <img src="https://github.com/user-attachments/assets/a5157b3b-2f32-4d71-b970-a265cbfae102" alt="win%-comp" width="500"> 
+  <img src="https://github.com/user-attachments/assets/a5157b3b-2f32-4d71-b970-a265cbfae102" alt="win%-comp" width="500">  <img src="https://github.com/user-attachments/assets/013fcb5e-9141-44e1-907c-17e028771c4d" alt="win%-comp" width="500">  
 </p>
 
 ### 3. Goals Conceded by Weather Condition & Competition Level 
