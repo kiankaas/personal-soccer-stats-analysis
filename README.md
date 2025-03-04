@@ -5,7 +5,8 @@ My team competes in two leagues each year: the Burnaby Mens Soccer League (BMSL)
 
 ## The Data 
 **Raw Data**: [raw_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/raw_stats.csv) <br/>
-CHANGE TRACKING
+CHANGE TRACKING 
+
 I've been manually tracking my soccer stats in a Google Sheets file. This file contains a comprehensive record of every game my team has played, spanning 105 records across 9 columns. Each record represents a game, capturing key statistics like goals, assists, and match outcomes, among other details as shown below:
 
 | Variable   | Data Type | Description | 
@@ -185,20 +186,35 @@ The following columns were **not included** in the correlation matrix: **Date**,
 
 This section expands on key correlations by using visualizations to better understand the relationships between team performance and individual performance. The goal is to analyze what factors impact performance on both levels, identifying patterns that influence match outcomes (team success) and personal contributions (goals & assists).
 
+This section expands on key observations by using visualizations to better understand the relationship between external factors and match performance. The analysis is split into two main sections: Team Performance Analysis and Individual Performance Analysis.
+
 ### Team Performance Analysis
 
-This section focuses on how external factors impact overall team performance, including win percentage, goals forward, and goals against.
+#### Win Percentage by Competition & Weather
 
 **Win Percentage by Competition Level** 
-- **Key Insight**: My team's win percentage remained stable across most leagues (64-72%), but dropped significantly in KSL D2 (32%).
 
-- **Possible Explanation**:
-     - The opposition in KSL D2 is significantly stronger than in any other competition, leading to tougher matches and fewer scoring opportunities.  
-     - This aligns with the negative correlation that both **Goal Contributions and Goals Forward have with Competition**, confirming that tougher competitions resulted in fewer scoring opportunites for both the team and me.
+**Key Insight**: My team's win percentage remained stable across most leagues (64-72%), but dropped significantly in KSL D2 (32%).
 
+**Possible Explanations**:
+     - **Stronger Opposition**: KSL D2 features more competitive teams, making it harder to win matches.  
+     - **Decline in Team Scoring Output**: The correlation matrix shows a **negative correlation between Goals Forward and Competition (-0.29)**, indicating that as competition level increases, the number of goals scored per game decreases. This suggests that tougher leagues limit offensive opportunities. 
+     
 <p align="center">
   <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="500"> 
 </p>
+
+**Win Percentage by Weather Condition** 
+**Key Insight**: My team’s win percentage was lowest in sunny conditions (37.5%) and highest in rainy conditions (68.2%). 
+
+**Possible Explanation**:
+     - **Competition Overlaps with Weather**: Many KSL D2 matches took place in sunny conditions, which could indicate that competition level played a bigger role in performance than weather itself. 
+     - **Opponent Playstyle Disruption**: Poor weather conditions may impact opponent playstyles more than ours, leading to higher success rates.  
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-weather" width="500"> 
+</p>
+
 
 **Offensive & Defensive Performance by Competition**
 - **Key Insight**: My team's attacking output and defensive stability worsened in KSL D2. 
@@ -208,20 +224,10 @@ This section focuses on how external factors impact overall team performance, in
      - The large increase in goals against in KSL D2 indicates that defensive stability is also challenged at a higher level. 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cee5f7c0-1b29-4243-9894-1e57a9a19a1b" alt="win%-comp" width="500">   <img src="https://github.com/user-attachments/assets/d5e2dad5-a982-4f94-9a2f-b701bfdb5bf9" alt="win%-comp" width="500"> 
+  <img src="https://github.com/user-attachments/assets/cee5f7c0-1b29-4243-9894-1e57a9a19a1b" alt="goals-against-comp" width="500">   <img src="https://github.com/user-attachments/assets/d5e2dad5-a982-4f94-9a2f-b701bfdb5bf9" alt="goals-forward-comp" width="500"> 
 </p>
 
-**Win Percentage by Weather Condition** 
-- **Key Insight**: My team’s win percentage was lowest in sunny conditions and highest in brisk/rainy conditions.
 
-- **Possible Explanation**:
-     - The trend suggests that my team performs better in poor weather conditions. 
-     - Most KSL D2 matches were played in sunny weather, meaning the lower win rate may be more related to competition level rather than weather itself. 
-     - Poor weather may disrupt opponent playstyles more than ours, leading to higher success rates. 
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-comp" width="500"> 
-</p>
 
 **Goals Conceded by Weather Condition & Competition Level** 
 - **Key Insight**: The number of goals my team concedes in sunny conditions is highest in KSL D2 (4.14 per game), reinforcing that the competition level is the strongest factor in performance.
