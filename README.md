@@ -188,15 +188,16 @@ This section expands on key correlations by using visualizations to better under
 
 This section expands on key observations by using visualizations to better understand the relationship between external factors and match performance. The analysis is split into two main sections: Team Performance Analysis and Individual Performance Analysis.
 
-### Team Performance Analysis
+## Team Performance Analysis
 
-#### Win Percentage by Competition & Weather
+### 1. Win Percentage by Competition & Weather
 
 **Win Percentage by Competition Level** 
 
 **Key Insight**: My team's win percentage remained stable across most leagues (64-72%), but dropped significantly in KSL D2 (32%).
 
 **Possible Explanations**:
+
      - **Stronger Opposition**: KSL D2 features more competitive teams, making it harder to win matches.  
      - **Decline in Team Scoring Output**: The correlation matrix shows a **negative correlation between Goals Forward and Competition (-0.29)**, indicating that as competition level increases, the number of goals scored per game decreases. This suggests that tougher leagues limit offensive opportunities. 
      
@@ -205,9 +206,11 @@ This section expands on key observations by using visualizations to better under
 </p>
 
 **Win Percentage by Weather Condition** 
+
 **Key Insight**: My team’s win percentage was lowest in sunny conditions (37.5%) and highest in rainy conditions (68.2%). 
 
 **Possible Explanation**:
+
      - **Competition Overlaps with Weather**: Many KSL D2 matches took place in sunny conditions, which could indicate that competition level played a bigger role in performance than weather itself. 
      - **Opponent Playstyle Disruption**: Poor weather conditions may impact opponent playstyles more than ours, leading to higher success rates.  
 
@@ -217,6 +220,7 @@ This section expands on key observations by using visualizations to better under
 
 
 **Offensive & Defensive Performance by Competition**
+
 - **Key Insight**: My team's attacking output and defensive stability worsened in KSL D2. 
 
 - **Possible Explanation**:
