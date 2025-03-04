@@ -224,19 +224,32 @@ This section expands on key observations by using visualizations to better under
 
 **Key Insight**: My team conceded the most goals in sunny conditions (3.00 per game), while scoring output remained stable across all weather conditions. 
 
-**Possible Explanations**:
-     - **Defensive Instability in Sunny Conditions**: The increase in goals conceded in sunny conditions suggests that defensive struggles, rather than offensive inefficiencies, are the primary reason for lower win rates.  
-     - **Consistent Attacking Performance**: The consistency in goals forward across all weather conditions indicates that attacking performance was unaffected by weather, while defense was more vulnerable. 
+**Possible Explanations**: 
+
+- **Defensive Instability in Sunny Conditions**: The increase in goals conceded in sunny conditions suggests that defensive struggles, rather than offensive inefficiencies, are the primary reason for lower win rates.  
+- **Consistent Attacking Performance**: The consistency in goals forward across all weather conditions indicates that attacking performance was unaffected by weather, while defense was more vulnerable. 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/013fcb5e-9141-44e1-907c-17e028771c4d" alt="win%-comp" width="500">   <img src="https://github.com/user-attachments/assets/a5157b3b-2f32-4d71-b970-a265cbfae102" alt="win%-comp" width="500"> 
 </p>
 
+### 3. Goals Conceded by Weather Condition & Competition Level 
+
+**Key Insight**: The number of goals my team concedes in sunny conditions is highest in KSL D2 (4.14 per game), reinforcing that the competition level is the strongest factor in performance.
+
+**Possible Explanation**:
+
+- **Higher Goals Against in KSL D2**: Even in non-sunny conditions, KSL D2 consistently records some of the highest goals-against rates, accounting for three of the four highest goals conceded per game across and competition and weather combinations.
+- **Sunny Weather Coinciding with Difficult Matches**: While my team conceded more goals in sunny weather, it is likely due to stronger opponents rather than the weather itself.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="750"> 
+</p>
 
 
 
 
-
+# BREAK 
 
 
 **Offensive & Defensive Performance by Competition**
