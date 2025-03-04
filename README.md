@@ -181,17 +181,19 @@ The following columns were **not included** in the correlation matrix: **Date**,
      - When my team scores more, we don't necessarily concede fewer goals.
      - This may indicate that my team doesn't rely on defensive stability and shutting down the opponent to win games, but rather by outscoring the opponent.
  
-### Deeper Analysis with Visualizations
+## Deeper Analysis with Visualizations
 
-This section expands on key correlations by using visualizations to better understand the relationships between competition level, weather, and match outcomes. The graphs will help illustrate how these factors influence performance beyond the correlation values. 
+This section expands on key correlations by using visualizations to better understand the relationships between team performance and individual performance. The goal is to analyze what factors impact performance on both levels, identifying patterns that influence match outcomes (team success) and personal contributions (goals & assists).
 
-### Competition Level & Performance 
+### Team Performance Analysis
+
+This section focuses on how external factors impact overall team performance, including win percentage, goals forward, and goals against.
 
 **Win Percentage by Competition Level** 
 - **Key Insight**: My team's win percentage remained stable across most leagues (64-72%), but dropped significantly in KSL D2 (32%).
 
 - **Possible Explanation**:
-     - The competition level in KSL D2 is significantly higher than in any other competition, leading to tougher matches and fewer scoring opportunities.  
+     - The opposition in KSL D2 is significantly stronger than in any other competition, leading to tougher matches and fewer scoring opportunities.  
      - This aligns with the negative correlation that both **Goal Contributions and Goals Forward have with Competition**, confirming that tougher competitions resulted in fewer scoring opportunites for both the team and me.
 
 <p align="center">
@@ -199,37 +201,15 @@ This section expands on key correlations by using visualizations to better under
 </p>
 
 **Offensive & Defensive Performance by Competition**
-- **Key Insight**: My individual and team's attacking output, as well as my team's defensive stability, all worsened in KSL D2.
+- **Key Insight**: My team's attacking output and defensive stability worsened in KSL D2. 
 
 - **Possible Explanation**:
-     - The average goals forward and goal contributions in KSL D2 are by far the lowest out of all competitions, suggesting that stronger opponents make it harder to create scoring chances.
-     - The large increase in goals conceded in KSL D2 indicates that defensive stability is also challenged at a higher level. 
+     - The sharp decline in goals forward in KSL D2 indicates that stronger opponents make it harder to create scoring chances. 
+     - The large increase in goals against in KSL D2 indicates that defensive stability is also challenged at a higher level. 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cee5f7c0-1b29-4243-9894-1e57a9a19a1b" alt="win%-comp" width="500">   <img src="https://github.com/user-attachments/assets/d5e2dad5-a982-4f94-9a2f-b701bfdb5bf9" alt="win%-comp" width="500"> 
-  <img src="https://github.com/user-attachments/assets/979d5bdb-8a00-4481-a06c-6dba28e7fdb9" alt="win%-comp" width="500"> 
 </p>
-
-**Correlation vs. Causation**  
-The correlation suggests stronger opponents are more difficult to outscore, but other factors could also contribute, such as: 
-
-**1. Lack of Weekly Practices**
-- During the Fall league season, our team practices once a week, helping maintain fitness and tactical awareness.
-- During the Summer league season, there are no weekly practices, which may lead to rusty play and fatigue over time.
-
-**2. Missing Key Players** 
-- The Summer season overlaps with vacation time, resulting in frequent absences of key players throughout the season.
-- This disrupts team chemistry and forces adjustments to the lineup more often than in the Fall season.
-
-**3. Frequent Roster Changes and Player Tryouts**
-- The KSL summer league allows new players to register at any time during the season.
-- As a result, our team frequently brings in new players for tryouts, making it difficult to build chemistry with teammates.
-
-**4. Increased Game Intensity in KSL D2**
-- Stronger defenses in KSL D2 may allow fewer attacking chances.
-- The pace and physicality of the league make it harder to maintain possession and create goal-scoring opportunities.
-  
-### Weather & Match Results
 
 **Win Percentage by Weather Condition** 
 - **Key Insight**: My team’s win percentage was lowest in sunny conditions and highest in brisk/rainy conditions.
@@ -242,6 +222,25 @@ The correlation suggests stronger opponents are more difficult to outscore, but 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-comp" width="500"> 
 </p>
+
+**Goals Conceded by Weather Condition & Competition Level** 
+- **Key Insight**: The number of goals my team concedes in sunny conditions is highest in KSL D2 (4.14 per game), reinforcing that the competition level is the strongest factor in performance.
+
+- **Possible Explanation**:
+     - Even in non-sunny conditions, KSL D2 consistently records some of the highest goals-against rates, accounting for three of the four highest goals conceded per game across and competition and weather combinations.
+     - Sunny conditions in KSL D2 correlate with the most goals conceded, but this is likely due to stronger opposition rather than the weather itself.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="750"> 
+</p>
+
+
+
+
+
+### Weather & Match Results
+
+
 
 **Offensive & Defensive Performance by Weather Condition**
 - **Key Insight**: My team concedes the most goals in sunny conditions (3.00 per game), while attacking output remains stable across all weather conditions.
@@ -266,18 +265,8 @@ The correlation suggests stronger opponents are more difficult to outscore, but 
   <img src="https://github.com/user-attachments/assets/ba3cfafb-393b-4f2d-8fb2-8ebb74bc6bef" alt="win%-comp" width="500"> 
 </p>
 
-**Goals Conceded by Weather Condition & Competition Level** 
-- **Key Insight**: The number of goals my team concedes in sunny conditions is highest in KSL D2 (4.14 per game), reinforcing that the competition level is the strongest factor in performance.
 
-- **Possible Explanation**:
-     - Even in non-sunny conditions, KSL D2 consistently records some of the highest goals-against rates, accounting for three of the four highest goals conceded per game across and competition and weather combinations.
-     - Sunny conditions in KSL D2 correlate with the most goals conceded, but this is likely due to stronger opposition rather than the weather itself.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="750"> 
-</p>
-
-**Correlation vs. Causation** 
 
 
 
@@ -295,7 +284,24 @@ graph: win percentage in games I've scored or assisted in vs games I didn't scor
 
 
 
+**Correlation vs. Causation**  
+The correlation suggests stronger opponents are more difficult to outscore, but other factors could also contribute, such as: 
 
+**1. Lack of Weekly Practices**
+- During the Fall league season, our team practices once a week, helping maintain fitness and tactical awareness.
+- During the Summer league season, there are no weekly practices, which may lead to rusty play and fatigue over time.
+
+**2. Missing Key Players** 
+- The Summer season overlaps with vacation time, resulting in frequent absences of key players throughout the season.
+- This disrupts team chemistry and forces adjustments to the lineup more often than in the Fall season.
+
+**3. Frequent Roster Changes and Player Tryouts**
+- The KSL summer league allows new players to register at any time during the season.
+- As a result, our team frequently brings in new players for tryouts, making it difficult to build chemistry with teammates.
+
+**4. Increased Game Intensity in KSL D2**
+- Stronger defenses in KSL D2 may allow fewer attacking chances.
+- The pace and physicality of the league make it harder to maintain possession and create goal-scoring opportunities.
 
 
 
