@@ -64,7 +64,7 @@ To clean and prepare the data for analysis, I made the following transformations
      - **Rain**: Includes any conditions that mention "Rain".
      - **Cloudy**: Includes "Partially cloudy" conditions on cooler days (10°C <= Temperature <= 15°C) , and all "Overcast" conditions.
      - **Sunny**: Includes "Clear" and "Partially cloudy" conditions on warmer days (Temperature > 15°C).
-     - **Brisk**: Used for colder, clear days, including "Clear" conditions with Temperatuer < 15°C, and "Partially cloudy" conditions with Temperatuer < 10°C. 
+     - **Brisk**: Used for colder, clear days, including "Clear" conditions with Temperature < 15°C, and "Partially cloudy" conditions with Temperature < 10°C. 
 5. Converted the **Goals**, **Assists**, and **Goals+Assists** columns to **integer** data types.
 
 With these changes, our dataset is now organized, consistent, and ready for analysis.
