@@ -265,6 +265,20 @@ This section expands on key observations by using visualizations to better under
   <img src="https://github.com/user-attachments/assets/2f3b0edc-02ae-4cff-a228-6c94bc8ee571" alt="goal-cont-comp" width="500"> 
 </p>
 
+**Goal Contributions by Weather Condition**
+
+**Key Insights**: 
+
+- My average Goal Contributions per game are highest in brisk conditions (1.12) and lowest in cloudy condition (0.64).
+- Overall my Goal Contribution rate does 
+
+**Possible Explanations**:
+
+- 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c4ea86ea-0ca4-49bb-8ea2-e0f7704a8271" alt="goal-cont-weather" width="500"> 
+</p>
 
 
 
