@@ -205,7 +205,7 @@ This section expands on key observations by using visualizations to better under
   <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="500"> 
 </p>
 
-**Win Percentage by Weather Condition** 
+**Win Percentage & Weather Impact** 
 
 **Key Insight**: My team’s win percentage was lowest in sunny conditions (37.5%) and highest in rainy conditions (68.2%). 
 
