@@ -198,8 +198,8 @@ This section expands on key observations by using visualizations to better under
 
 **Possible Explanations**:
 
-     - **Stronger Opposition**: KSL D2 features more competitive teams, making it harder to win matches.  
-     - **Decline in Team Scoring Output**: The correlation matrix shows a **negative correlation between Goals Forward and Competition (-0.29)**, indicating that as competition level increases, the number of goals scored per game decreases. This suggests that tougher leagues limit offensive opportunities. 
+- **Stronger Opposition**: KSL D2 features more competitive teams, making it harder to win matches.  
+- **Decline in Team Scoring Output**: The correlation matrix shows a **negative correlation between Goals Forward and Competition (-0.29)**, indicating that as competition level increases, the number of goals scored per game decreases. This suggests that tougher leagues limit offensive opportunities. 
      
 <p align="center">
   <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="500"> 
@@ -211,8 +211,8 @@ This section expands on key observations by using visualizations to better under
 
 **Possible Explanation**:
 
-     - **Competition Overlaps with Weather**: Many KSL D2 matches took place in sunny conditions, which could indicate that competition level played a bigger role in performance than weather itself. 
-     - **Opponent Playstyle Disruption**: Poor weather conditions may impact opponent playstyles more than ours, leading to higher success rates.  
+- **Competition Overlaps with Weather**: Many KSL D2 matches took place in sunny conditions, which could indicate that competition level played a bigger role in performance than weather itself. 
+- **Opponent Playstyle Disruption**: Poor weather conditions may impact opponent playstyles more than ours, leading to higher success rates.  
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-weather" width="500"> 
