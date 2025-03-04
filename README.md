@@ -283,8 +283,13 @@ This section expands on key observations by using visualizations to better under
 
 
 
+That sounds good! Another things to note are my goal contributions in cloudy weather conditions. I played 28 games in cloudy conditions, in these 28 games:
+- I had 0 goal contributions in 17 games
 
+Plots:
 
+goal conributions by winning margin
+games scored in vs games not scored in
 
 
 
