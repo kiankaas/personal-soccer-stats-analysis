@@ -244,6 +244,37 @@ This section expands on key observations by using visualizations to better under
 
 
 
+## Individual Performance Analysis
+
+### 1. Win Percentage by Competition & Weather
+
+**Goal Contributions by Competition**
+
+**Key Insights**: 
+
+- My average Goal Contributions per game decline as competition level increases, dropping from 1.22 in Friendlies to 0.50 in KSL D2.
+- The sharpest drop is from BMSL D2 (1.07) to KSL D2 (0.50), showing how moving up divisions affects individual output.
+
+**Possible Explanations**:
+
+- **Stronger Defenses in KSL D2**: Higher-level teams allow fewer scoring opportunities.
+- **Fewer Scoring Chances Overall**: Team performance also declined in KSL D2, reducing my goal-scoring involvement.
+- **Competitive Matches**: The BMSL Cup also had fewer Goal Contributions per game (0.71), which makes sense as it includes knockout matches. 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2f3b0edc-02ae-4cff-a228-6c94bc8ee571" alt="goal-cont-comp" width="500"> 
+</p>
+
+
+
+
+
+
+
+
+
+
+
 
 # BREAK
 
@@ -329,47 +360,11 @@ This section expands on key observations by using visualizations to better under
 
 
 
-**Goals Conceded by Weather Condition & Competition Level** 
-- **Key Insight**: The number of goals my team concedes in sunny conditions is highest in KSL D2 (4.14 per game), reinforcing that the competition level is the strongest factor in performance.
-
-- **Possible Explanation**:
-     - Even in non-sunny conditions, KSL D2 consistently records some of the highest goals-against rates, accounting for three of the four highest goals conceded per game across and competition and weather combinations.
-     - Sunny conditions in KSL D2 correlate with the most goals conceded, but this is likely due to stronger opposition rather than the weather itself.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="750"> 
-</p>
-
-
-
-
-
-### Weather & Match Results
-
-
-
-
-
-
-**Win Percentage in KSL D2 by Weather Condition**
-- **Key Insight**: My team never won a match in KSL D2 under sunny conditions (7 games played, 7 loses).
-
-- **Possible Explanation**:
-     - KSL D2 performance was weakest in sunny conditions, suggesting that the competition level, not weather, is the primary factor affecting match results.
-     - The moderate win rates in rain and cloudy conditions indicate that while weather may play a role, it does not fully explain performance trends.
- 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/ba3cfafb-393b-4f2d-8fb2-8ebb74bc6bef" alt="win%-comp" width="500"> 
-</p>
-
-
 
 
 
 
 Create a project goal section at top (find what impacts my individual performance and team performance.
-
-Individual section? Team section? Or combine both?
 
 
 graph: win percentage in games I've scored or assisted in vs games I didn't score or assist in. 
