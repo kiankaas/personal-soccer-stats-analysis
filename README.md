@@ -205,6 +205,19 @@ This section expands on key observations by using visualizations to better under
   <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="500"> 
 </p>
 
+**Offensive & Defensive Performance by Competition**
+
+**Key Insight**: My team's attacking output (1.64 goals forward per game) and defensive stability (2.91 goals against per game) are at their worst in KSL D2. 
+
+**Possible Explanation**:
+     - **More Defensive Opponents**: Stronger defenses in KSL D2 limit scoring chances, contributing to the lowest Goals Forward per game. 
+     - **Tougher Opposition in Attack**: KSL D2 features stronger attacking teams, leading to the highest Goals Against per game.
+     - **Overall Competitive Challenge**: The combined effects of tougher defenses and stronger opposition in attack result in both a lower scoring output and higher goals conceded in KSL D2.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cee5f7c0-1b29-4243-9894-1e57a9a19a1b" alt="goals-against-comp" width="500">   <img src="https://github.com/user-attachments/assets/d5e2dad5-a982-4f94-9a2f-b701bfdb5bf9" alt="goals-forward-comp" width="500"> 
+</p>
+
 **Win Percentage & Weather Impact** 
 
 **Key Insight**: My team’s win percentage was lowest in sunny conditions (37.5%) and highest in rainy conditions (68.2%). 
@@ -215,7 +228,7 @@ This section expands on key observations by using visualizations to better under
 - **Opponent Playstyle Disruption**: Poor weather conditions may impact opponent playstyles more than ours, leading to higher success rates.  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-weather" width="500">  <img src="https://github.com/user-attachments/assets/ba3cfafb-393b-4f2d-8fb2-8ebb74bc6bef" alt="KSL-win%weather" width="500">
+<img src="https://github.com/user-attachments/assets/ba3cfafb-393b-4f2d-8fb2-8ebb74bc6bef" alt="KSL-win%weather" width="500"> <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-weather" width="500"> 
 </p>
 
 ### 2. Weather & Match Results
@@ -252,17 +265,7 @@ This section expands on key observations by using visualizations to better under
 # BREAK 
 
 
-**Offensive & Defensive Performance by Competition**
 
-- **Key Insight**: My team's attacking output and defensive stability worsened in KSL D2. 
-
-- **Possible Explanation**:
-     - The sharp decline in goals forward in KSL D2 indicates that stronger opponents make it harder to create scoring chances. 
-     - The large increase in goals against in KSL D2 indicates that defensive stability is also challenged at a higher level. 
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/cee5f7c0-1b29-4243-9894-1e57a9a19a1b" alt="goals-against-comp" width="500">   <img src="https://github.com/user-attachments/assets/d5e2dad5-a982-4f94-9a2f-b701bfdb5bf9" alt="goals-forward-comp" width="500"> 
-</p>
 
 
 
