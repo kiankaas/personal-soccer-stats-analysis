@@ -194,7 +194,7 @@ This section expands on key observations by using visualizations to better under
 
 **Win Percentage by Competition Level** 
 
-**Key Insight**: My team's win percentage remained stable across most leagues (64-72%), but dropped significantly in KSL D2 (32%).
+**Key Insight**: My team's win percentage remained stable across most competitions (64-72%), but dropped significantly in KSL D2 (32%).
 
 **Possible Explanations**:
 
@@ -209,14 +209,34 @@ This section expands on key observations by using visualizations to better under
 
 **Key Insight**: My team’s win percentage was lowest in sunny conditions (37.5%) and highest in rainy conditions (68.2%). 
 
-**Possible Explanation**:
+**Possible Explanations**:
 
 - **Competition Overlaps with Weather**: Many KSL D2 matches took place in sunny conditions, which could indicate that competition level played a bigger role in performance than weather itself. 
 - **Opponent Playstyle Disruption**: Poor weather conditions may impact opponent playstyles more than ours, leading to higher success rates.  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-weather" width="500"> 
+  <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-weather" width="500">  <img src="https://github.com/user-attachments/assets/ba3cfafb-393b-4f2d-8fb2-8ebb74bc6bef" alt="KSL-win%weather" width="500">
 </p>
+
+### 2. Weather & Match Results
+
+**Offensive & Defensive Performance by Weather Condition**
+
+**Key Insight**: My team conceded the most goals in sunny conditions (3.00 per game), while scoring output remained stable across all weather conditions. 
+
+**Possible Explanations**:
+     - **Defensive Instability in Sunny Conditions**: The increase in goals conceded in sunny conditions suggests that defensive struggles, rather than offensive inefficiencies, are the primary reason for lower win rates.  
+     - **Consistent Attacking Performance**: The consistency in goals forward across all weather conditions indicates that attacking performance was unaffected by weather, while defense was more vulnerable. 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/013fcb5e-9141-44e1-907c-17e028771c4d" alt="win%-comp" width="500">   <img src="https://github.com/user-attachments/assets/a5157b3b-2f32-4d71-b970-a265cbfae102" alt="win%-comp" width="500"> 
+</p>
+
+
+
+
+
+
 
 
 **Offensive & Defensive Performance by Competition**
@@ -252,16 +272,7 @@ This section expands on key observations by using visualizations to better under
 
 
 
-**Offensive & Defensive Performance by Weather Condition**
-- **Key Insight**: My team concedes the most goals in sunny conditions (3.00 per game), while attacking output remains stable across all weather conditions.
 
-- **Possible Explanation**:
-     - The higher goals conceded in sunny conditions suggests that defensive struggles, rather than offensive inefficiencies, are driving the drop in win percentage.
-     - The consistency in goals forward across weather conditions reinforces this, as my team still manages to create scoring opportunities in all conditions.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/013fcb5e-9141-44e1-907c-17e028771c4d" alt="win%-comp" width="500">   <img src="https://github.com/user-attachments/assets/a5157b3b-2f32-4d71-b970-a265cbfae102" alt="win%-comp" width="500"> 
-</p>
 
 
 **Win Percentage in KSL D2 by Weather Condition**
