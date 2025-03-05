@@ -273,15 +273,16 @@ This section expands on key observations by using visualizations to better under
 
 **Possible Explanation**:
 
-- **Competition Level**: Interestingly, the average competition level was very similar for all weather conditions, ranging from 3.39-3.72. This confirms that the competition level was not the main contributor for a lower Goal Contribution rate in Cloudy conditions.
+- **Competition Level**: Interestingly, the average competition level was very similar across weather conditions, ranging from 3.39 to 3.72. This suggests that competition was not the primary reason for lower goal contributions in Cloudy conditions.
 - 
 
 **Further Analysis on Cloudy Weather Performance**
 
-- Out of 28 games played in Cloudy conditions:
-     - 17 games (61%) resulted in 0 Goal Contributions.
-     - 5 games (18%) resulted in 1 Goal Contribution. 
-     - 6 games (21%) resulted in 2+ Goal Contributions.
+- Out of **28 games played in Cloudy conditions**:
+     - 17 games (**61%**) resulted in **0** Goal Contributions.
+     - 5 games (**18%**) resulted in **1** Goal Contribution. 
+     - 6 games (**21%**) resulted in **2+** Goal Contributions.
+- Cloudy weather led to the most extreme fluctuations in performance. While a small number of games (21%) resulted in high contributions (2+ G/A), the overwhelming majority (61%) ended with no goal contributions at all. This pattern suggests that Cloudy conditions were the most inconsistent and difficult to perform in.
 - **Drought**: During my first year at the club, I recorded a 9-game stretch without a goal contribution in cloudy conditions.
 - **Team impact**: Throughout this 9-game stretch, my team averaged 2.0 Goals Forward per game, which is slightly below the overall 2.5 Goals Foward per game in Cloudy conditions.
      - While this may have played a role, it doesn't fully explain my lack of goal contributions in cloudy conditions.
