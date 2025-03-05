@@ -269,12 +269,22 @@ This section expands on key observations by using visualizations to better under
 
 **Key Insights**: 
 
-- My average Goal Contributions per game are highest in brisk conditions (1.12) and lowest in cloudy condition (0.64).
-- Overall my Goal Contribution rate does 
+- My goal contributions remained fairly consistent across weather conditions, except for a significant drop in Cloudy conditions. 
 
-**Possible Explanations**:
+**Possible Explanation**:
 
+- **Competition Level**: Interestingly, the average competition level was very similar for all weather conditions, ranging from 3.39-3.72. This confirms that the competition level was not the main contributor for a lower Goal Contribution rate in Cloudy conditions.
 - 
+
+**Further Analysis on Cloudy Weather Performance**
+
+- Out of 28 games played in Cloudy conditions:
+     - 17 games (61%) resulted in 0 Goal Contributions.
+     - 5 games (18%) resulted in 1 Goal Contribution. 
+     - 6 games (21%) resulted in 2+ Goal Contributions.
+- **Drought**: During my first year at the club, I recorded a 9-game stretch without a goal contribution in cloudy conditions.
+- **Team impact**: Throughout this 9-game stretch, my team averaged 2.0 Goals Forward per game, which is slightly below the overall 2.5 Goals Foward per game in Cloudy conditions.
+     - While this may have played a role, it doesn't fully explain my lack of goal contributions in cloudy conditions.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c4ea86ea-0ca4-49bb-8ea2-e0f7704a8271" alt="goal-cont-weather" width="500"> 
