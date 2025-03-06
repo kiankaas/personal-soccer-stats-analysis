@@ -274,7 +274,7 @@ This section expands on key observations by using visualizations to better under
 **Possible Explanation**:
 
 - **Competition Level**: Interestingly, the average competition level was very similar across weather conditions, ranging from 3.39 to 3.72. This suggests that competition was not the primary reason for lower goal contributions in Cloudy conditions.
-- 
+- **Untracked Variables & Playstyle Factors**: The dataset does not include advanced statistics, such as possession or pass accuracy, which could have impacted game flow.
 
 **Further Analysis on Cloudy Weather Performance**
 
@@ -294,13 +294,7 @@ This section expands on key observations by using visualizations to better under
 
 
 
-That sounds good! Another things to note are my goal contributions in cloudy weather conditions. I played 28 games in cloudy conditions, in these 28 games:
-- I had 0 goal contributions in 17 games
 
-Plots:
-
-goal conributions by winning margin
-games scored in vs games not scored in
 
 
 
@@ -309,22 +303,13 @@ games scored in vs games not scored in
 
 # BREAK 
 
+Plots:
 
-
-
-
-
-
-
+goal conributions by winning margin
+games scored in vs games not scored in
 
 
 Create a project goal section at top (find what impacts my individual performance and team performance.
-
-
-
-
-
-
 
 
 
