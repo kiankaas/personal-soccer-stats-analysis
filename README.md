@@ -291,10 +291,21 @@ This section expands on key observations by using visualizations to better under
   <img src="https://github.com/user-attachments/assets/c4ea86ea-0ca4-49bb-8ea2-e0f7704a8271" alt="goal-cont-weather" width="500"> 
 </p>
 
+**Goal Impact on Match Outcomes**
 
+**Key Insights**: 
 
+- **Direct Goal Impact**: The team's win percentage significantly increases in matches where I score at least one goal (71.1%), compared to matches where I don't score (45.5%).
+- **Overall Contributions Impact**: Similarly, the team has a noticeably higher win percentage in matches where I contribute (score or assist) to at least one goal, (68.9%) compared to games where I don't contribute to any goals (43.2%).
 
+**Possible Explanation**:
 
+- **Direct Offensive Impact**: Matches where I directly contribute to scoring (through goals or assists) significantly increase our chances of winning, underscoring my importance to the team's offensive performance. 
+- **Contributions in Close Matches**: My goal contributions may frequently occur in close or competitive matches, where even a single goal or assist can decisively shift the result in our favor.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f51fb16f-2f06-4ff6-ab73-8a66e9ba40bf" alt="win%-goals" width="500">  <img src="https://github.com/user-attachments/assets/5f1eac06-8b8b-4708-8e70-daf2501f4f27" alt="win%-goal-cont" width="500"> 
+</p>
 
 
 
