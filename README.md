@@ -246,7 +246,7 @@ This section expands on key observations by using visualizations to better under
 
 ## Individual Performance Analysis
 
-### 1. Win Percentage by Competition & Weather
+### 1. Goal Contributions by Competition & Weather
 
 **Goal Contributions by Competition**
 
