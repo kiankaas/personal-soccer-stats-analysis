@@ -291,7 +291,7 @@ This section expands on key observations by using visualizations to better under
   <img src="https://github.com/user-attachments/assets/c4ea86ea-0ca4-49bb-8ea2-e0f7704a8271" alt="goal-cont-weather" width="500"> 
 </p>
 
-**Goal Impact on Match Outcomes**
+### 2. Individual Impact on Match Outcomes
 
 **Key Insights**: 
 
@@ -301,10 +301,10 @@ This section expands on key observations by using visualizations to better under
 **Possible Explanation**:
 
 - **Direct Offensive Impact**: Matches where I directly contribute to scoring (through goals or assists) significantly increase our chances of winning, underscoring my importance to the team's offensive performance. 
-- **Contributions in Close Matches**: My goal contributions may frequently occur in close or competitive matches, where even a single goal or assist can decisively shift the result in our favor.
+- **Contributions in Close Matches**: My goal contributions may frequently occur in close matches, where even a single goal or assist can decisively shift the result in our favor.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f51fb16f-2f06-4ff6-ab73-8a66e9ba40bf" alt="win%-goals" width="500">  <img src="https://github.com/user-attachments/assets/5f1eac06-8b8b-4708-8e70-daf2501f4f27" alt="win%-goal-cont" width="500"> 
+  <img src="https://github.com/user-attachments/assets/4b34fe7c-a36d-4745-a212-2b487eb786d8" alt="win%-goals" width="500">  <img src="https://github.com/user-attachments/assets/f9c01b53-dc9f-4587-b384-fa3ea81c7984" width="500"> 
 </p>
 
 
