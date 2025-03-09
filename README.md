@@ -124,6 +124,9 @@ Weather conditions were encoded to analyze performance trends in different envir
 ## Analysis
 **SQL Query**: [link]() <br/>
 
+**Note**: The **Correlation Matrix Analysis** and **Team Performance Analysis** focuses exclusively on matches in which I played.
+
+
 ### Correlation Matrix Analysis
 
 To gain deeper insights into performance trends and influencing factors, I generated a **correlation matrix** using Pearson correlation coefficients. This statistical method measures the strength and direction of the linear relationship between two variables, with values ranging from:
@@ -282,8 +285,8 @@ This section expands on key observations by using visualizations to better under
      - 17 games (**61%**) resulted in **0** Goal Contributions.
      - 5 games (**18%**) resulted in **1** Goal Contribution. 
      - 6 games (**21%**) resulted in **2+** Goal Contributions.
-- Cloudy weather led to the most extreme fluctuations in performance. While a small number of games (21%) resulted in high contributions (2+ G/A), the overwhelming majority (61%) ended with no goal contributions at all. This pattern suggests that Cloudy conditions were the most inconsistent and difficult to perform in.
-- **Drought**: During my first year at the club, I recorded a 9-game stretch without a goal contribution in cloudy conditions.
+- **Cloudy weather led to the most extreme fluctuations in performance**. While a small number of games (21%) resulted in high contributions (2+ G/A), the overwhelming majority (61%) ended with no goal contributions at all. This pattern suggests that Cloudy conditions were the most inconsistent and difficult to perform in.
+- **Drought**: During my first year at the club, I recorded a 9-game stretch without a goal contribution in Cloudy conditions.
 - **Team impact**: Throughout this 9-game stretch, my team averaged 2.0 Goals Forward per game, which is slightly below the overall 2.5 Goals Foward per game in Cloudy conditions.
      - While this may have played a role, it doesn't fully explain my lack of goal contributions in cloudy conditions.
 
@@ -298,7 +301,7 @@ This section expands on key observations by using visualizations to better under
 - **Direct Goal Impact**: The team's win percentage significantly increases in matches where I score at least one goal (71.1%), compared to matches where I don't score (45.5%).
 - **Overall Contributions Impact**: Similarly, the team has a noticeably higher win percentage in matches where I contribute (score or assist) to at least one goal, (68.9%) compared to games where I don't contribute to any goals (43.2%).
 
-**Possible Explanation**:
+**Possible Explanations**:
 
 - **Direct Offensive Impact**: Matches where I directly contribute to scoring (through goals or assists) significantly increase our chances of winning, underscoring my importance to the team's offensive performance. 
 - **Contributions in Close Matches**: My goal contributions may frequently occur in close matches, where even a single goal or assist can decisively shift the result in our favor.
@@ -306,6 +309,24 @@ This section expands on key observations by using visualizations to better under
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4b34fe7c-a36d-4745-a212-2b487eb786d8" alt="win%-goals" width="500">  <img src="https://github.com/user-attachments/assets/f9c01b53-dc9f-4587-b384-fa3ea81c7984" width="500"> 
 </p>
+
+### 3. Team Performance in Games I Played vs. Did Not Play 
+
+**Key Insights**: 
+
+- My team’s win percentage significantly improves when I play (57.3%) compared to when I do not (30.4%).
+- The team scores notably more goals per game when I play (2.52 goals) versus games I miss (1.57 goals).
+
+**Possible Explanations**:
+
+- **Offensive Contribution**: My on-field presence directly boosts team offensive output, evident from the higher average Goals Forward per game.
+- **Team Confidence & Chemistry**: As the team's first-choice striker and leading scorer since joining, my presence likely boosts team confidence, motivation, and overall effectiveness, leading to improved outcomes when I participate..
+- **Competition Level**: It's important to note that the average competition level for games I missed (4.39) was significantly higher than for games I played (3.51). This likely contributed to the lower win percentage and scoring output when I was absent.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/92975a10-e118-4131-a9d0-a2e51d6b4656" alt="win%-played-DNP" width="500">  <img src="https://github.com/user-attachments/assets/f8023b82-2507-43db-aae0-3cf354efc920" alt="goals-forward-played-DNP" width="500"> 
+</p>
+
 
 
 
@@ -315,10 +336,7 @@ This section expands on key observations by using visualizations to better under
 # BREAK 
 
 Plots:
-
 goal conributions by winning margin
-games scored in vs games not scored in
-
 
 Create a project goal section at top (find what impacts my individual performance and team performance.
 
