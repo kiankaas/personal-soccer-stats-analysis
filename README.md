@@ -279,6 +279,10 @@ This section expands on key observations by using visualizations to better under
 - **Competition Level**: Interestingly, the average competition level was very similar across weather conditions, ranging from 3.39 to 3.72. This suggests that competition was not the primary reason for lower goal contributions in Cloudy conditions.
 - **Untracked Variables & Playstyle Factors**: The dataset does not include advanced statistics, such as possession or pass accuracy, which could have impacted game flow.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c4ea86ea-0ca4-49bb-8ea2-e0f7704a8271" alt="goal-cont-weather" width="500"> 
+</p>
+
 **Further Analysis on Cloudy Weather Performance**
 
 - Out of **28 games played in Cloudy conditions**:
@@ -289,10 +293,6 @@ This section expands on key observations by using visualizations to better under
 - **Drought**: During my first year at the club, I recorded a 9-game stretch without a goal contribution in Cloudy conditions.
 - **Team impact**: Throughout this 9-game stretch, my team averaged 2.0 Goals Forward per game, which is slightly below the overall 2.5 Goals Foward per game in Cloudy conditions.
      - While this may have played a role, it doesn't fully explain my lack of goal contributions in cloudy conditions.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/c4ea86ea-0ca4-49bb-8ea2-e0f7704a8271" alt="goal-cont-weather" width="500"> 
-</p>
 
 ### 2. Individual Impact on Match Outcomes
 
@@ -307,7 +307,7 @@ This section expands on key observations by using visualizations to better under
 - **Contributions in Close Matches**: My goal contributions may frequently occur in close matches, where even a single goal or assist can decisively shift the result in our favor.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6b9f0784-8e3b-4fdf-aff3-e15a7a277179" alt="win%with-goal" width="500">  <img src="https://github.com/user-attachments/assets/6a6a2728-687e-4da5-b784-6bfeef5d0c4b" alt="win%-with-goal-cont" width="500"> 
+  <img src="https://github.com/user-attachments/assets/c9b88fed-daa8-4bba-a3f5-c55730d33be4" alt="win%with-goal" width="500">  <img src="https://github.com/user-attachments/assets/f836d7b3-52c6-46cf-8301-0bc5709204e2" alt="win%-with-goal-cont" width="500"> 
 </p>
 
 ### 3. Team Performance in Games I Played vs. Did Not Play 
