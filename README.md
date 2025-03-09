@@ -307,7 +307,7 @@ This section expands on key observations by using visualizations to better under
 - **Contributions in Close Matches**: My goal contributions may frequently occur in close matches, where even a single goal or assist can decisively shift the result in our favor.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c9b88fed-daa8-4bba-a3f5-c55730d33be4" alt="win%with-goal" width="500">  <img src="https://github.com/user-attachments/assets/f836d7b3-52c6-46cf-8301-0bc5709204e2" alt="win%-with-goal-cont" width="500"> 
+  <img src="https://github.com/user-attachments/assets/6d2f518d-0b10-450c-85ac-ecbdd63c3314" alt="win%with-goal" width="500">  <img src="https://github.com/user-attachments/assets/43b875a2-1422-4c26-9f22-911bbc9540b2" alt="win%-with-goal-cont" width="500"> 
 </p>
 
 ### 3. Team Performance in Games I Played vs. Did Not Play 
