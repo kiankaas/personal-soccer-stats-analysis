@@ -332,6 +332,11 @@ This section expands on key observations by using visualizations to better under
 
 
 
+**Possible Explanations**:
+- **Open Play in High-Margin Games**: Matches with wider margins often become more open, leading to more scoring opportunities and increased contributions.
+     - Once a team goes behind by a few goals, it can be difficult to get back in the game, thus their performance declines as the goal margin increases.
+
+
 
 
 
