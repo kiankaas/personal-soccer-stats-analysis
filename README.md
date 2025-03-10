@@ -333,7 +333,8 @@ This section expands on key observations by using visualizations to better under
 
 **Key Insights:**
 
-- My average goal contributions per game increase significantly as the margin of victory or defeat increases. 
+- My average goal contributions per game increase significantly as the margin of victory or defeat increases.
+- My contributions notably decrease in tightly contested matches (draws or 1-goal games). 
 
 **Possible Explanations**:
 
