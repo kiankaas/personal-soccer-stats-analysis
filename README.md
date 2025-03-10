@@ -329,13 +329,22 @@ This section expands on key observations by using visualizations to better under
   <img src="https://github.com/user-attachments/assets/92975a10-e118-4131-a9d0-a2e51d6b4656" alt="win%-played-DNP" width="500">  <img src="https://github.com/user-attachments/assets/f8023b82-2507-43db-aae0-3cf354efc920" alt="goals-forward-played-DNP" width="500"> 
 </p>
 
+### 4. Goal Contributions by Match Result Margin
 
+**Key Insights:**
 
+- My average goal contributions per game increase significantly as the margin of victory or defeat increases. 
 
 **Possible Explanations**:
+
 - **Open Play in High-Margin Games**: Matches with wider margins often become more open, leading to more scoring opportunities and increased contributions.
      - Once a team goes behind by a few goals, it can be difficult to get back in the game, thus their performance declines as the goal margin increases.
+ 
+- **Team Tactical Approach**: In tight matches, our team may adopt a more cautious strategy, affecting offensive output and limiting goal-scoring chances.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dde0221f-e18a-4587-a64a-97dacd4c0eec" alt="Goal-cont-margin" width="500">  <
+</p>!
 
 
 
