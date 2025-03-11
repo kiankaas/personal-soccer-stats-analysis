@@ -315,11 +315,21 @@ This section expands on key observations by using visualizations to better under
 
 **Possible Explanations**:
 
-- hello
+- **Momentum and Confidence**: Players often perform best when they are "in form." My tendency to extend streaks after ending a drought suggests that confidence and momentum may drive my performance.
+- **Consistensy**: The fact that most droughts are brief (1-2 games) suggests that I maintain strong attacking involvement consistently throughout the season.
+- **Longer Droughts**: My 8-game drought may have been influenced by various factors such as stronger opposition and lack of fitness, as it is a clear outlier.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1238fd48-ca8b-403e-969b-b5bd258fe9ff" alt="streaks" width="500">  <img src="https://github.com/user-attachments/assets/fb303ea7-1186-4fda-aed5-6b5fbd057393" alt="droughts" width="500">  
 </p>
+
+**Further Analysis on the 8-game Drought**: 
+
+- The average competition score was 4.25 (1 game in BMSL Cup, 1 Friendly game, and 6 games in KSL D2).
+- In between the 8-game drought, I went on two trips and as a result missed 3 games. I was likely unable to maintain my fitness throughout these trips.
+     - I went to Mexico for 10 days and missed two games.
+     - I went to Montreal for a week and missed one game.
+ - In the games following my trips, I likely played a reduced number of minutes due to lack of fitness and rust. 
 
 
 # BREAK 
