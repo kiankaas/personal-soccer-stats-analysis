@@ -293,18 +293,27 @@ This section expands on key observations by using visualizations to better under
 **Key Insights**:
 
 - I have been directly involved in 35.4% of my team's total goals.
-     - I score roughly 1 in every 4 goals that my team scores.
+     - I account for over one-quarter of my team's goals.
      - I contribute to roughly 1 in every 3 goals that my team scores. 
 
 **Possible Explanations**:
 
-- **Position & Role**: As the team's first-choice striker, my role is to play in the most advanced position on the field, closest to the opponent's goal. Strikers are typically the team's main goal-scoring threat, often positioned to finish attacking plays. My goal tally reflects this role, as I'm frequently in position to convert scoring chances. 
-- **Well-Distributed Team Scoring**: As nearly two-thirds of the team's goals are scored without my involvement, it is evident that my team has a well-distributed attacking system.
+- **Position & Role**: As the team's first-choice striker, my role is to play in the most advanced position on the field, closest to the opponent's goal. Strikers are often the primary goal-scoring threat, positioned to finish attacking plays. My goal tally reflects this role, as I'm frequently in position to convert scoring chances. 
+- **Well-Distributed Team Scoring**: With nearly two-thirds of the team’s goals scored without my involvement, it is evident that my team has a well-distributed attacking system.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/8d4c1f1b-1b7c-49db-9b50-00eca9c0631a" alt="Share-of-team-goals" width="500">  
 </p>
 
+### 6. Consecutive Games with a Goal Contribution
+
+**Key Insights**:
+
+- sds
+
+**Possible Explanations**:
+
+- hello
 
 
 # BREAK 
