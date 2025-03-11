@@ -7,10 +7,10 @@ My team competes in two leagues each year: the Burnaby Mens Soccer League (BMSL)
 
 ## Purpose 
 
-The primary purpose of this project is to analyze my personal soccer performance as well as my team's performance over my first three years with my team . By examining key metrics such as goals, assists, and match outcomes, this project aims to:
-- Identify trends in my individual goal-scoring and contribution patterns.
-- Evaluate my team's overall attacking performance and goal distribution.
-- Investigate factors such as weather conditions, competition level, and playing streaks to understand their impact on performance.
+The primary purpose of this project is to analyze both my personal soccer performance and my team's performance over my first three years with the club. By examining key metrics such as goals, assists, and match outcomes, this project aims to: 
+- **Identify trends in my individual goal-scoring and contribution patterns** to assess how my performance has evolved over time.
+- **Evaluate my team's overall attacking performance and goal distribution** to understand how our offensive and defensive output has varied across seasons.
+- **Investigate factors such as weather conditions and competition level** to uncover potential influences on performance and consistency.
 
 ## The Data 
 **Raw Data**: [raw_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/raw_stats.csv) <br/>
@@ -424,5 +424,5 @@ The correlation suggests stronger opponents are more difficult to outscore, but 
 
 
 
-
+ADD A LIMITATIONS SECTION!!!!!!!!!
 
