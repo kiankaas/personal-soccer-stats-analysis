@@ -286,9 +286,21 @@ This section expands on key observations by using visualizations to better under
  
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9ddce449-e260-4342-8dde-41838ae386b3" alt="Goal-cont-margin" width="500">  
-</p>!
+</p>
 
+### 5. Share of Total Team Goals
 
+**Key Insights**:
+
+- I contribute to
+
+**Possible Explanations**:
+
+- I am goated
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8d4c1f1b-1b7c-49db-9b50-00eca9c0631a" alt="Share-of-team-goals" width="500">  
+</p>
 
 
 
