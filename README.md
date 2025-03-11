@@ -5,9 +5,18 @@ HAVE TO REUPLOAD CLEANED_STATS.CSV and RAWSTATS
 ## Background
 My team competes in two leagues each year: the Burnaby Mens Soccer League (BMSL) during the Fall, and the Knight Soccer League (KSL) during the Summer. The Fall season runs from September-March, and the Summer season runs from April-August. Both leagues are divided into skill-based divisions, with Division 1 (D1) being the highest level of competition, followed by Division 2 (D2) and Division 3 (D3) respectively. In addition to the regular league matches, friendly games are also arranged throughout the year, typically between seasons. The BMSL also hosts a tournament-style cup every season, adding an extra competitive edge to the year. Although I only track basic stats, as I don't have access to my own advanced data/statistics, this project allows me to apply data analysis techniques to explore my performance across different seasons and leagues, even with a smaller dataset.
 
+## Purpose 
+
+The primary purpose of this project is to analyze my personal soccer performance as well as my team's performance over my first three years with my team . By examining key metrics such as goals, assists, and match outcomes, this project aims to:
+- Identify trends in my individual goal-scoring and contribution patterns.
+- Evaluate my team's overall attacking performance and goal distribution.
+- Investigate factors such as weather conditions, competition level, and playing streaks to understand their impact on performance.
+
 ## The Data 
 **Raw Data**: [raw_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/raw_stats.csv) <br/>
-CHANGE TRACKING 
+
+Since no official tracking system was available for my amateur soccer league, I decided to take matters into my own hands. I began manually tracking my performance using Google Sheets, recording key statistics from every game my team played. This included goals scored, match outcomes, leagues and more. While this method required additional effort, it allowed me to gain valuable insights into my performance and identify trends that may have otherwise gone unnoticed.
+
 
 I've been manually tracking my soccer stats in a Google Sheets file. This file contains a comprehensive record of every game my team has played, spanning 105 records across 9 columns. Each record represents a game, capturing key statistics like goals, assists, and match outcomes, among other details as shown below:
 
@@ -336,15 +345,6 @@ While my performances in Cloudy conditions show significant fluctuations, the un
 
 **Conclusion**: 
 The combination of tougher competition, interrupted fitness, and reduced playing time created challenging conditions that contributed to this extended drought. Given these circumstances, this drought appears to be an outlier rather than a reflection of my typical performance.
-
-
-
-
-# BREAK 
-
-
-Create a project goal section at top (find what impacts my individual performance and team performance.
-
 
 ### Correlation Matrix Analysis
 
