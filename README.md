@@ -309,27 +309,32 @@ This section expands on key observations by using visualizations to better under
 
 **Key Insights**:
 
-- I have experienced multiple streaks of consecutive games with a goal contribution, with most streaks lasting 2-3 games and some 4-5 games. 
+- I have experienced multiple streaks of consecutive games with a goal contribution, with most streaks lasting 2-3 games and some extending to 4-5 games.
 - When I snap a goal contribution drought, I am highly likely to continue contributing in the following game(s).
-- While I once went 8 consecutive games without a goal contribution, I tend to contribute very consistently throughout each season, as the mojority of my droughts are limited to 1-2 games. 
+- While I once went 8 consecutive games without a goal contribution, this appears to be an outlier, as most of my droughts are limited to 1-2 games, highlighting my consistency across seasons.
 
 **Possible Explanations**:
 
 - **Momentum and Confidence**: Players often perform best when they are "in form." My tendency to extend streaks after ending a drought suggests that confidence and momentum may drive my performance.
-- **Consistensy**: The fact that most droughts are brief (1-2 games) suggests that I maintain strong attacking involvement consistently throughout the season.
-- **Longer Droughts**: My 8-game drought may have been influenced by various factors such as stronger opposition and lack of fitness, as it is a clear outlier.
+- **Recovery**: The fact that most droughts are brief (1-2 games) suggests that even when I fail to register a goal contribution, I remain actively involved in attacking and putting myself in scoring positions.
+- **Longer Droughts**: My 8-game drought may have been influenced by various factors such as stronger opposition or fitness struggles — standing out as a rare anomaly in an otherwise consistent record.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1238fd48-ca8b-403e-969b-b5bd258fe9ff" alt="streaks" width="500">  <img src="https://github.com/user-attachments/assets/fb303ea7-1186-4fda-aed5-6b5fbd057393" alt="droughts" width="500">  
+  <img src="https://github.com/user-attachments/assets/1238fd48-ca8b-403e-969b-b5bd258fe9ff" alt="streaks" width="500">  <img src="https://github.com/user-attachments/assets/c3040e93-44f0-4188-9542-3273c09f508b" alt="droughts" width="500">  
 </p>
 
 **Further Analysis on the 8-game Drought**: 
 
-- The average competition score was 4.25 (1 game in BMSL Cup, 1 Friendly game, and 6 games in KSL D2).
-- In between the 8-game drought, I went on two trips and as a result missed 3 games. I was likely unable to maintain my fitness throughout these trips.
-     - I went to Mexico for 10 days and missed two games.
-     - I went to Montreal for a week and missed one game.
- - In the games following my trips, I likely played a reduced number of minutes due to lack of fitness and rust. 
+- **Challenging Competition**: The average competition score during this stretch was 4.25 (1 game in BMSL Cup, 1 Friendly game, and 6 games in KSL D2). 
+- **Disrupted Fitness and Form**: During this period, I took two separate trips that disrupted my playing rhythm and fitness:
+     - A 10-day trip to Mexico where I missed 2 games.
+     - A 1-week trip to Montreal where I missed 1 game.
+- **Reduced Playing Time**: After returning from these trips, I likely played reduced minutes in the following matches due to a combination of fitness concerns and rust, further limiting my impact on the field.
+
+**Conclusion**: 
+The combination of tougher competition, interrupted fitness, and reduced playing time created challenging conditions that contributed to this extended drought. Given these circumstances, this drought appears to be an outlier rather than a reflection of my typical performance.
+
+
 
 
 # BREAK 
