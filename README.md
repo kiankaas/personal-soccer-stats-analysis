@@ -254,6 +254,9 @@ This section expands on key observations by using visualizations to better under
 - **Drought**: During my first year at the club, I recorded a 9-game stretch without a goal contribution in Cloudy conditions.
 - **Team impact**: Throughout this 9-game stretch, my team averaged 2.0 Goals Forward per game, which is slightly below the overall 2.5 Goals Foward per game in Cloudy conditions.
      - While this may have played a role, it doesn't fully explain my lack of goal contributions in cloudy conditions.
+ 
+**Conclusion**: 
+While my performances in Cloudy conditions show significant fluctuations, the underlying cause remains unclear based on the available data. Factors such as team performance, game flow, or untracked variables may have contributed to this inconsistency. Without additional data, it is difficult to pinpoint a definitive explanation for this trend.
 
 ### 3. Individual Impact on Match Outcomes
 
@@ -339,11 +342,6 @@ The combination of tougher competition, interrupted fitness, and reduced playing
 
 # BREAK 
 
-Possible next sections:
-- Streaks: consectutive games with a goal contribtion
-- My goals vs Team goals: contribution share
-- Goals by match outcome
-- 
 
 Create a project goal section at top (find what impacts my individual performance and team performance.
 
