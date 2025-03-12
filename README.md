@@ -32,17 +32,17 @@ This dataset captures performance data from every game my team has played since 
 
 The dataset contains **105 records** across **9 key variables**, with each record representing one match. The dataset structure is shown below:
 
-| Variable   | Data Type | Description |
-|-------------|-------------|--------------|
-| Opponent | string | The name of the opposing team in the match | 
-| Goals      | string| Number of goals I scored during the match  |
-| Assists      | string      | Number of assists I made during the match | 
-| Goals_Forward      | integer      | Number of goals my team scored during the match |
-| Goals_Against      | integer      | Number of goals my team conceded during the match |
-| Match_Result      | string      | The outcome of the match - indicating a win, loss, or draw| 
-| Season      | string      | The soccer season in which the match was played in|
-| Competition      | string      | The competition in which the match was part of |
-| Date      | date      | The date the match took place |
+| Variable   | Data Type | Description | Example Value |
+|-------------|-------------|--------------|--------------|
+| Opponent | string | The name of the opposing team in the match | Hastings FC |
+| Goals      | string| Number of goals I scored during the match  | 2 |
+| Assists      | string      | Number of assists I made during the match | 1 |
+| Goals_Forward      | integer      | Number of goals my team scored during the match | 3 |
+| Goals_Against      | integer      | Number of goals my team conceded during the match | 1 |
+| Match_Result      | string      | The outcome of the match - indicating a win, loss, or draw| W |
+| Season      | string      | The soccer season in which the match was played in| Fall 23/24 |
+| Competition      | string      | The competition in which the match was part of | BMSL D2 |
+| Date      | date      | The date the match took place | 2023-10-15 |
 
 ### Enhancing the Data - Historical Weather APIs
 To gain deeper insights into factors influencing match outcomes and performance, I expanded my dataset by incorporating **Weather** and **Temperature** data. These additions allowed me to analyze how environmental conditions may have impacted match performances and outcomes.
@@ -54,9 +54,9 @@ The following columns were added to the dataset:
 | Weather | string | The weather conditions during the match | Clear |
 | Temperature      | integer| The temperature in degrees Celsius during the match  | 15 | 
 
-The weather data was retrieved using the [**Visual Crossing API**](https://www.visualcrossing.com/), which allowed me to match historical weather conditions and temperatures to each game based on the **Date** column in the dataset. Since I didn’t have specific timestamps for when each game occurred, and my team's matches are typically played in the evening, I chose to retrieve weather data for 6:00 PM on each game day to reflect match conditions as accurately as possible.
+The weather data was retrieved using the [**Visual Crossing API**](https://www.visualcrossing.com/), which allowed me to match historical weather conditions and temperatures to each game based on the **Date** column. Since I don’t have specific timestamps for when each game occurred, and my team's matches are typically played in the evening, I chose to retrieve weather data for 6:00 PM on each game day to reflect match conditions as accurately as possible.
 
-I wrote a [Python script](https://github.com/kiankaas/my-soccer-stats/blob/main/GetWeather.py) to automate the process of querying the API for weather conditions and temperature at 6:00 PM on the day of each match. The script then updated the dataset with the retrieved weather information, ensuring that both the **Weather** and **Temperature** columns were accurately populated for each record.
+I wrote a [Python script](https://github.com/kiankaas/my-soccer-stats/blob/main/GetWeather.py) to automate the data retrieval process. The script efficiently queried the API for weather conditions and temperature, updating my dataset to ensure each record contained accurate environmental details. 
 
 With this enhancement, my dataset now captures both on-field performance and external conditions, providing valuable context for deeper analysis.
 
