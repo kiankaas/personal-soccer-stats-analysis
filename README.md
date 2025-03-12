@@ -11,7 +11,8 @@ I didn’t initially start tracking my stats to identify areas for improvement. 
 Without access to official data in my amateur leagues, I manually recorded key metrics such as goals, assists, and match outcomes to gain insights into both my individual performance and my team’s attacking output. This project combines my love for soccer with my interest in data analysis, allowing me to explore trends, patterns, and areas for growth.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a170e12e-86f2-41f7-b462-3e5dc9239be7" alt="action-shot" width="600">  
+  <img src="https://github.com/user-attachments/assets/a170e12e-86f2-41f7-b462-3e5dc9239be7" alt="action-shot" width="500">  
+  
   Me with the ball during a league game in Burnaby.  
 </p>
 
