@@ -13,7 +13,7 @@ Without access to official data in my amateur leagues, I manually recorded key m
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a170e12e-86f2-41f7-b462-3e5dc9239be7" alt="action-shot" width="500">  
   
-  <Me with the ball during a league game in Burnaby.>
+  Me with the ball during a league game in Burnaby. 
   
 </p>
 
