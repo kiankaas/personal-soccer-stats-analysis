@@ -92,7 +92,22 @@ To clean and prepare the data for analysis, I made the following transformations
      - **Sunny**: Includes "Clear" and "Partially cloudy" conditions on warmer days (Temperature > 15°C).
      - **Brisk**: Used for colder, clear days, including "Clear" conditions with Temperature < 15°C, and "Partially cloudy" conditions with Temperature < 10°C. 
 4. Converted the **Goals** and **Assists** columns to **integer** data types.
-5. Created a **Goal_Contributions** column, which is a sum of **Goals** and **Assists**. 
+5. Created a **Goal_Contributions** column, which is a sum of **Goals** and **Assists**.
+6. Mapped Competition_Level to numerical values for analysis purposes, with higher values indicating tougher competition:
+- KSL D2 --> 5 (
+- BMSL D2 --> 4
+- BMSL Cup --> 3
+- BMSL D3 --> 2
+- Friendly --> 1 Least competitive (exhibition matches)
+
+7.  Mapped Competition_Level to numerical values for analysis purposes, with higher values indicating tougher competition:
+| Competition   | Encoded Value | Description | 
+|-------------|-------------|--------------|
+| Friendly | 1 | Least competitive (exhibition matches) |
+| BMSL D3      | 2| Division 3, lowest league division  |
+| BMSL Cup      | 3      | Knockout tournament with mixed opponent strength | 
+| BMSL D2      | 4      | Division 2, higher level of competition |
+| KSL D2      | 5      | Most competitive league (summer league with stronger teams) |
 
 With these changes, our dataset is now organized, consistent, and ready for analysis.
 
