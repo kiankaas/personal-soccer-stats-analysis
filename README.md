@@ -43,7 +43,9 @@ The dataset contains **105 records** across **9 key variables**, with each recor
 
 ### League & Competition Details
 
-My team competes in two leagues each year: the **Burnaby Men's Soccer League (BMSL)** during the Fall and the **Knight Soccer League (KSL)** during the Summer. The Fall season runs from September to March, while the Summer season runs from April to August.
+My team competes in two leagues each year: the **Burnaby Men's Soccer League (BMSL)** during the Fall and the **Knight Soccer League (KSL)** during the Summer. The Fall season runs from September to March, while the Summer season runs from April to August
+
+My team competes in two leagues each year: the **Burnaby Men's Soccer League (BMSL)** in the Fall (September to March) and the **Knight Soccer League (KSL)** in the Summer (April to August). Both leagues are divided into three skill-based divisions: **Division 1 (D1)** for top competition, **Division 2 (D2)** for intermediate competition, and **Division 3 (D3)** as the least competitive division.
 
 Both leagues are divided into skill-based divisions:
 - **Division 1** (D1) — The highest level of competition.
