@@ -72,11 +72,9 @@ The following columns were added to the dataset:
 | Weather | string | The weather conditions during the match | Clear |
 | Temperature      | integer| The temperature in degrees Celsius during the match  | 15 | 
 
-The weather data was retrieved using the [**Visual Crossing API**](https://www.visualcrossing.com/), which allowed me to match historical weather conditions and temperatures to each game based on the **Date** column. Since I don’t have specific timestamps for when each game occurred, and my team's matches are typically played in the evening, I chose to retrieve weather data for 6:00 PM on each game day to reflect match conditions as accurately as possible.
+The weather data was retrieved using the [**Visual Crossing API**](https://www.visualcrossing.com/), which allowed me to match historical weather conditions and temperatures to each game based on the **Date** column. Since I don’t have specific timestamps for when each game occurred, and my team's matches are typically played in the evening, I chose to retrieve weather data for **6:00 PM** on each game day to reflect match conditions as accurately as possible.
 
-I wrote a [Python script](https://github.com/kiankaas/my-soccer-stats/blob/main/GetWeather.py) to automate the data retrieval process. The script efficiently queried the API for weather conditions and temperature, updating my dataset to ensure each record contained accurate environmental details. 
-
-With this enhancement, my dataset now captures both on-field performance and external conditions, providing valuable context for deeper analysis.
+I wrote a [Python script](https://github.com/kiankaas/my-soccer-stats/blob/main/GetWeather.py) to automate the data retrieval process. The script efficiently queried the API for weather conditions and temperature, updating my dataset to ensure each record contained accurate environmental details. With this enhancement, my dataset now captures both on-field performance and external conditions, providing valuable context for deeper analysis.
 
 ### Data Exploration
 **SQL Query**: [Data Exploration](https://github.com/kiankaas/my-soccer-stats/blob/main/01-data-exploration.sql) <br/>
@@ -85,8 +83,8 @@ Before diving into the analysis, it is essential to prepare the dataset by explo
 After running some initial queries, here are my key observations:
 
 1. There are **5** possible outcomes for **Match_Result**: D (draw), L (loss), W (win), PKL (loss via penalty shoot-out), and PKW (win via penalty shoot-out).
-2. I've played in **3 Fall seasons** and **3 Summer seasons**: Fall 21/22, 22/23, 23/24 and Sum 22, 23, 24.
-3. I've participated in **5 competitions**: BMSL D3, BMSL D2, BMSL Cup, KSL D2, and Friendlies.
+2. The dataset includes **3 Fall seasons** and **3 Summer seasons**: Fall 21/22, 22/23, 23/24 and Sum 22, 23, 24.
+3. Matches were played in the following **5 competitions**: BMSL D3, BMSL D2, BMSL Cup, KSL D2, and Friendlies.
 4. The **Min** and **Max** values for **Goals_Forward** and **Goals_Against** are 0, 9, 0, and 7 respectively. No errors here.
 5. Both the **Goals** and **Assists** columns are stored as string data types because games I didn't play in are marked as 'DNP' (Did Not Play). NULL values in these columns indicate 0 goals/assists in the game.
 6. My team has faced a total of 47 different **opponents**. All opponents are named consistently.
@@ -102,14 +100,14 @@ After running some initial queries, here are my key observations:
 To clean and prepare the data for analysis, I made the following transformations:
 
 1. Removed records for games I **did not play**.
-2. Added a "**Month**" column to facilitate monthly trend analysis.
-3. Replaced all **NULL** values with 0.
-4. Grouped **Weather** conditions into 4 categories for simplicity:
+2. Replaced all **NULL** values with 0.
+3. Grouped **Weather** conditions into 4 categories for simplicity:
      - **Rain**: Includes any conditions that mention "Rain".
      - **Cloudy**: Includes "Partially cloudy" conditions on cooler days (10°C <= Temperature <= 15°C) , and all "Overcast" conditions.
      - **Sunny**: Includes "Clear" and "Partially cloudy" conditions on warmer days (Temperature > 15°C).
      - **Brisk**: Used for colder, clear days, including "Clear" conditions with Temperature < 15°C, and "Partially cloudy" conditions with Temperature < 10°C. 
-5. Converted the **Goals**, **Assists**, and **Goals+Assists** columns to **integer** data types.
+4. Converted the **Goals** and **Assists** columns to **integer** data types.
+5. Created a **Goal_Contributions** column, which is a sum of **Goals** and **Assists**. 
 
 With these changes, our dataset is now organized, consistent, and ready for analysis.
 
