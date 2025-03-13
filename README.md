@@ -70,6 +70,7 @@ I wrote a [Python script](https://github.com/kiankaas/my-soccer-stats/blob/main/
 
 ### Data Exploration
 SQL Query: [Data Exploration](https://github.com/kiankaas/my-soccer-stats/blob/main/01-data-exploration.sql) <br/>
+
 Before diving into the analysis, it is essential to prepare the dataset by exploring its structure, identifying any inconsistencies, and transforming the data as needed for a better analysis. I began by uploading the dataset as a table in **BigQuery**, which allows efficient querying and data exploration. In this stage, I explored the data structure, checked for missing values, ensured consistency in data formats, and converted categorical variables into usable formats where necessary.
 
 After running some initial queries, here are my key observations:
@@ -118,7 +119,7 @@ With these changes, our dataset is now organized, consistent, and ready for anal
 
 ## Tableau Dashboard
 
-Dashboard: [View on Tableau Public]([https://github.com/kiankaas/my-soccer-stats/blob/main/02-data-cleaning.sql](https://public.tableau.com/app/profile/kian.kaas/viz/Soccer-stats/Dashboard12)) <br/>
+Dashboard: [View on Tableau Public](https://public.tableau.com/app/profile/kian.kaas/viz/Soccer-stats/Dashboard12) <br/>
 
 
 I created an interactive Tableau dashboard to visualize key insights from the dataset. This dashboard highlights KPIs along with detailed breakdowns by season, competition, and weather conditions.
