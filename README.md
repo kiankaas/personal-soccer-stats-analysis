@@ -101,6 +101,7 @@ To clean and prepare the data for analysis, I made the following transformations
 - Friendly --> 1 Least competitive (exhibition matches)
 
 7.  Mapped Competition_Level to numerical values for analysis purposes, with higher values indicating tougher competition:
+
 | Competition   | Encoded Value | Description | 
 |-------------|-------------|--------------|
 | Friendly | 1 | Least competitive (exhibition matches) |
