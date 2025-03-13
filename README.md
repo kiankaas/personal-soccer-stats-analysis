@@ -29,6 +29,8 @@ This dataset captures performance data from every game my team has played since 
 
 The dataset contains **105 records** across **9 key variables**, with each record representing one match. Although my dataset tracks only basic stats like goals and assists, it covers my first three years with the team, providing a meaningful foundation for analysis. The dataset structure is shown below:
 
+<div align="center">
+
 | Variable   | Data Type | Description | Example Value |
 |-------------|-------------|--------------|--------------|
 | Opponent | string | The name of the opposing team in the match | Hastings FC |
@@ -41,6 +43,8 @@ The dataset contains **105 records** across **9 key variables**, with each recor
 | Competition      | string      | The competition in which the match was part of | BMSL D2 |
 | Date      | date      | The date the match took place | 2023-10-15 |
 
+</div>
+
 ### League & Competition Details
 
 My team competes in two leagues each year: the **Burnaby Men's Soccer League (BMSL)** in the Fall (September to March) and the **Knight Soccer League (KSL)** in the Summer (April to August). Both leagues are divided into three skill-based divisions: **Division 1 (D1)** for top competition, **Division 2 (D2)** for intermediate competition, and **Division 3 (D3)** as the least competitive division.
@@ -52,10 +56,14 @@ To gain deeper insights into factors influencing match outcomes and performance,
 
 The following columns were added to the dataset:
 
+<div align="center">
+
 | Variable   | Data Type | Description | Example Value |
 |-------------|-------------|--------------|--------------|
 | Weather | string | The weather conditions during the match | Clear |
 | Temperature      | integer| The temperature in degrees Celsius during the match  | 15 | 
+
+</div>
 
 The weather data was retrieved using the [**Visual Crossing API**](https://www.visualcrossing.com/), which allowed me to match historical weather conditions and temperatures to each game based on the **Date** column. Since I don’t have specific timestamps for when each game occurred, and my team's matches are typically played in the evening, I chose to retrieve weather data for **6:00 PM** on each game day to reflect match conditions as accurately as possible.
 
