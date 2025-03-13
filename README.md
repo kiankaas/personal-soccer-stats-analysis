@@ -23,7 +23,7 @@ The primary purpose of this project is to analyze both my personal soccer perfor
 ## The Data 
 **Raw Data**: [raw_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/raw_stats.csv) <br/>
 
-### The Dataset Overview 
+### Dataset Overview 
 
 This dataset captures performance data from every game my team has played since I joined in 2021. Since no official tracking system was available for my amateur soccer leagues, I decided to take matters into my own hands. I began manually tracking my performance using Google Sheets, recording key statistics from every game my team played. This included goals scored, match outcomes, leagues, and more. While this method required additional effort, it allowed me to gain valuable insights into my performance and identify trends that may have otherwise gone unnoticed.
 
@@ -78,7 +78,7 @@ After running some initial queries, here are my key observations:
 9. The **Min** and **Max** values of the **Temperature** column are -1 and 26 respectively. No errors here.
 10. There are **no outliers** in the dataset. 
 
-### Data Cleaning/Transformation
+### Data Cleaning
 **SQL Query**: [Data Cleaning](https://github.com/kiankaas/my-soccer-stats/blob/main/02-data-cleaning.sql) <br/>
 **Cleaned data**: [cleaned_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/cleaned_stats.csv) <br/>
 
