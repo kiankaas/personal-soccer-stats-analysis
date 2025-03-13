@@ -28,6 +28,8 @@ The primary purpose of this project is to analyze both my personal soccer perfor
 ## The Data 
 **Raw Data**: [raw_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/raw_stats.csv) <br/>
 
+### The Dataset Overview 
+
 This dataset captures performance data from every game my team has played since I joined in 2021. Since no official tracking system was available for my amateur soccer leagues, I decided to take matters into my own hands. I began manually tracking my performance using Google Sheets, recording key statistics from every game my team played. This included goals scored, match outcomes, leagues, and more. While this method required additional effort, it allowed me to gain valuable insights into my performance and identify trends that may have otherwise gone unnoticed.
 
 The dataset contains **105 records** across **9 key variables**, with each record representing one match. The dataset structure is shown below:
@@ -43,6 +45,22 @@ The dataset contains **105 records** across **9 key variables**, with each recor
 | Season      | string      | The soccer season in which the match was played in| Fall 23/24 |
 | Competition      | string      | The competition in which the match was part of | BMSL D2 |
 | Date      | date      | The date the match took place | 2023-10-15 |
+
+### League & Competition Details
+
+My team competes in two leagues each year: the **Burnaby Men's Soccer League (BMSL)** during the Fall and the **Knight Soccer League (KSL)** during the Summer. The Fall season runs from September to March, while the Summer season runs from April to August.
+
+Both leagues are divided into skill-based divisions:
+- **Division 1** (D1) — The highest level of competition.
+- **Division 2** (D2) — Intermediate level competition.
+- **Division 3** (D3) — The least competitive division.
+
+In addition to league matches, my dataset includes:
+- **Friendly** games, which are typically played between seasons for exhibition.
+- **BMSL Cup** matches, a knockout-style tournament that introduces variability in opponent strength.
+
+Although my dataset tracks only basic stats like goals and assists, it covers my first three years with the team, providing a meaningful foundation for analysis.
+
 
 ### Enhancing the Data - Historical Weather APIs
 To gain deeper insights into factors influencing match outcomes and performance, I expanded my dataset by incorporating **Weather** and **Temperature** data. These additions allowed me to analyze how environmental conditions may have impacted match performances and outcomes.
