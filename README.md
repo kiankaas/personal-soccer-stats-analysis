@@ -95,6 +95,8 @@ To clean and prepare the data for analysis, I made the following transformations
 5. Created a **Goal_Contributions** column, which is a sum of **Goals** and **Assists**.
 6. Added a Competition_Level column to enable performance comparisons across varying competition levels. Higher values represent more competitive matches.
 
+<div align="center">
+
 | Competition   | Competition_Level | Description | 
 |-------------|-------------|--------------|
 | Friendly | 1 | Least competitive (exhibition matches) |
@@ -102,6 +104,8 @@ To clean and prepare the data for analysis, I made the following transformations
 | BMSL Cup      | 3      | Knockout tournament with mixed opponent strength | 
 | BMSL D2      | 4      | Division 2, higher level of competition |
 | KSL D2      | 5      | Most competitive league (summer league with stronger teams) |
+
+</div>
 
 With these changes, our dataset is now organized, consistent, and ready for analysis.
 
