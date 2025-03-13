@@ -84,16 +84,16 @@ After running some initial queries, here are my key observations:
 
 To clean and prepare the data for analysis, I made the following transformations:
 
-1. Removed records for games I **did not play**.
+1. Removed **'Did Not Play' (DNP)** records.
 2. Replaced all **NULL** values with 0.
 3. Grouped **Weather** conditions into 4 categories for simplicity:
      - **Rain**: Includes any conditions that mention "Rain".
      - **Cloudy**: Includes "Partially cloudy" conditions on cooler days (10°C <= Temperature <= 15°C) , and all "Overcast" conditions.
      - **Sunny**: Includes "Clear" and "Partially cloudy" conditions on warmer days (Temperature > 15°C).
      - **Brisk**: Used for colder, clear days, including "Clear" conditions with Temperature < 15°C, and "Partially cloudy" conditions with Temperature < 10°C. 
-4. Converted the **Goals** and **Assists** columns to **integer** data types.
-5. Created a **Goal_Contributions** column, which is a sum of **Goals** and **Assists**.
-6. Added a Competition_Level column to enable performance comparisons across varying competition levels. Higher values represent more competitive matches.
+4. Created a **Goal_Contributions** column, which is a sum of **Goals** and **Assists**.
+5. Converted the **Goals**, **Assists**, and **Goal_Contributions** columns to **integer** data types.
+6. Added a **Competition_Level** column to enable performance comparisons across varying competition levels. Higher values represent more competitive matches.
 
 <div align="center">
 
