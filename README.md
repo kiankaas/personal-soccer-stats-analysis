@@ -126,7 +126,7 @@ I created an interactive Tableau dashboard to visualize key insights from the da
 
 <p align="center"> <img src="" alt="Tableau Dashboard" width="600"> </p>
 
-[(https://github.com/user-attachments/assets/dde2ae85-b680-49a4-af3b-29fa25e82534)](https://public.tableau.com/app/profile/kian.kaas/viz/Soccer-stats/Dashboard12)
+[![Tableau Dashboard](https://github.com/user-attachments/assets/dde2ae85-b680-49a4-af3b-29fa25e82534)](https://public.tableau.com/app/profile/kian.kaas/viz/Soccer-stats/Dashboard12)
 
 
 
