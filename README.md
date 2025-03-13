@@ -93,16 +93,9 @@ To clean and prepare the data for analysis, I made the following transformations
      - **Brisk**: Used for colder, clear days, including "Clear" conditions with Temperature < 15°C, and "Partially cloudy" conditions with Temperature < 10°C. 
 4. Converted the **Goals** and **Assists** columns to **integer** data types.
 5. Created a **Goal_Contributions** column, which is a sum of **Goals** and **Assists**.
-6. Mapped Competition_Level to numerical values for analysis purposes, with higher values indicating tougher competition:
-- KSL D2 --> 5 (
-- BMSL D2 --> 4
-- BMSL Cup --> 3
-- BMSL D3 --> 2
-- Friendly --> 1 Least competitive (exhibition matches)
+6. Added a Competition_Level column to enable performance comparisons across varying competition levels. Higher values represent more competitive matches.
 
-7.  Mapped Competition_Level to numerical values for analysis purposes, with higher values indicating tougher competition:
-
-| Competition   | Encoded Value | Description | 
+| Competition   | Competition_Level | Description | 
 |-------------|-------------|--------------|
 | Friendly | 1 | Least competitive (exhibition matches) |
 | BMSL D3      | 2| Division 3, lowest league division  |
@@ -111,57 +104,6 @@ To clean and prepare the data for analysis, I made the following transformations
 | KSL D2      | 5      | Most competitive league (summer league with stronger teams) |
 
 With these changes, our dataset is now organized, consistent, and ready for analysis.
-
-### Data Encoding
-**Python Script**: [link]() <br/>
-To ensure meaningful analysis, categorical variables were **numerically encoded**, allowing for **correlation analysis** and structured comparisons across different conditions. The endcoding
-choices were carefully designed to maintain logical consistency - **higher values indicate more challenging conditions** across all categories.  
-
-**Competition Level** 
-| Competition   | Encoded Value | Description | 
-|-------------|-------------|--------------|
-| Friendly | 1 | Least competitive (exhibition matches) |
-| BMSL D3      | 2| Division 3, lowest league division  |
-| BMSL Cup      | 3      | Knockout tournament with mixed opponent strength | 
-| BMSL D2      | 4      | Division 2, higher level of competition |
-| KSL D2      | 5      | Most competitive league (summer league with stronger teams) |
-
-Competitions were assigned numerical values to allow for structured comparisons in performance across different leagues.
-
-**Season Difficulty** 
-| Season   | Encoded Value | Competitions Played (games played) | 
-|-------------|-------------|--------------|
-| Fall 21/22 | 1.95 | BMSL D3 (14), BMSL Cup (2), Friendly (3) |
-| Sum 22      | 4.56 | KSL D2 (8), Friendly (1)  |
-| Fall 22/23      | 3.80      | BMSL D2 (12), BMSL Cup (3) | 
-| Sum 23      | 3.77      | KSL D2 (9), Friendly (4) |
-| Fall 23/24      | 3.76      | BMSL D2 (18), BMSL Cup (2), Friendly (1) |
-| Sum 24      | 5.00      | KSL D2 (5) |
-
-To reflect the overall competition difficulty for each season, a **weighted average competition score** was computed using the formula:
-**Season Score** = ( Σ (Games in Competition × Competition Score) ) ÷ ( Σ Total Games in Season )
-
-**Match Result** 
-| Match Result   | Encoded Value | Description | 
-|-------------|-------------|--------------|
-| L | 3 | Loss |
-| PKL      | 2 | Loss via penalty shoot-out  |
-| D      | 1      | Draw | 
-| PKW      | 1      | Win via penalty shoot-out |
-| W      | 0      | Win |
-
-Match results were encoded based on the league's point system, where teams earn 3 points for a win, 2 for a win via penalty shoot-out, 1 for a draw or a loss via penalty shoot-out, and 0 for a loss — but reversed so that higher values indicate more difficult outcomes.
-This encoding maintains consistency with real-world soccer scoring while ensuring that increasing values across all encoded variables represent greater difficulty.
-
-**Weather Conditions**
-| Weather COndition   | Encoded Value | Description | 
-|-------------|-------------|--------------|
-| Sunny      | 1 | Best conditions |
-| Cloudy      | 2 | Mild but playble  |
-| Brisk      | 2.5      | Colder but manageable | 
-| Rain      | 3      | Most difficult (wet field, low visibility) |
-
-Weather conditions were encoded to analyze performance trends in different environments, considering factors like temperature, visibility, and field conditions.
 
 ## Analysis
 **SQL Query**: [link]() <br/>
