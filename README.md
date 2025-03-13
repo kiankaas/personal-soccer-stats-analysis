@@ -122,9 +122,11 @@ With these changes, our dataset is now organized, consistent, and ready for anal
 Dashboard: [View on Tableau Public](https://public.tableau.com/app/profile/kian.kaas/viz/Soccer-stats/Dashboard12) <br/>
 
 
-I created an interactive Tableau dashboard to visualize key insights from the dataset. This dashboard highlights KPIs along with detailed breakdowns by season, competition, and weather conditions.
+I created an interactive Tableau dashboard to visualize key insights from the dataset. This dashboard highlights KPIs along with detailed breakdowns regarding individual and team performance by season, competition, and weather conditions.
 
+<p align="center"> <img src="" alt="Tableau Dashboard" width="600"> </p>
 
+[![Tableau Dashboard](https://github.com/user-attachments/assets/dde2ae85-b680-49a4-af3b-29fa25e82534)](https://public.tableau.com/app/profile/kian.kaas/viz/Soccer-stats/Dashboard12)
 
 
 
