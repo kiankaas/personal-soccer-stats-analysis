@@ -21,7 +21,7 @@ The primary purpose of this project is to analyze both my personal soccer perfor
 - **Investigate factors such as weather conditions and competition level** to uncover potential influences on performance and consistency.
 
 ## The Data 
-**Raw Data**: [raw_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/raw_stats.csv) <br/>
+Raw Dataset: [raw_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/raw_stats.csv) <br/>
 
 ### Dataset Overview 
 
@@ -53,7 +53,6 @@ In addition to league matches, my dataset also includes **Friendly** games (typi
 
 ### Enhancing the Data - Historical Weather APIs
 To gain deeper insights into factors influencing match outcomes and performance, I expanded my dataset by incorporating **Weather** and **Temperature** data. These additions allowed me to analyze how environmental conditions may have impacted match performances and outcomes.
-
 The following columns were added to the dataset:
 
 <div align="center">
@@ -70,7 +69,7 @@ The weather data was retrieved using the [**Visual Crossing API**](https://www.v
 I wrote a [Python script](https://github.com/kiankaas/my-soccer-stats/blob/main/GetWeather.py) to automate the data retrieval process. The script efficiently queried the API for weather conditions and temperature, updating my dataset to ensure each record contained accurate environmental details. With this enhancement, my dataset now captures both on-field performance and external conditions, providing valuable context for deeper analysis.
 
 ### Data Exploration
-**SQL Query**: [Data Exploration](https://github.com/kiankaas/my-soccer-stats/blob/main/01-data-exploration.sql) <br/>
+SQL Query: [Data Exploration](https://github.com/kiankaas/my-soccer-stats/blob/main/01-data-exploration.sql) <br/>
 Before diving into the analysis, it is essential to prepare the dataset by exploring its structure, identifying any inconsistencies, and transforming the data as needed for a better analysis. I began by uploading the dataset as a table in **BigQuery**, which allows efficient querying and data exploration. In this stage, I explored the data structure, checked for missing values, ensured consistency in data formats, and converted categorical variables into usable formats where necessary.
 
 After running some initial queries, here are my key observations:
@@ -87,8 +86,8 @@ After running some initial queries, here are my key observations:
 10. There are **no outliers** in the dataset. 
 
 ### Data Cleaning
-**SQL Query**: [Data Cleaning](https://github.com/kiankaas/my-soccer-stats/blob/main/02-data-cleaning.sql) <br/>
-**Cleaned data**: [cleaned_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/cleaned_stats.csv) <br/>
+SQL Query: [Data Cleaning](https://github.com/kiankaas/my-soccer-stats/blob/main/02-data-cleaning.sql) <br/>
+Cleaned Dataset: [cleaned_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/cleaned_stats.csv) <br/>
 
 To clean and prepare the data for analysis, I made the following transformations:
 
@@ -116,6 +115,18 @@ To clean and prepare the data for analysis, I made the following transformations
 </div>
 
 With these changes, our dataset is now organized, consistent, and ready for analysis.
+
+## Tableau Dashboard
+
+Dashboard: [View on Tableau Public]([https://github.com/kiankaas/my-soccer-stats/blob/main/02-data-cleaning.sql](https://public.tableau.com/app/profile/kian.kaas/viz/Soccer-stats/Dashboard12)) <br/>
+
+
+I created an interactive Tableau dashboard to visualize key insights from the dataset. This dashboard highlights KPIs along with detailed breakdowns by season, competition, and weather conditions.
+
+
+
+
+
 
 ## Analysis
 **SQL Query**: [link]() <br/>
