@@ -213,8 +213,6 @@ This section expands on key observations by using visualizations to better under
   <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="750"> 
 </p>
 
-
-
 ## Individual Performance Analysis
 
 ### 1. Share of Total Team Goals
@@ -361,81 +359,7 @@ While my performances in Cloudy conditions show significant fluctuations, the un
 **Conclusion**: 
 The combination of tougher competition, interrupted fitness, and reduced playing time created challenging conditions that contributed to this extended drought. Given these circumstances, this drought appears to be an outlier rather than a reflection of my typical performance.
 
-### Correlation Matrix Analysis
 
-To gain deeper insights into performance trends and influencing factors, I generated a **correlation matrix** using Pearson correlation coefficients. This statistical method measures the strength and direction of the linear relationship between two variables, with values ranging from:
-
-- **+1**: Strong positive correlation (both variables increase together)
-- **0**: No correlation (no linear relationship) 
-- **-1**: Strong negative correlation (one variable increases while the other decreases)
-     
-By examining correlations between match performance factors, I aimed to identify key trends and relationships that impact results.
-The following columns were **not included** in the correlation matrix: **Date**, **Opponent**, **Month**, and **Temperature**. 
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/4cdde0b0-e00b-445e-83fc-881e3e4a53c0" alt="correlation-matrix" width="750">
-</p>
-
-#### Expected Findings 
-- **Goals and Goal Contributions have a strong positive correlation (0.88)**
-     - My offensive impact is more weighted towards scoring goals rather than assisting goals.
-     - As a striker, I rely more on finishing chances than creating them. 
-- **Goals Forward and Goal Contributions have a strong positive correlation (0.72)**
-     - When my team scores, I am usually involved - either by scoring or assisting.
-     - Since joining the team, I have consistently been the top scorer, even winning BMSL's D2 Golden Boot award in Fall 23/24.    
-- **Goals Forward and Match Result have a moderate negative correlation (-0.58)**
-     - More goals scored by the team directly lead to better match results. 
-     - This confirms that attacking success is a strong predictor of winning. 
-- **Goals Against and Match Result have a strong positive correlation (0.68)**
-     - The more goals the team concedes, the worse the match result is likely to be. 
-     - This confirms that defensive stability plays a key role in match success. 
-- **Season and Competition have a strong positive correlation (0.70)**
-     - Over time, my team has played in more difficult leagues.
-     - After being promoted to BMSL D2, we have continued playing at a higher competition level. 
-
-#### Surprising Observations
-- **Competition has a weak negative correlation with both Goals and Goal_Contributions (-0.19 and -0.18)**
-     - My goals and goal contributions remained steady across all competitions but dropped significantly in KSL D2. 
-     - This suggests that the increase in opponent skill level in KSL D2 is a bigger jump compared to other leagues.
-- **Match Result and Goal Contributions have a moderate negative correlation (-0.38)**
-     - While I expected my goal contributions to strongly determine match success, the correlation is weaker than anticipated.
-     - This suggests that other factors — such as overall team attacking play and defensive performance — play a significant role in match outcomes. 
-- **Weather and Match Result have a weak negative correlation (-0.20)** 
-     - My team’s performance remained relatively stable across different weather conditions.  
-     - However, further analysis revealed that win percentage is actually lowest in sunny conditions and highest in brisk/rainy conditions. 
-     - A possible explanation is that most KSL D2 matches were played in sunny weather, which overlaps with our team’s weakest performances. 
-- **Weather has almost no correlation with Goals, Assists, and Goal Contributions (0.02, 0.01, and 0.02)** 
-     - My personal performance remains consistent regardless of weather conditions. 
-     - External factors such as rain or cold temperatures do not appear to strongly impact my ability to score or assist. 
-
-#### Interesting Patterns
-- **Weather and Goals Against have a weak to moderate negative correlation (-0.28)** 
-     - Interestingly, my team concedes fewer goals in poor weather conditions. 
-     - While rain speeds up the ball on turf, it may also lead to more defensive clearances, scrappy play, and fewer structured attacking opportunities for opponents. 
-- **Competition and Match Result have a weak positive correlation (0.25)** 
-     - Despite facing stronger opponents, my team’s win percentage remained relatively stable — except in KSL D2, where it dropped significantly. 
-     - This suggests that while the team adapted well to tougher leagues, KSL D2 presented a much larger challenge, both individually and as a team. 
-- **Goals Forward and Goals Against have a weak negative correlation (-0.14)**
-     - When my team scores more, we don't necessarily concede fewer goals.
-     - This may indicate that my team doesn't rely on defensive stability and shutting down the opponent to win games, but rather by outscoring the opponent.
-**Correlation vs. Causation**  
-The correlation suggests stronger opponents are more difficult to outscore, but other factors could also contribute, such as: 
-
-**1. Lack of Weekly Practices**
-- During the Fall league season, our team practices once a week, helping maintain fitness and tactical awareness.
-- During the Summer league season, there are no weekly practices, which may lead to rusty play and fatigue over time.
-
-**2. Missing Key Players** 
-- The Summer season overlaps with vacation time, resulting in frequent absences of key players throughout the season.
-- This disrupts team chemistry and forces adjustments to the lineup more often than in the Fall season.
-
-**3. Frequent Roster Changes and Player Tryouts**
-- The KSL summer league allows new players to register at any time during the season.
-- As a result, our team frequently brings in new players for tryouts, making it difficult to build chemistry with teammates.
-
-**4. Increased Game Intensity in KSL D2**
-- Stronger defenses in KSL D2 may allow fewer attacking chances.
-- The pace and physicality of the league make it harder to maintain possession and create goal-scoring opportunities.
 
 
 
