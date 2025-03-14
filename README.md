@@ -142,12 +142,12 @@ The dashboard is interactive — viewers can filter by season, competition, and 
 
 ## Analysis
 
-This analysis explores the relationship between key factors — such as competition level, weather conditions, and individual contributions — to better understand my team's performance and my personal impact on the field. To uncover meaningful insights, I utilized visualizations to identify trends, patterns, and potential influencing factors.
+This analysis explores the relationship between key factors — such as competition level, weather conditions, and individual contributions — to evaluate both my team’s overall performance and my individual impact as a player. To uncover meaningful insights, I utilized visualizations to identify trends, patterns, and potential influencing factors.
 
 The analysis is divided into two main sections:
 
 1. **Team Performance Analysis**: Examining how external factors like competition level and weather conditions influenced team outcomes.
-2. **Individual Performance Analysis**: Investigating my personal goal contributions, how my team performed with & without me, and consistency over time.
+2. **Individual Performance Analysis**: Investigating my goal contributions, my team’s performance with & without me, and consistency over time. 
 
 ## Team Performance Analysis
 
