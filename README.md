@@ -171,12 +171,13 @@ The analysis is divided into two main sections:
 
 **Key Insights**: 
 
-- My team’s win percentage was lowest in sunny conditions (**37.5%**) and highest in brisk conditions (**68.8%**).
+- My team’s win percentage was highest in cooler conditions, performing best in both Brisk (**68.8%**) and Rain (**68.2%**) matches.
+- My team’s win percentage was lowest in Sunny conditions (**37.5%**).
 
 **Possible Explanations**:
 
 - **Opponent Playstyle Disruption**: Poor weather conditions may impact opponent playstyles more than ours, leading to a higher success rate for my team.
-- **Competition Overlaps with Weather**: Many of the KSL D2 matches were played in Sunny conditions, making it difficult to determine whether weather or competition level had a greater impact on performance. 
+- **Competition Overlaps with Weather**: KSL D2 matches often occurred in Sunny conditions, aligning with my team’s lowest win rate. This overlap makes it difficult to separate the influence of competition strength from weather conditions
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-weather" width="500">  <img src="https://github.com/user-attachments/assets/ba3cfafb-393b-4f2d-8fb2-8ebb74bc6bef" alt="KSL-win%weather" width="500">
