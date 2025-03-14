@@ -77,9 +77,7 @@ I wrote a [Python script](https://github.com/kiankaas/my-soccer-stats/blob/main/
 ### Data Exploration
 SQL Query: [Data Exploration](https://github.com/kiankaas/my-soccer-stats/blob/main/01-data-exploration.sql) <br/>
 
-Before diving into the analysis, it is essential to prepare the dataset by exploring its structure, identifying any inconsistencies, and transforming the data as needed for a better analysis. I began by uploading the dataset as a table in **BigQuery**, which allows efficient querying and data exploration. In this stage, I explored the data structure, checked for missing values, ensured consistency in data formats, and converted categorical variables into usable formats where necessary.
-
-After running some initial queries, here are my key observations:
+Before diving into the analysis, it is essential to prepare the dataset by exploring its structure, identifying any inconsistencies, and transforming the data as needed for a better analysis. After running some initial queries, here are my key observations:
 
 1. There are **5** possible outcomes for **Match_Result**: D (draw), L (loss), W (win), PKL (loss via penalty shoot-out), and PKW (win via penalty shoot-out).
 2. The dataset includes **3 Fall seasons** and **3 Summer seasons**: Fall 21/22, 22/23, 23/24 and Sum 22, 23, 24.
@@ -177,7 +175,7 @@ The analysis is divided into two main sections:
 **Possible Explanations**:
 
 - **Opponent Playstyle Disruption**: Poor weather conditions may impact opponent playstyles more than ours, leading to a higher success rate for my team.
-- **Competition Overlaps with Weather**: KSL D2 matches often occurred in Sunny conditions, aligning with my team’s lowest win rate. This overlap makes it difficult to separate the influence of competition strength from weather conditions
+- **Competition Overlaps with Weather**: KSL D2 matches often occurred in Sunny conditions, aligning with my team’s lowest win rate. This overlap makes it difficult to isolate whether competition strength or weather had a greater impact.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-weather" width="500">  <img src="https://github.com/user-attachments/assets/ba3cfafb-393b-4f2d-8fb2-8ebb74bc6bef" alt="KSL-win%weather" width="500">
@@ -367,7 +365,19 @@ The combination of tougher competition, interrupted fitness, and reduced playing
 
 This project revealed several meaningful insights about both my individual and my team's performance over the past three years. By combining key performance metrics with contextual factors such as competition level and weather conditions, I was able to identify notable trends and patterns. The following insights summarize the most impactful findings:
 
-### **1. Team Performance Against Higher Competition**
+### **1. Team Performance Declined Against Stronger Competition**
+
+**Key Finding**: My team's win percentage dropped by over 30% in KSL D2 when compared to other competitions. 
+
+- This decline aligned with my team’s lowest average goals forward per game (**1.64**), highlighting offensive struggles against tougher opponents.
+- Additionally, my team’s goals against per game was highest in KSL D2 (**2.91**), indicating defensive challenges as well.
+
+**Taking Action**: In order to find success during the Summer season, we should find a way to maintain fitness and practice, as well as improve our roster stability going into the season. 
+
+
+
+
+
 
 
 
