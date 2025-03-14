@@ -134,7 +134,7 @@ Click the image below to view the interactive dashboard on Tableau Public.
 ### Key Features
 
 - **KPI Summary**: Displays total games played, goals, assists, and goal contributions.
-- **Goals & Assists by Season**: Visualizes individual performance trends across different seasons.
+- **Goals & Assists by Season/Competition**: Visualizes individual performance trends across different seasons and/or competitions.
 - **Match Results Breakdown**: Provides a snapshot of wins, losses, and draws for a comprehensive view of match outcomes.
 - **Favorite Opponents Chart**: Showcases teams I've performed best against.
 
