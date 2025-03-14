@@ -136,6 +136,10 @@ I created an interactive Tableau dashboard to visualize key insights from the da
 
 </div>
 
+<a href="https://public.tableau.com/app/profile/kian.kaas/viz/Soccer-stats/Dashboard12" target="_blank">
+  <img src="https://github.com/user-attachments/assets/dde2ae85-b680-49a4-af3b-29fa25e82534" alt="Tableau Dashboard" width="800">
+</a>
+
 
 ## Analysis
 **SQL Query**: [link]() <br/>
