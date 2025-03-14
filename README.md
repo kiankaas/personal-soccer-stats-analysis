@@ -372,7 +372,9 @@ This project revealed several meaningful insights about both my individual and m
 - This decline aligned with my team’s lowest average goals forward per game (**1.64**), highlighting offensive struggles against tougher opponents.
 - Additionally, my team’s goals against per game was highest in KSL D2 (**2.91**), indicating defensive challenges as well.
 
-**Taking Action**: In order to find success during the Summer season, we should find a way to maintain fitness and practice, as well as improve our roster stability going into the season. 
+**Next Steps**: To improve performance during the Summer season, my team should focus on maintaining fitness and organizing weekly practices, while also improving roster stability heading into the season.
+
+### **2. **
 
 
 
@@ -396,10 +398,6 @@ This project revealed several meaningful insights about both my individual and m
 
 
 
+## Limitations
 
-
-
-
-
-ADD A LIMITATIONS SECTION!!!!!!!!!
 
