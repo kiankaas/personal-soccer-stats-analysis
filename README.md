@@ -124,11 +124,15 @@ Dashboard: [View on Tableau Public](https://public.tableau.com/app/profile/kian.
 
 I created an interactive Tableau dashboard to visualize key insights from the dataset. This dashboard highlights KPIs along with detailed breakdowns regarding individual and team performance by season, competition, and weather conditions.
 
-<p align="center"> <img src="" alt="Tableau Dashboard" width="600"> </p>
+<p align="center"> 
+
+  <img src="https://github.com/user-attachments/assets/fddfee31-c79c-4719-af3f-5819efd5460e" alt="Tableau Dashboard" width="600"> 
+
+</p>
 
 <div align="center">
 
-[![](https://github.com/user-attachments/assets/dde2ae85-b680-49a4-af3b-29fa25e82534)](https://public.tableau.com/app/profile/kian.kaas/viz/Soccer-stats/Dashboard12)
+[![Tableau Dashboard](https://github.com/user-attachments/assets/dde2ae85-b680-49a4-af3b-29fa25e82534)](https://public.tableau.com/app/profile/kian.kaas/viz/Soccer-stats/Dashboard12)
 
 </div>
 
