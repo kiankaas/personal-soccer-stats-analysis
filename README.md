@@ -1,5 +1,9 @@
 # Personal Soccer Stats Analysis
 
+## Introduction
+
+This project analyzes my personal soccer performance and my team's results over three years using data I've manually collected. By combining key metrics with additional insights such as weather conditions and competition level, this project aims to uncover meaningful patterns and insights.
+
 ## Background
 
 I have been a lifelong soccer player and fan, having played club soccer from the age of 5 until 18. After taking a three-year break from the sport, I returned to soccer in 2021 when I joined Fraser Mills FC United, a Burnaby-based amateur men's soccer club where I play as the team's striker.
@@ -19,6 +23,8 @@ The primary purpose of this project is to analyze both my personal soccer perfor
 - **Identify trends in my individual goal-scoring and contribution patterns** to assess how my performance has evolved over time.
 - **Evaluate my team's overall attacking performance and goal distribution** to understand how our offensive and defensive output has varied across seasons.
 - **Investigate factors such as weather conditions and competition level** to uncover potential influences on performance and consistency.
+
+Understanding these patterns can provide valuable insights to improve my performance and inform my team’s tactical approach.
 
 ## The Data 
 Raw Dataset: [raw_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/raw_stats.csv) <br/>
@@ -47,9 +53,9 @@ The dataset contains **105 records** across **9 key variables**, with each recor
 
 ### League & Competition Details
 
-My team competes in two leagues each year: the **Burnaby Men's Soccer League (BMSL)** in the Fall (September to March) and the **Knight Soccer League (KSL)** in the Summer (April to August). Both leagues are divided into three skill-based divisions: **Division 1 (D1)** for top competition, **Division 2 (D2)** for intermediate competition, and **Division 3 (D3)** as the least competitive division.
+My team competes in two leagues each year: the **Burnaby Men's Soccer League (BMSL)** in the Fall (September to March) and the **Knight Soccer League (KSL)** in the Summer (April to August). Both leagues are divided into three skill-based divisions: **Division 1 (D1)** for top competition, **Division 2 (D2)** for intermediate competition, and **Division 3 (D3)** as the least competitive division. In addition to league matches, my dataset also includes **Friendly** games (typically played between seasons as exhibition) and **BMSL Cup** matches, a knockout-style tournament with varied opponent strength. 
 
-In addition to league matches, my dataset also includes **Friendly** games (typically played between seasons as exhibition) and **BMSL Cup** matches, a knockout-style tournament with varied opponent strength. 
+These details provide important context for understanding the competition levels reflected in the data cleaning section later on.
 
 ### Enhancing the Data - Historical Weather APIs
 To gain deeper insights into factors influencing match outcomes and performance, I expanded my dataset by incorporating **Weather** and **Temperature** data. These additions allowed me to analyze how environmental conditions may have impacted match performances and outcomes.
@@ -128,15 +134,9 @@ Click the image below to view the interactive dashboard on Tableau Public.
   <a href="https://public.tableau.com/app/profile/kian.kaas/viz/Soccer-stats/Dashboard12" target="_blank">
     <img src="https://github.com/user-attachments/assets/f6216624-6dd1-49bc-a612-8a4e848b9d9b" alt="Tableau Dashboard" width="800">
   </a>
+  <p style="text-align: center;"><em>The dashboard is interactive — viewers can filter by season, competition, and weather conditions to uncover additional insights.</em></p>
 
 </p>
-
-### Key Features
-
-- **KPI Summary**: Displays total games played, goals, assists, and goal contributions.
-- **Goals & Assists by Season/Competition**: Visualizes individual performance trends across different seasons and/or competitions.
-- **Match Results Breakdown**: Provides a snapshot of wins, losses, and draws for a comprehensive view of match outcomes.
-- **Favorite Opponents Chart**: Showcases teams I've performed best against.
 
 The dashboard is interactive — viewers can filter by season, competition, and weather conditions to uncover additional insights.
 
