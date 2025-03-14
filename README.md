@@ -150,23 +150,37 @@ The analysis is divided into two main sections:
 
 ### 1. Win Percentage by Competition & Weather
 
+**Win Percentage by Competition**
+
 **Key Insights**: 
 
-- My team's win percentage remained stable across most competitions (64-72%), but dropped significantly in KSL D2 (32%).
-- My team’s win percentage was lowest in sunny conditions (37.5%) and highest in brisk conditions (68.8%).
+- My team's win percentage remained stable across most competitions (**64-72%**), but dropped significantly in KSL D2 (**32%**).
 
 **Possible Explanations**:
 
 - **Stronger Opposition**: KSL D2 features more competitive teams, making it harder to win matches.  
-- **Decline in Team Scoring Output**: The correlation matrix shows a **negative correlation between Goals Forward and Competition (-0.29)**, indicating that as competition level increases, the number of goals scored per game decreases. This suggests that tougher leagues limit offensive opportunities.
-- **Competition Overlaps with Weather**: Many of the KSL D2 matches were played in sunny conditions, making it difficult to determine whether weather or competition level had a greater impact on performance. 
-- **Opponent Playstyle Disruption**: Poor weather conditions may impact opponent playstyles more than ours, leading to a higher success rate for my team.
+- **Lack of Weekly Practices**: Unlike the Fall season, which includes weekly practices to maintain fitness and tactics, the Summer season has no scheduled training. This lack of preparation may have impacted our performance, especially against stronger opponents.
+- **Impact of Player Absences**: The Summer season frequently overlaps with vacation periods, resulting in frequent absences of key players. This disrupts team chemistry and often forces lineup changes.
+- **Frequent Roster Changes**: The KSL allows new players to register throughout the season, which results in frequent adjustments to our lineup. As a result, our team frequently brings in new players for tryouts, making it difficult to build chemistry with teammates.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="500">  <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-weather" width="500">
-  <img src="https://github.com/user-attachments/assets/ba3cfafb-393b-4f2d-8fb2-8ebb74bc6bef" alt="KSL-win%weather" width="500">
+  <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="500"> 
 </p>
 
+**Win Percentage by Weather**
+
+**Key Insights**: 
+
+- My team’s win percentage was lowest in sunny conditions (**37.5%**) and highest in brisk conditions (**68.8%**).
+
+**Possible Explanations**:
+
+- **Opponent Playstyle Disruption**: Poor weather conditions may impact opponent playstyles more than ours, leading to a higher success rate for my team.
+- **Competition Overlaps with Weather**: Many of the KSL D2 matches were played in Sunny conditions, making it difficult to determine whether weather or competition level had a greater impact on performance. 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dded4263-f369-4ce8-bfee-610118c83f78" alt="win%-weather" width="500">  <img src="https://github.com/user-attachments/assets/ba3cfafb-393b-4f2d-8fb2-8ebb74bc6bef" alt="KSL-win%weather" width="500">
+</p>
 
 ### 2. Offensive & Defensive Performance by Competition & Weather Condition
 
@@ -345,6 +359,32 @@ While my performances in Cloudy conditions show significant fluctuations, the un
 
 **Conclusion**: 
 The combination of tougher competition, interrupted fitness, and reduced playing time created challenging conditions that contributed to this extended drought. Given these circumstances, this drought appears to be an outlier rather than a reflection of my typical performance.
+
+
+
+## Summary of Key Findings
+
+This project revealed several meaningful insights about both my individual and my team's performance over the past three years. By combining key performance metrics with contextual factors such as competition level and weather conditions, I was able to identify notable trends and patterns. The following insights summarize the most impactful findings:
+
+### **1. Team Performance Against Higher Competition**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
