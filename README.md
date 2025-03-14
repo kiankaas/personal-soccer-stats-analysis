@@ -119,10 +119,9 @@ With these changes, our dataset is now organized, consistent, and ready for anal
 
 ## Tableau Dashboard
 
-Dashboard: [View on Tableau Public](https://public.tableau.com/app/profile/kian.kaas/viz/Soccer-stats/Dashboard12) <br/>
+To complement my analysis, I created an interactive Tableau dashboard to visualize key insights from the dataset. This dashboard highlights KPIs along with detailed breakdowns regarding individual and team performance by season, competition, and weather conditions.
 
-
-I created an interactive Tableau dashboard to visualize key insights from the dataset. This dashboard highlights KPIs along with detailed breakdowns regarding individual and team performance by season, competition, and weather conditions.
+Click the image below to view the interactive dashboard on Tableau Public.
 
 <p align="center"> 
 
@@ -132,10 +131,14 @@ I created an interactive Tableau dashboard to visualize key insights from the da
 
 </p>
 
+### Key Features
 
+- **KPI Summary**: Displays total games played, goals, assists, and goal contributions.
+- **Goals & Assists by Season**: Visualizes individual performance trends across different seasons.
+- **Match Results Breakdown**: Provides a snapshot of wins, losses, and draws for a comprehensive view of match outcomes.
+- **Favorite Opponents Chart**: Showcases teams I've performed best against.
 
-
-
+The dashboard is interactive — viewers can filter by season, competition, and weather conditions to uncover additional insights.
 
 ## Analysis
 **SQL Query**: [link]() <br/>
