@@ -133,10 +133,8 @@ Click the image below to view the interactive dashboard on Tableau Public.
 
   <a href="https://public.tableau.com/app/profile/kian.kaas/viz/Soccer-stats/Dashboard12" target="_blank">
     <img src="https://github.com/user-attachments/assets/f6216624-6dd1-49bc-a612-8a4e848b9d9b" alt="Tableau Dashboard" width="800">
-     <p style="text-align: center;"><em>The dashboard is interactive — viewers can filter by season, competition, and weather conditions to uncover additional insights.</em></p>
-
+     <a style="text-align: center;"><em>The dashboard is interactive — viewers can filter by season, competition, and weather conditions to uncover additional insights.</em></p>
   </a>
-
 </p>
 
 ## Analysis
