@@ -141,16 +141,13 @@ Click the image below to view the interactive dashboard on Tableau Public.
 The dashboard is interactive — viewers can filter by season, competition, and weather conditions to uncover additional insights.
 
 ## Analysis
-**SQL Query**: [link]() <br/>
 
-**Note**: The **Correlation Matrix Analysis** and **Team Performance Analysis** focuses exclusively on matches in which I played.
+This analysis explores the relationship between key factors — such as competition level, weather conditions, and individual contributions — to better understand my team's performance and my personal impact on the field. To uncover meaningful insights, I utilized visualizations to identify trends, patterns, and potential influencing factors.
 
- 
-## Deeper Analysis with Visualizations
+The analysis is divided into two main sections:
 
-This section expands on key correlations by using visualizations to better understand the relationships between team performance and individual performance. The goal is to analyze what factors impact performance on both levels, identifying patterns that influence match outcomes (team success) and personal contributions (goals & assists).
-
-This section expands on key observations by using visualizations to better understand the relationship between external factors and match performance. The analysis is split into two main sections: Team Performance Analysis and Individual Performance Analysis.
+1. **Team Performance Analysis**: Examining how external factors like competition level and weather conditions influenced team outcomes.
+2. **Individual Performance Analysis**: Investigating my personal goal contributions, how my team performed with & without me, and consistency over time.
 
 ## Team Performance Analysis
 
