@@ -374,7 +374,9 @@ This project revealed several meaningful insights about both my individual and m
 
 **Next Steps**: To improve performance during the Summer season, my team should focus on maintaining fitness and organizing weekly practices, while also improving roster stability heading into the season.
 
-### **2. **
+### **2. Significant Individual Contribution to the Team**
+
+
 
 
 
