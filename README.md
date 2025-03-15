@@ -376,9 +376,10 @@ This project revealed several meaningful insights about both my individual and m
 
 ### **2. Significant Individual Contribution to the Team**
 
-**Key Finding**: My presence on the field significantly improves team performance, resulting in a **27%** increase in win percentage and **0.95** more goal forward per game on average. 
+**Key Finding**: My presence on the field significantly improves team performance, resulting in a **27%** increase in win percentage and an average of **0.95** more Goals Forward per game. 
 
-- My direct goal involvement accounts for **35.4%** of total team goals.
+- My direct goal involvement accounts for **35.4%** of total team goals in matches I played. 
+- Matches I missed were often against tougher competition, which may have further contributed to the lower win percentage and Goals Forward in those games.
 - 
 
 
