@@ -389,7 +389,12 @@ This project revealed several meaningful insights about both my individual and m
 
 
 
+# ADD THIS
 
+To analyze win percentage in games played vs DNP
+
+- Show specifically for BMSL D2 and KSL D2, as they are the highest win percentages.
+  - This will show that my presence does in fact improve the team, regardless of the competition level. 
 
 
 
