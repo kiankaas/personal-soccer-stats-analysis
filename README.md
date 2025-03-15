@@ -374,22 +374,12 @@ This project revealed several meaningful insights about both my individual and m
 
 **Next Steps**: To improve performance during the Summer season, my team should focus on maintaining fitness and organizing weekly practices, while also improving roster stability heading into the season.
 
-### **1. Team Performance Declined Against Stronger Competition**
-
-- **Context**: My team has historically struggled in the KSL D2 competition, where games are often played without regular training and involve frequent lineup changes. 
-- **Key Finding**: My team's win percentage dropped by over 30% in KSL D2 when compared to other competitions. 
-- **Supporting Evidence**: The team’s average goals forward per game was lowest in KSL D2 (1.64), while conceding the most goals per game (2.91). Visual insights reveal a clear pattern of defensive instability.
-- **Next Steps**: Improving fitness, organizing weekly practices, and stabilizing the roster are key strategies to improve performance in tougher competitions.
-
-
-
-
-
-
 ### **2. Significant Individual Contribution to the Team**
 
+**Key Finding**: My presence on the field significantly improves team performance, resulting in a **27%** increase in win percentage and **0.95** more goal forward per game on average. 
 
-
+- My direct goal involvement accounts for **35.4%** of total team goals.
+- 
 
 
 
