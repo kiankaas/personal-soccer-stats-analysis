@@ -311,7 +311,7 @@ While my performances in Cloudy conditions show significant fluctuations, the un
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/92975a10-e118-4131-a9d0-a2e51d6b4656" alt="win%-played-DNP" width="500">  <img src="https://github.com/user-attachments/assets/f8023b82-2507-43db-aae0-3cf354efc920" alt="goals-forward-played-DNP" width="500"> 
-  <img src="https://github.com/user-attachments/assets/4b6bec32-49f1-4939-b7c0-59a7544eae52" alt="win%-KSLD2-BMSLD2" width="600">  
+  <img src="https://github.com/user-attachments/assets/4b6bec32-49f1-4939-b7c0-59a7544eae52" alt="win%-KSLD2-BMSLD2" width="500">  
 </p>
 
 **Further Analysis on Competition Level**:
