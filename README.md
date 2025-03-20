@@ -300,18 +300,25 @@ While my performances in Cloudy conditions show significant fluctuations, the un
 
 **Key Insights**: 
 
-- My team’s win percentage significantly improves when I play (57.3%) compared to when I do not (30.4%).
-- The team scores notably more goals per game when I play (2.52 goals) versus games I miss (1.57 goals).
+- My team's win percentage was notably higher in games I played (57.3%) compared to games I missed (30.4%).
+- The team scored significantly more goals per game when I played (2.52 goals) versus when I was absent (1.57 goals).
 
 **Possible Explanations**:
 
 - **Offensive Contribution**: My on-field presence directly boosts team offensive output, evident from the higher average Goals Forward per game.
 - **Team Confidence & Chemistry**: As the team's first-choice striker and leading scorer since joining, my presence likely boosts team confidence, motivation, and overall effectiveness, leading to improved outcomes when I participate..
-- **Competition Level**: It's important to note that the average competition level for games I missed (4.39) was significantly higher than for games I played (3.51). This likely contributed to the lower win percentage and scoring output when I was absent.
+- **Competition Level**: It's important to note that the average competition level for games I missed (4.39) was significantly higher than for games I played (3.51). This may have contributed to the lower win percentage and scoring output when I was absent.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/92975a10-e118-4131-a9d0-a2e51d6b4656" alt="win%-played-DNP" width="500">  <img src="https://github.com/user-attachments/assets/f8023b82-2507-43db-aae0-3cf354efc920" alt="goals-forward-played-DNP" width="500"> 
+  <img src="https://github.com/user-attachments/assets/5d142d6e-091c-4c94-b658-be99d4e57e07" alt="win%-KSLD2-BMSLD2" width="500">  
 </p>
+
+**Further Analysis on Competition Level**:
+
+- **Persistent Win Percentage Gap**: Win percentages in the two highest competition levels, BMSL D2 and KSL D2, remained greater in games I played compared to games I did not play.
+
+
 
 ### 5. Goal Contributions by Margin of Victory/Defeat 
 
