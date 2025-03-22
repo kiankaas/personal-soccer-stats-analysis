@@ -388,10 +388,9 @@ This project revealed several meaningful insights about both my individual and m
 
 - Win percentage is **27%** higher in games I played compared to games I missed.
 - My team scored **0.95** more goals per game on average in games I played compared to games I missed. 
-- In games I played, I was directly involved in **35%** of my team's total goals, contributing to just over **1 in every 3 goals** my team scores. 
+- In games I played, I was directly involved in **35.4%** of my team's total goals, contributing to just over **1 in every 3 goals** my team scores. 
 
-**Next Steps**: 
-
+**Next Steps**: To sustain this positive impact, my team should prioritize lineup stability in important matches and focus on tactics that maximize offensive consistency. 
 
 
 
