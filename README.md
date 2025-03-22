@@ -380,6 +380,12 @@ This project revealed several meaningful insights about both my individual and m
 
 **Next Steps**: To improve performance during the Summer season, my team should focus on maintaining fitness and organizing weekly practices, while also improving roster stability heading into the season.
 
+
+**Next Steps**: To improve performance during the Summer season, my team should focus on **maintaining fitness** and **improving roster stability**:
+
+- Organizing weekly practices during the Summer season to improve fitness, reinforce tactics, and ensure players remain prepared for matches.
+- Establishing a more stable lineup by reducing roster changes throughout the season, helping build stronger team chemistry and cohesion.
+
 ### **2. My Presence Positively Influenced Team Performance**
 
 **Key Finding**: My presence on the field significantly improved team performance. 
@@ -389,9 +395,9 @@ This project revealed several meaningful insights about both my individual and m
 - In games I played, I was directly involved in **35.4%** of my team's total goals, contributing to just over **1 in every 3 goals** my team scores.
 - My team's win percentage was **~26%** higher in matches where I either contributed to or scored a goal, compared to games where I did not.
 
-**Next Steps**: To capitalize on my positive impact, my team should focus on:
+**Next Steps**: To capitalize on my positive impact, my team should focus on **enhancing attacking involvement** and **offensive adaptability**:
 
-- Ensuring I am consistently involved in attacking plays by using tactics that emphasize my positioning and goal-scoring opportunities.
+- Ensuring I am consistently involved in attacking plays by using tactics that emphasize my strengths, positioning, and goal-scoring opportunities.
 - Exploring strategies to improve offensive performance in matches where I have difficulty getting goal-scoring opportunities, ensuring better outcomes even in those scenarios.
 
 ### **3. Consistent Goal Contributions with Short Droughts**
@@ -405,13 +411,12 @@ This project revealed several meaningful insights about both my individual and m
 
 **Next Steps**: To maintain consistency, I should focus on prioritizing **fitness** and **recovery**:
 
-- Ensuring I am physically prepared for every game by improving endurance, strength, and recovery will help me sustain performance across longer stretches of matches.
+- Improving endurance, strength, and recovery will help me sustain performance across longer stretches of matches.
 - Establishing an effective recovery reoutine — including rest, stretching, and proper nutrition — can help me quickly regain form after a drought, ensuring I’m consistently prepared for every match.
 
+### **4. **
 
-
-
-
+**Key Finding**: 
 
 
 
