@@ -367,8 +367,6 @@ While my performances in Cloudy conditions show significant fluctuations, the un
 **Conclusion**: 
 The combination of tougher competition, interrupted fitness, and reduced playing time created challenging conditions that contributed to this extended drought. Given these circumstances, this drought appears to be an outlier rather than a reflection of my typical performance.
 
-
-
 ## Summary of Key Findings
 
 This project revealed several meaningful insights about both my individual and my team's performance over the past three years. By combining key performance metrics with contextual factors such as competition level and weather conditions, I was able to identify notable trends and patterns. The following insights summarize the most impactful findings:
@@ -386,11 +384,17 @@ This project revealed several meaningful insights about both my individual and m
 
 **Key Finding**: My presence on the field significantly improved team performance. 
 
-- Win percentage is **27%** higher in games I played compared to games I missed.
+- My team's win percentage was **27%** higher in games I played compared to games I missed.
 - My team scored **0.95** more goals per game on average in games I played compared to games I missed. 
-- In games I played, I was directly involved in **35.4%** of my team's total goals, contributing to just over **1 in every 3 goals** my team scores. 
+- In games I played, I was directly involved in **35.4%** of my team's total goals, contributing to just over **1 in every 3 goals** my team scores.
+- My team's win percentage was **~26%** higher in matches where I either contributed to or scored a goal, compared to games where I did not.
 
-**Next Steps**: To sustain this positive impact, my team should prioritize lineup stability in important matches and focus on tactics that maximize offensive consistency. 
+**Next Steps**: To capitalize on my positive impact, my team should focus on:
+
+- Ensuring I am consistently involved in attacking plays by using tactics that emphasize my positioning and goal-scoring opportunities.
+- Exploring strategies to improve offensive performance in matches where I have difficulty getting goal-scoring opportunities, ensuring better outcomes even in those scenarios.
+
+### **3. **
 
 
 
