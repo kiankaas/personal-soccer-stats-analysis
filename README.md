@@ -109,16 +109,17 @@ Cleaned Dataset: [cleaned_stats.csv](https://github.com/kiankaas/my-soccer-stats
 
 To clean and prepare the data for analysis, I made the following transformations:
 
-1. Removed **'Did Not Play' (DNP)** records.
-2. Replaced all **NULL** values with 0.
-3. Grouped **Weather** conditions into 4 categories for simplicity:
+1. Converted **'Did Not Play' (DNP) records to 0** in the **Goals** and **Assists** columns to ensure numeric consistency. 
+2. Replaced all **NULL** values with 0. 
+3. Grouped **Weather conditions** into 4 categories for simplicity:
      - **Rain**: Includes any conditions that mention "Rain".
      - **Cloudy**: Includes "Partially cloudy" conditions on cooler days (10°C <= Temperature <= 15°C) , and all "Overcast" conditions.
      - **Sunny**: Includes "Clear" and "Partially cloudy" conditions on warmer days (Temperature > 15°C).
      - **Brisk**: Used for colder, clear days, including "Clear" conditions with Temperature < 15°C, and "Partially cloudy" conditions with Temperature < 10°C. 
 4. Created a **Goal_Contributions** column, which is a sum of **Goals** and **Assists**.
-5. Converted the **Goals**, **Assists**, and **Goal_Contributions** columns to **integer** data types.
-6. Added a **Competition_Level** column to enable performance comparisons across varying competition levels. Higher values represent more competitive matches.
+5. Added a **Played** column to indicate whether I played in the match, distinguishing individual performance data from team performance data.
+6. Converted the **Goals**, **Assists**, and **Goal_Contributions** columns to **integer** data types.
+7. Added a **Competition_Level** column to enable performance comparisons across varying competition levels. Higher values represent more competitive matches.
 
 <div align="center">
 
@@ -132,7 +133,7 @@ To clean and prepare the data for analysis, I made the following transformations
 
 </div>
 
-With these changes, our dataset is now organized, consistent, and ready for analysis.
+With these changes, our dataset is now organized, consistent, and ready for analysis — with **all matches** included for team performance analysis, and only **matches I played** used for individual performance analysis and the Tableau dashboard.
 
 ## Tableau Dashboard
 
