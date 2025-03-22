@@ -268,11 +268,9 @@ The analysis is divided into two main sections:
 
 **Further Analysis on Cloudy Weather Performance**
 
-- Out of **28 games played in Cloudy conditions**:
-     - 17 games (**61%**) resulted in **0** Goal Contributions.
-     - 5 games (**18%**) resulted in **1** Goal Contribution. 
-     - 6 games (**21%**) resulted in **2+** Goal Contributions.
-- **Cloudy weather led to the most extreme fluctuations in performance**. While a small number of games (21%) resulted in high contributions (2+ G/A), the overwhelming majority (61%) ended with no goal contributions at all. This pattern suggests that Cloudy conditions were the most inconsistent and difficult to perform in.
+- Out of **28 games** played in Cloudy conditions:
+  - **61%** of games ended with no goal contributions, reflecting inconsistent performance.
+  - **21%** of games resulted in multiple goal contributions, further highlighting unpredictability. 
 - **Drought**: During my first year at the club, I recorded a 9-game stretch without a goal contribution in Cloudy conditions.
 - **Team impact**: Throughout this 9-game stretch, my team averaged 2.0 Goals Forward per game, which is slightly below the overall 2.5 Goals Foward per game in Cloudy conditions.
      - While this may have played a role, it doesn't fully explain my lack of goal contributions in cloudy conditions.
