@@ -266,7 +266,7 @@ The analysis is divided into two main sections:
 **Possible Explanation**:
 
 - **Competition Level**: Interestingly, the average competition level was very similar across weather conditions, ranging from 3.39 to 3.72. This suggests that competition was not the primary reason for lower goal contributions in Cloudy conditions.
-- **Untracked Variables & Playstyle Factors**: The dataset does not include advanced statistics, such as possession or pass accuracy, which could have impacted game flow.
+- **Untracked Variables & Playstyle Factors**: The dataset does not include advanced statistics, such as possession or pass accuracy, which could have impacted game flow in certain conditions.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c4ea86ea-0ca4-49bb-8ea2-e0f7704a8271" alt="goal-cont-weather" width="500"> 
@@ -274,15 +274,12 @@ The analysis is divided into two main sections:
 
 **Further Analysis on Cloudy Weather Performance**
 
-- Out of **28 games** played in Cloudy conditions:
-  - **61%** of games ended with no goal contributions, reflecting inconsistent performance.
-  - **21%** of games resulted in multiple goal contributions, further highlighting unpredictability. 
-- **Drought**: During my first year at the club, I recorded a 9-game stretch without a goal contribution in Cloudy conditions.
-- **Team impact**: Throughout this 9-game stretch, my team averaged 2.0 Goals Forward per game, which is slightly below the overall 2.5 Goals Foward per game in Cloudy conditions.
+- **Drought**: During my first year at the club, I recorded a **9-game** stretch without a goal contribution in Cloudy conditions.
+- **Team impact**: Throughout this 9-game stretch, my team averaged **2.0** Goals Forward per game, which is slightly below the overall **2.5** Goals Foward per game in Cloudy conditions.
      - While this may have played a role, it doesn't fully explain my lack of goal contributions in cloudy conditions.
- 
-**Conclusion**: 
-While my performances in Cloudy conditions show significant fluctuations, the underlying cause remains unclear based on the available data. Factors such as team performance, game flow, or untracked variables may have contributed to this inconsistency. Without additional data, it is difficult to pinpoint a definitive explanation for this trend.
+- **Post-Drought Improvement**: Following this drought, I've played **14 games** in Cloudy conditions and averaged **1.0 goal contributions per game**, demonstrating clear improvement.
+
+**Conclusion**: Although I initially struggled in Cloudy conditions, my improved performances after the drought suggest I adapted and became more effective over time. This demonstrates my ability to overcome challenges and maintain consistency across varying weather conditions.
 
 ### 3. Individual Impact on Match Outcomes
 
