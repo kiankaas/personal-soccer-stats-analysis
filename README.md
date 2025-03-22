@@ -412,15 +412,13 @@ This project revealed several meaningful insights about both my individual and m
 - Improving endurance, strength, and recovery will help me sustain performance across longer stretches of matches.
 - Establishing an effective recovery reoutine — including rest, stretching, and proper nutrition — can help me quickly regain form after a drought, ensuring I’m consistently prepared for every match.
 
-### **4. Cloudy Conditions Were the Most Challenging and Unpredictable**
+### **4. Weather Had Minimal Impact on Performance Compared to Competition Level**
 
-**Key Finding**: My individual performances in Cloudy conditions were the most inconsistent. 
+**Key Finding**: While weather conditions showed some variation in performance, competition level was the stronger determining factor for both my individual output and my team's results.
 
-- My goal contributions dropped significantly in Cloudy conditions (0.64 per game). 
-- 
-- with 61% of matches ending in no goal contributions and 21% resulting in multiple goal contributions. This inconsistency suggests that Cloudy conditions were particularly difficult to perform in.
-
-
+- Despite a lower average goal contributions per game in Cloudy conditions, I maintained consistent performances in all weather conditions.
+  - Notably, my improved performance in Cloudy conditions following the 9-game drought suggests I successfully adapted over time.
+- Team performance trends further support this — although win rates were lower in Sunny conditions, this largely coincided with KSL D2 matches, indicating competition level had a greater influence than weather itself.
 
 
 
