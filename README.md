@@ -19,12 +19,15 @@ Without access to official data in my amateur leagues, I manually recorded key m
 
 ## Purpose 
 
-The primary purpose of this project is to analyze both my personal soccer performance and my team's performance over my first three years with the club. By examining key metrics such as goals, assists, and match outcomes, this project aims to: 
-- **Identify trends in my individual goal-scoring and contribution patterns** to assess how my performance has evolved over time.
-- **Evaluate my team's overall attacking performance and goal distribution** to understand how our offensive and defensive output has varied across seasons.
-- **Investigate factors such as weather conditions and competition level** to uncover potential influences on performance and consistency.
+The primary purpose of this project is to analyze both my individual performance and my team's performance throughout my first three years at my club. By leveraging data analysis techniques, this project explores key metrics such as goals, assists, and match outcomes to uncover meaningful insights.
 
-Understanding these patterns can provide valuable insights to improve my performance and inform my team’s tactical approach.
+Specifically, this project aims to:
+
+- **Track trends in my goal-scoring and goal contribution patterns** to assess how my performance has evolved across different seasons and competitions.
+- **Evaluate my team's attacking and defensive performance** to understand how match outcomes have been influenced by factors such as player availability and opponent level.
+- **Explore the influence of external factors** such as competition level and weather conditions to determine their impact on individual and team performance.
+
+This project ultimately demonstrates how data analysis can provide valuable insights — even with a small dataset — to better understand performance trends and identify areas for improvement.
 
 ## The Data 
 Raw Dataset: [raw_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/raw_stats.csv) <br/>
@@ -127,13 +130,18 @@ To complement my analysis, I created an interactive Tableau dashboard to visuali
 
 Click the image below to view the interactive dashboard on Tableau Public.
 
-<p align="center"> 
+<div align="center">
   <a href="https://public.tableau.com/app/profile/kian.kaas/viz/Soccer-stats/Dashboard12" target="_blank">
     <img src="https://github.com/user-attachments/assets/f6216624-6dd1-49bc-a612-8a4e848b9d9b" alt="Tableau Dashboard" width="800">
-    
-    The dashboard is interactive — viewers can filter by season, competition, and weather conditions to uncover additional insights.
+    <p style="text-align: center;"><em>Me in action during a Burnaby Men's Soccer League match.</em></p>
   </a>
-</p>
+</div>
+
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a170e12e-86f2-41f7-b462-3e5dc9239be7" alt="action-shot" width="500">
+  <p style="text-align: center;"><em>Me in action during a Burnaby Men's Soccer League match.</em></p>
+</div>
 
 ## Analysis
 
@@ -422,24 +430,61 @@ This project revealed several meaningful insights about both my individual and m
 
 **Next Steps**: To maintain consistency across varying weather conditions, I should continue to prioritizing fitness and preparation to ensure I’m ready to perform at a high level regardless of environmental conditions.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Limitations
+
+### **1. Small Dataset Size**
+
+With data from only **105 games**, the sample size may restrict the reliability of certain findings. Trends identified in the analysis may appear stronger or weaker than they would in a larger dataset. A larger sample size would have allowed for more robust conclusions, particularly for analyzing rare events. 
+
+### **2. Lack of Advanced Metrics & Opponent Data**
+
+The dataset lacked many key performance metrics commonly used in professional soccer analysis, limiting the depth of insights. Without access to these data points, I was unable to explore key factors that often shape match outcomes. Missing metrics include but are not limited to:
+
+- **Expected Goals (xG)**: To assess shot quality and scoring probability.
+- **Shots and Shot Locations**: To analyze shooting tendancies, positioning, and goal-scoring efficiency. 
+- **Big Chances Created**: To evaluate playmaking and creative impact. 
+- **Defensive Metrics**: Such as tackles, interceptions, and pressures, which could reveal my defensive contributions.
+
+The dataset also lacked opponent data, which restricted insights into match difficulty and opponent strategies. Metrics such as opponent defensive records, goal-scoring trends, and expected goals conceded would have provided valuable context for understanding my performance in different scenarios.
+
+Access to these metrics would have enabled a more comprehensive analysis, potentially revealing deeper insights into my playing style, tactical strengths, and areas for improvement.
+
+### **3. Other Environmental Factors**
+
+While this project explored the impact of weather conditions on performance, additional environmental factors that may influence match outcomes were not accounted for. Missing variables such as **wind speed**, **humidity**, and **field conditions** could have played a role in match dynamics but were unavailable in the dataset.
+
+Additionally, the **time of day** each match was played was not recorded. Factors like late evening games under floodlights or early morning matches may have influenced my energy levels, player turnout, and overall performance.
+
+Incorporating these additional environmental factors could have provided further insights into the conditions that best support optimal performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
