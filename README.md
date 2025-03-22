@@ -206,11 +206,17 @@ The analysis is divided into two main sections:
 - **Defensive Instability in Sunny Conditions**: The increase in Goals Against in sunny conditions suggests that defensive struggles, rather than offensive inefficiencies, are the primary reason for lower win rates.  
 - **Consistent Attacking Performance**: The minor variations in Goals Forward across all weather conditions suggest that offensive output is not significantly impacted by weather conditions.
 - **Weather vs. Competition Effects**: The high Goals Against rate in sunny conditions may be due to many KSL D2 matches being played in sunny weather, making it difficult to isolate the impact of weather from the competition level.
-- **Higher Goals Against in KSL D2**: Even in non-sunny conditions, KSL D2 consistently records some of the highest goals-against rates, accounting for three of the four highest goals conceded per game across and competition and weather combinations.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a5157b3b-2f32-4d71-b970-a265cbfae102" alt="goals-forward-weather" width="500">  <img src="https://github.com/user-attachments/assets/013fcb5e-9141-44e1-907c-17e028771c4d" alt="goals-against-weather" width="500">  
-  <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="750"> 
+</p>
+
+**Further Analysis on Sunny Conditions**:
+
+- - **Higher Goals Against in KSL D2**: Even in non-sunny conditions, KSL D2 consistently records some of the highest goals-against rates, accounting for three of the four highest goals conceded per game across and competition and weather combinations.
+
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="750"> 
 </p>
 
 ## Individual Performance Analysis
