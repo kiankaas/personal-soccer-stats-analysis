@@ -416,7 +416,7 @@ This project revealed several meaningful insights about both my individual and m
 
 **Key Finding**: While weather conditions showed some variation in performance, competition level was the stronger determining factor for both my individual output and my team's results.
 
-- I currently perform consistently well in all weather conditions, demonstrating my ability to adapt and maintain effective performances.
+- I have demonstrated consistent performances in all weather conditions, showcasing my ability to adapt and improve over time.
   - While I initially struggled in Cloudy conditions, my improved performance following the 9-game drought suggests I successfully adapted over time.
 - Team performance trends further support this — although win rates were lower in Sunny conditions, this largely coincided with KSL D2 matches, indicating competition level had a greater influence than weather itself.
 
