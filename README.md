@@ -29,12 +29,22 @@ Specifically, this project aims to:
 
 This project ultimately demonstrates how data analysis can provide valuable insights — even with a small dataset — to better understand performance trends and identify areas for improvement.
 
+## Tools Used
+
+This project utilized a combination of tools and technologies to collect, clean, analyze, and visualize the data:
+
+- **Excel**: For manual data entry and tracking match details.
+- **BigQuery (SQL)**: For data exploration, cleaning, and analysis.
+- **Python**: For data retrieval via the Visual Crossing API and for visualization tasks using **Matplotlib**.
+- **Tableau**: For creating an interactive dashboard to showcase key insights.
+- **GitHub**: For version control and project documentation.
+
 ## The Data 
 Raw Dataset: [raw_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/raw_stats.csv) <br/>
 
 ### Dataset Overview 
 
-This dataset captures performance data from every game my team has played since I joined in 2021. Since no official tracking system was available for my amateur soccer leagues, I decided to take matters into my own hands. I began manually tracking my performance using Google Sheets, recording key statistics from every game my team played. This included goals scored, match outcomes, leagues, and more. While this method required additional effort, it allowed me to gain valuable insights into my performance and identify trends that may have otherwise gone unnoticed.
+This dataset captures performance data from every game my team has played since I joined in 2021. Since no official tracking system was available for my amateur soccer leagues, I decided to take matters into my own hands. I began manually tracking my performance in Excel, recording key statistics from every game my team played. This included goals scored, match outcomes, leagues, and more. While this method required additional effort, it allowed me to gain valuable insights into my performance and identify trends that may have otherwise gone unnoticed.
 
 The dataset contains **105 records** across **9 key variables**, with each record representing one match. Although my dataset tracks only basic stats like goals and assists, it covers my first three years with the team, providing a meaningful foundation for analysis. The dataset structure is shown below:
 
@@ -452,34 +462,8 @@ Additionally, the **time of day** each match was played was not recorded. Factor
 
 Incorporating these additional environmental factors could have provided further insights into the conditions that best support optimal performance.
 
+## Conclusion 
 
+This project provided valuable insights into my soccer performance and my team's results by combining data analysis with key performance metrics. By analyzing trends, patterns, and contributing factors, I was able to uncover key insights that highlight my strengths, identify areas for improvement, and emphasize the role of external factors such as competition and weather conditions.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This project demonstrates how effective data analysis — even when presented with limited data — can generate meaningful insights and actionable takeaways. Moving forward, incorporating additional data points such as opponent metrics and advanced soccer statistics could further enhance this analysis. 
