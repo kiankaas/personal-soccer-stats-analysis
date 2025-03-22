@@ -394,7 +394,15 @@ This project revealed several meaningful insights about both my individual and m
 - Ensuring I am consistently involved in attacking plays by using tactics that emphasize my positioning and goal-scoring opportunities.
 - Exploring strategies to improve offensive performance in matches where I have difficulty getting goal-scoring opportunities, ensuring better outcomes even in those scenarios.
 
-### **3. **
+### **3. Consistent Goal Contributions with Short Droughts**
+
+**Key Finding**: I have consistently contributed to goals throughtout my first 3 years with the team. 
+
+- I am able to maintain form once I regain it, as I’m highly likely to contribute in the following game(s) after breaking a goal contribution drought.
+- Most goal contribution droughts lasted only 1-2 games, reinforcing my ability to maintain consistent goal involvement across each season.
+  - While I experienced one 8-game drought, this appears to be an outlier influenced by travel, fitness concerns, and limited playing time.
+
+
 
 
 
