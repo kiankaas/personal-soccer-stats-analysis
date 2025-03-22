@@ -396,11 +396,19 @@ This project revealed several meaningful insights about both my individual and m
 
 ### **3. Consistent Goal Contributions with Short Droughts**
 
-**Key Finding**: I have consistently contributed to goals throughtout my first 3 years with the team. 
+**Key Finding**: I have consistently contributed to team goal-scoring throughtout my first 3 years with the team. 
 
-- I am able to maintain form once I regain it, as I’m highly likely to contribute in the following game(s) after breaking a goal contribution drought.
+- I maintained form well once I regained it, as I was highly likely to contribute in the following game(s) after breaking a goal contribution drought.
 - Most goal contribution droughts lasted only 1-2 games, reinforcing my ability to maintain consistent goal involvement across each season.
   - While I experienced one 8-game drought, this appears to be an outlier influenced by travel, fitness concerns, and limited playing time.
+- Despite facing varying levels of opposition, I maintained consistent goal contributions across all competitions, notably recording **1.07** per game in BMSL D2 and **0.50** per game in KSL D2. 
+
+**Next Steps**: To maintain consistency, I should focus on prioritizing **fitness** and **recovery**:
+
+- Ensuring I am physically prepared for every game by improving endurance, strength, and recovery will help me sustain performance across longer stretches of matches.
+- Establishing an effective recovery reoutine — including rest, stretching, and proper nutrition — can help me quickly regain form after a drought, ensuring I’m consistently prepared for every match.
+
+
 
 
 
