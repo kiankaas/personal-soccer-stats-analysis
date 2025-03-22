@@ -133,14 +133,9 @@ Click the image below to view the interactive dashboard on Tableau Public.
 <div align="center">
   <a href="https://public.tableau.com/app/profile/kian.kaas/viz/Soccer-stats/Dashboard12" target="_blank">
     <img src="https://github.com/user-attachments/assets/f6216624-6dd1-49bc-a612-8a4e848b9d9b" alt="Tableau Dashboard" width="800">
-    <p style="text-align: center;"><em>Me in action during a Burnaby Men's Soccer League match.</em></p>
   </a>
-</div>
-
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/a170e12e-86f2-41f7-b462-3e5dc9239be7" alt="action-shot" width="500">
-  <p style="text-align: center;"><em>Me in action during a Burnaby Men's Soccer League match.</em></p>
+    <p style="text-align: center;"><em>The dashboard is interactive — viewers can filter by season, competition, and weather conditions to uncover additional insights.
+</em></p>
 </div>
 
 ## Analysis
