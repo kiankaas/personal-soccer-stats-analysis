@@ -415,9 +415,14 @@ This project revealed several meaningful insights about both my individual and m
 - Improving endurance, strength, and recovery will help me sustain performance across longer stretches of matches.
 - Establishing an effective recovery reoutine — including rest, stretching, and proper nutrition — can help me quickly regain form after a drought, ensuring I’m consistently prepared for every match.
 
-### **4. **
+### **4. Cloudy Conditions Were the Most Challenging and Unpredictable**
 
-**Key Finding**: 
+**Key Finding**: My individual performances in Cloudy conditions were the most inconsistent. 
+
+- My goal contributions dropped significantly in Cloudy conditions (0.64 per game). 
+- 
+- with 61% of matches ending in no goal contributions and 21% resulting in multiple goal contributions. This inconsistency suggests that Cloudy conditions were particularly difficult to perform in.
+
 
 
 
