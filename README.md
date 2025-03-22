@@ -311,12 +311,15 @@ While my performances in Cloudy conditions show significant fluctuations, the un
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/92975a10-e118-4131-a9d0-a2e51d6b4656" alt="win%-played-DNP" width="500">  <img src="https://github.com/user-attachments/assets/f8023b82-2507-43db-aae0-3cf354efc920" alt="goals-forward-played-DNP" width="500"> 
-  <img src="https://github.com/user-attachments/assets/4b6bec32-49f1-4939-b7c0-59a7544eae52" alt="win%-KSLD2-BMSLD2" width="500">  
 </p>
 
 **Further Analysis on Competition Level**:
 
-- **Persistent Win Percentage Gap**: Win percentages in the two highest competition levels, BMSL D2 and KSL D2, remained greater in games I played compared to games I did not play.
+- **Persistent Win Percentage Gap**: Win percentages in the two highest level competitions, BMSL D2 and KSL D2, remained greater in games I played compared to games I did not play.
+
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/4b6bec32-49f1-4939-b7c0-59a7544eae52" alt="win%-KSLD2-BMSLD2" width="500">  
+</p>
 
 ### 5. Goal Contributions by Margin of Victory/Defeat 
 
@@ -372,34 +375,35 @@ This project revealed several meaningful insights about both my individual and m
 
 ### **1. Team Performance Declined Against Stronger Competition**
 
-**Key Finding**: My team's win percentage dropped by over 30% in KSL D2 when compared to other competitions. 
+**Key Finding**: My team's win percentage dropped by over **30%** in KSL D2 when compared to other competitions. 
 
 - This decline aligned with my team’s lowest average goals forward per game (**1.64**), highlighting offensive struggles against tougher opponents.
 - Additionally, my team’s goals against per game was highest in KSL D2 (**2.91**), indicating defensive challenges as well.
 
 **Next Steps**: To improve performance during the Summer season, my team should focus on maintaining fitness and organizing weekly practices, while also improving roster stability heading into the season.
 
-### **2. Significant Individual Contribution to the Team**
+### **2. My Presence Positively Influenced Team Performance**
 
-**Key Finding**: My presence on the field significantly improves team performance, resulting in a **27%** increase in win percentage and an average of **0.95** more Goals Forward per game. 
+**Key Finding**: My presence on the field significantly improved team performance. 
 
-- My direct goal involvement accounts for **35.4%** of total team goals in matches I played. 
-- Matches I missed were often against tougher competition, which may have further contributed to the lower win percentage and Goals Forward in those games.
-- 
+- Win percentage is **27%** higher in games I played compared to games I missed.
+- My team scored **0.95** more goals per game on average in games I played compared to games I missed. 
+- In games I played, I was directly involved in **35%** of my team's total goals, contributing to just over **1 in every 3 goals** my team scores. 
 
-
-
-
+**Next Steps**: 
 
 
 
 
-# ADD THIS
 
-To analyze win percentage in games played vs DNP
 
-- Show specifically for BMSL D2 and KSL D2, as they are the highest win percentages.
-  - This will show that my presence does in fact improve the team, regardless of the competition level. 
+
+
+
+
+
+
+
 
 
 
