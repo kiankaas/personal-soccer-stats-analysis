@@ -166,7 +166,7 @@ The analysis is divided into two main sections:
 
 **Key Insights**: 
 
-- My team's win percentage remained stable across most competitions (**64-72%**), but dropped significantly in KSL D2 (**32%**).
+- My team's win percentage remained stable across most competitions (**60-71%**), but dropped significantly in KSL D2 (**28.9%**).
 
 **Possible Explanations**:
 
@@ -176,7 +176,7 @@ The analysis is divided into two main sections:
 - **Frequent Roster Changes**: The KSL allows new players to register throughout the season, which results in frequent adjustments to our lineup. As a result, our team frequently brings in new players for tryouts, making it difficult to build chemistry with teammates.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/93b68f8c-587c-4083-b0c9-6128d36586ab" alt="win%-comp" width="500"> 
+  <img src="https://github.com/user-attachments/assets/6d8ad7c7-fb67-4458-b510-f8d307af3d5e" alt="win%-comp" width="500"> 
 </p>
 
 **Win Percentage by Weather**
