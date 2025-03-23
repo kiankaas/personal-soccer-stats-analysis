@@ -368,7 +368,7 @@ The analysis is divided into two main sections:
 - **Longer Droughts**: My 8-game drought may have been influenced by various factors such as stronger opposition or fitness struggles — standing out as a rare anomaly in an otherwise consistent record.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1238fd48-ca8b-403e-969b-b5bd258fe9ff" alt="streaks" width="500">  <img src="https://github.com/user-attachments/assets/c3040e93-44f0-4188-9542-3273c09f508b" alt="droughts" width="500">  
+  <img src="https://github.com/user-attachments/assets/d37f2004-1b2c-4495-8acb-7818b94fe998" alt="streaks" width="500">  <img src="https://github.com/user-attachments/assets/c3040e93-44f0-4188-9542-3273c09f508b" alt="droughts" width="500">  
 </p>
 
 **Further Analysis on the 8-game Drought**: 
