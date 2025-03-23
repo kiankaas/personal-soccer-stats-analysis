@@ -199,7 +199,7 @@ The analysis is divided into two main sections:
 
 **Goals Forward & Goals Against by Competition**
 
-**Key Insight**: My team's attacking output (1.64 goals forward per game) and defensive stability (2.91 goals against per game) are at their worst in KSL D2. 
+**Key Insight**: My team's attacking output (**1.55** goals forward per game) and defensive stability (**2.63** goals against per game) are at their worst in KSL D2. 
 
 **Possible Explanation**:
 
@@ -208,7 +208,7 @@ The analysis is divided into two main sections:
 - **Overall Competitive Challenge**: The combined effects of stronger defenses and offenses make KSL D2 the most difficult league to win in.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cee5f7c0-1b29-4243-9894-1e57a9a19a1b" alt="goals-against-comp" width="500">   <img src="https://github.com/user-attachments/assets/d5e2dad5-a982-4f94-9a2f-b701bfdb5bf9" alt="goals-forward-comp" width="500"> 
+  <img src="https://github.com/user-attachments/assets/592335d0-e32c-46a0-9e53-f25372c94831" alt="goals-forward-comp" width="500">   <img src="https://github.com/user-attachments/assets/edb58116-5702-4e52-901b-b77d926d94ca" alt="goals-against-comp" width="500"> 
 </p>
 
 **Goals Forward & Goals Against by Weather Condition**
@@ -388,10 +388,10 @@ This project revealed several meaningful insights about both my individual and m
 
 ### **1. Team Performance Declined Against Stronger Competition**
 
-**Key Finding**: My team's win percentage dropped by over **30%** in KSL D2 when compared to other competitions. 
+**Key Finding**: My team's win percentage dropped by over **28.9%** in KSL D2 when compared to other competitions. 
 
-- This decline aligned with my team’s lowest average goals forward per game (**1.64**), highlighting offensive struggles against tougher opponents.
-- Additionally, my team’s goals against per game was highest in KSL D2 (**2.91**), indicating defensive challenges as well.
+- This decline aligned with my team’s lowest average goals forward per game (**1.55**), highlighting offensive struggles against tougher opponents.
+- Additionally, my team’s goals against per game was highest in KSL D2 (**2.63**), indicating defensive challenges as well.
 
 **Next Steps**: To improve performance during the Summer season, my team should focus on **maintaining fitness** and **improving roster stability**:
 
