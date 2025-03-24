@@ -217,21 +217,20 @@ The analysis is divided into two main sections:
 
 **Possible Explanations**: 
 
-- **Defensive Instability in Sunny Conditions**: The increase in Goals Against in sunny conditions suggests that defensive struggles, rather than offensive inefficiencies, are the primary reason for lower win rates.  
-CHANGE THIS
-- **Consistent Attacking Performance**: The minor variations in Goals Forward across all weather conditions suggest that offensive output is not significantly impacted by weather conditions.
-- **Weather vs. Competition Effects**: The high Goals Against rate in sunny conditions may be due to many KSL D2 matches being played in sunny weather, making it difficult to isolate the impact of weather from the competition level.
+- **Fatigue from Heat**: Playing in warmer, sunny conditions may have led to increased fatigue, reducing overall defensive sharpness and attacking efficiency. 
+- **Impact of Competition Level**: The high Goals Against and low Goals Forward rates in Sunny conditions may be due to many KSL D2 matches being played in sunny weather, making it difficult to isolate the impact of weather from the competition level.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ebad6431-356d-4f72-a2ed-911c01406c81" alt="goals-forward-weather" width="500">  <img src="https://github.com/user-attachments/assets/5211efc8-a0a0-48e2-9d3a-e59c058ca24f" alt="goals-against-weather" width="500">  
 </p>
 
-**Further Analysis on Sunny Conditions**:
+**Further Analysis on Sunny Conditions**
 
 - **Higher Goals Against in KSL D2**: Even in non-sunny conditions, KSL D2 consistently records some of the highest goals-against rates, accounting for three of the four highest goals conceded per game across and competition and weather combinations.
+- **Competition Overlap**: Out of 30 games played in Sunny conditions, 20 (**67%**) took place in KSL D2, reinforcing that competition level likely influenced the results more than weather conditions alone.
 
 <p align="center">
- <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="750"> 
+ <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="550">  <img src="https://github.com/user-attachments/assets/0ea1c4bd-b422-423c-a75c-83695567febd" alt="sunny-games-played" width="550"> 
 </p>
 
 ## Individual Performance Analysis
