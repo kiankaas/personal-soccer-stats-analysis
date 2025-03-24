@@ -213,16 +213,17 @@ The analysis is divided into two main sections:
 
 **Goals Forward & Goals Against by Weather Condition**
 
-**Key Insight**: My team conceded the most goals in sunny conditions (3.00 per game), while scoring output remained stable across all weather conditions. 
+**Key Insight**: In Sunny conditions, my team both conceded the most goals per game (**2.60**) and scored the fewest goals per game (**2.00**). 
 
 **Possible Explanations**: 
 
 - **Defensive Instability in Sunny Conditions**: The increase in Goals Against in sunny conditions suggests that defensive struggles, rather than offensive inefficiencies, are the primary reason for lower win rates.  
+CHANGE THIS
 - **Consistent Attacking Performance**: The minor variations in Goals Forward across all weather conditions suggest that offensive output is not significantly impacted by weather conditions.
 - **Weather vs. Competition Effects**: The high Goals Against rate in sunny conditions may be due to many KSL D2 matches being played in sunny weather, making it difficult to isolate the impact of weather from the competition level.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a5157b3b-2f32-4d71-b970-a265cbfae102" alt="goals-forward-weather" width="500">  <img src="https://github.com/user-attachments/assets/013fcb5e-9141-44e1-907c-17e028771c4d" alt="goals-against-weather" width="500">  
+  <img src="https://github.com/user-attachments/assets/ebad6431-356d-4f72-a2ed-911c01406c81" alt="goals-forward-weather" width="500">  <img src="https://github.com/user-attachments/assets/5211efc8-a0a0-48e2-9d3a-e59c058ca24f" alt="goals-against-weather" width="500">  
 </p>
 
 **Further Analysis on Sunny Conditions**:
