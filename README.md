@@ -105,7 +105,7 @@ Before diving into the analysis, it is essential to prepare the dataset by explo
 
 ### Data Cleaning
 SQL Query: [Data Cleaning](https://github.com/kiankaas/my-soccer-stats/blob/main/02-data-cleaning.sql) <br/>
-Cleaned Dataset: [cleaned_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/cleaned_stats.csv) <br/>
+Cleaned Dataset: [clean_stats.csv](https://github.com/kiankaas/my-soccer-stats/blob/main/clean_stats.csv) <br/>
 
 To clean and prepare the data for analysis, I made the following transformations:
 
