@@ -221,7 +221,7 @@ The analysis is divided into two main sections:
 - **Impact of Competition Level**: The high Goals Against and low Goals Forward rates in Sunny conditions may be due to many KSL D2 matches being played in sunny weather, making it difficult to isolate the impact of weather from the competition level.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ebad6431-356d-4f72-a2ed-911c01406c81" alt="goals-forward-weather" width="550">  <img src="https://github.com/user-attachments/assets/5211efc8-a0a0-48e2-9d3a-e59c058ca24f" alt="goals-against-weather" width="450">  
+  <img src="https://github.com/user-attachments/assets/ebad6431-356d-4f72-a2ed-911c01406c81" alt="goals-forward-weather" width="500">  <img src="https://github.com/user-attachments/assets/5211efc8-a0a0-48e2-9d3a-e59c058ca24f" alt="goals-against-weather" width="500">  
 </p>
 
 **Further Analysis on Sunny Conditions**
@@ -230,7 +230,7 @@ The analysis is divided into two main sections:
 - **Competition Overlap**: Out of 30 games played in Sunny conditions, 20 (**67%**) took place in KSL D2, reinforcing that competition level likely influenced the results more than weather conditions alone.
 
 <p align="center">
- <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="500">  <img src="https://github.com/user-attachments/assets/0ea1c4bd-b422-423c-a75c-83695567febd" alt="sunny-games-played" width="500"> 
+ <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="550">  <img src="https://github.com/user-attachments/assets/0ea1c4bd-b422-423c-a75c-83695567febd" alt="sunny-games-played" width="450"> 
 </p>
 
 ## Individual Performance Analysis
