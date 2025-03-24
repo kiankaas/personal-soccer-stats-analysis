@@ -1,8 +1,8 @@
-# Personal Soccer Stats Analysis
+# Analyzing My Soccer Performance With Data 
 
 ## Introduction
 
-This project analyzes my personal soccer performance and my team's results over three years using data I've manually collected. By combining key metrics with additional insights such as weather conditions and competition level, this project aims to uncover meaningful patterns and insights.
+This project analyzes my personal soccer performance and my team's results over three years using data I've manually collected. By combining key metrics with additional insights such as weather conditions and competition level, this project highlights how data analysis can uncover meaningful insights, even for amateur athletes without access to advanced performance data.
 
 ## Background
 
@@ -25,9 +25,9 @@ Specifically, this project aims to:
 
 - **Track trends in my goal-scoring and goal contribution patterns** to assess how my performance has evolved across different seasons and competitions.
 - **Evaluate my team's attacking and defensive performance** to understand how match outcomes have been influenced by factors such as player availability and opponent level.
-- **Explore the influence of external factors** such as competition level and weather conditions to determine their impact on individual and team performance.
+- **Analyze how external factors** such as competition level and weather conditions influence both individual performance and team results.
 
-This project ultimately demonstrates how data analysis can provide valuable insights — even with a small dataset — to better understand performance trends and identify areas for improvement.
+This project highlights how data analysis can provide valuable insights — even with a small dataset — to better understand performance trends and identify areas for improvement.
 
 ## Tools Used
 
