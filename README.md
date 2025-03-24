@@ -230,7 +230,7 @@ The analysis is divided into two main sections:
 - **Competition Overlap**: Out of 30 games played in Sunny conditions, 20 (**67%**) took place in KSL D2, reinforcing that competition level likely influenced the results more than weather conditions alone.
 
 <p align="center">
- <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="550">  <img src="https://github.com/user-attachments/assets/0ea1c4bd-b422-423c-a75c-83695567febd" alt="sunny-games-played" width="450"> 
+ <img src="https://github.com/user-attachments/assets/308d86c3-4916-44fe-a8f6-80606b3f250f" alt="win%-comp" width="525">  <img src="https://github.com/user-attachments/assets/0ea1c4bd-b422-423c-a75c-83695567febd" alt="sunny-games-played" width="475"> 
 </p>
 
 ## Individual Performance Analysis
