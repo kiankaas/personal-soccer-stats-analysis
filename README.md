@@ -289,7 +289,7 @@ The analysis is divided into two main sections:
 **Further Analysis on Cloudy Weather Performance**
 
 - **Drought**: During my first year at the club, I recorded a **9-game** stretch without a goal contribution in Cloudy conditions.
-- **Team impact**: Throughout this 9-game stretch, my team averaged **2.0** Goals Forward per game, which is slightly below the overall **2.5** Goals Foward per game in Cloudy conditions.
+- **Team impact**: Throughout this 9-game stretch, my team averaged **2.0** Goals Forward per game, which is slightly below the overall **2.33** Goals Foward per game in Cloudy conditions.
      - While this may have played a role, it doesn't fully explain my lack of goal contributions in cloudy conditions.
 - **Post-Drought Improvement**: Following this drought, I've played **14 games** in Cloudy conditions and averaged **1.0 goal contributions per game**, demonstrating clear improvement.
 
@@ -325,7 +325,7 @@ The analysis is divided into two main sections:
 - **Competition Level**: It's important to note that the average competition level for games I missed (4.39) was significantly higher than for games I played (3.51). This may have contributed to the lower win percentage and scoring output when I was absent.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/92975a10-e118-4131-a9d0-a2e51d6b4656" alt="win%-played-DNP" width="500">  <img src="https://github.com/user-attachments/assets/f8023b82-2507-43db-aae0-3cf354efc920" alt="goals-forward-played-DNP" width="500"> 
+  <img src="https://github.com/user-attachments/assets/1da25dc4-cadc-420c-af59-59f0b096b654" alt="win%-played-DNP" width="500">  <img src="https://github.com/user-attachments/assets/f8023b82-2507-43db-aae0-3cf354efc920" alt="goals-forward-played-DNP" width="500"> 
 </p>
 
 **Further Analysis on Competition Level**:
@@ -390,13 +390,13 @@ This project revealed several meaningful insights about both my individual and m
 
 **Key Finding**: My team's win percentage dropped by over **28.9%** in KSL D2 when compared to other competitions. 
 
-- This decline aligned with my team’s lowest average goals forward per game (**1.55**), highlighting offensive struggles against tougher opponents.
+- This decline matched my team’s lowest average goals forward per game (**1.55**), emphasizing offensive struggles against tougher opponents.
 - Additionally, my team’s goals against per game was highest in KSL D2 (**2.63**), indicating defensive challenges as well.
 
 **Next Steps**: To improve performance during the Summer season, my team should focus on **maintaining fitness** and **improving roster stability**:
 
-- Organizing weekly practices during the Summer season to improve fitness, reinforce tactics, and ensure players remain prepared for matches.
-- Establishing a more stable lineup by reducing roster changes throughout the season, helping build stronger team chemistry and cohesion.
+- Organizing weekly practices during the Summer season to improve fitness, reinforce tactics, and keep players prepared for matches.
+- Establishing a stable lineup by reducing roster changes throughout the season, helping build stronger team chemistry.
 
 ### **2. My Presence Positively Influenced Team Performance**
 
@@ -404,8 +404,8 @@ This project revealed several meaningful insights about both my individual and m
 
 - My team's win percentage was **27%** higher in games I played compared to games I missed.
 - My team scored **0.95** more goals per game on average in games I played compared to games I missed. 
-- In games I played, I was directly involved in **35.4%** of my team's total goals, contributing to just over **1 in every 3 goals** my team scores.
-- My team's win percentage was **~26%** higher in matches where I either contributed to or scored a goal, compared to games where I did not.
+- In games I played, I was directly involved in **35.4%** of my team's total goals, contributing to just over **1 in every 3 goals**.
+- My team's win percentage was **~26%** higher in matches where I contributed to or scored a goal, compared to games where I did not.
 
 **Next Steps**: To capitalize on my positive impact, my team should focus on **enhancing attacking involvement** and **offensive adaptability**:
 
@@ -418,7 +418,7 @@ This project revealed several meaningful insights about both my individual and m
 
 - I maintained form well once I regained it, as I was highly likely to contribute in the following game(s) after breaking a goal contribution drought.
 - Most goal contribution droughts lasted only 1-2 games, reinforcing my ability to maintain consistent goal involvement across each season.
-  - While I experienced one 8-game drought, this appears to be an outlier influenced by travel, fitness concerns, and limited playing time.
+  - Although I experienced an 8-game drought, it appears to be an outlier influenced by travel, fitness issues, and limited playing time.
 - Despite facing varying levels of opposition, I maintained consistent goal contributions across all competitions, notably recording **1.07** per game in BMSL D2 and **0.50** per game in KSL D2. 
 
 **Next Steps**: To maintain consistency, I should focus on prioritizing **fitness** and **recovery**:
