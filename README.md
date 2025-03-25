@@ -416,8 +416,8 @@ This project revealed several meaningful insights about both my individual and m
 
 **Key Finding**: I have consistently contributed to team goal-scoring throughtout my first 3 years with the team. 
 
-- I maintained form well once I regained it, as I was highly likely to contribute in the following game(s) after breaking a goal contribution drought.
-- Most goal contribution droughts lasted only 1-2 games, reinforcing my ability to maintain consistent goal involvement across each season.
+- I maintained form well once I regained it, often contributing in the game(s) following a goal contribution drought.
+- Most droughts lasted only 1-2 games, reinforcing my ability to maintain consistent goal involvements across each season.
   - Although I experienced an 8-game drought, it appears to be an outlier influenced by travel, fitness issues, and limited playing time.
 - Despite facing varying levels of opposition, I maintained consistent goal contributions across all competitions, notably recording **1.07** per game in BMSL D2 and **0.50** per game in KSL D2. 
 
