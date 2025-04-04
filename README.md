@@ -388,7 +388,7 @@ This project revealed several meaningful insights about both my individual and m
 
 ### **1. Team Performance Declined Against Stronger Competition**
 
-**Key Finding**: My team's win percentage dropped by over **28.9%** in KSL D2 when compared to other competitions. 
+**Key Finding**: My team's win percentage dropped by over **30%** in KSL D2 when compared to other competitions. 
 
 - This decline matched my team’s lowest average goals forward per game (**1.55**), emphasizing offensive struggles against tougher opponents.
 - Additionally, my team’s goals against per game was highest in KSL D2 (**2.63**), indicating defensive challenges as well.
